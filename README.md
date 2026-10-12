@@ -2,6 +2,9 @@
 
 A web app that allows you to fully customize your Risk of Rain 2 savefile.
 
+**Use it online: <https://comeixalpha.github.io/ror2-editor/>** — hosted as part of
+[comeixalpha.github.io](https://comeixalpha.github.io/), or build it from source below.
+
 ### This is a fork
 
 This project is a fork of [tjosepo/ror2-editor](https://github.com/tjosepo/ror2-editor), the original
@@ -19,8 +22,13 @@ What the fork adds on top of the original:
 - Save validation derived from the game's deserialiser, so a broken profile is explained rather
   than silently written.
 
-This repository is the source, meant to be built and run locally. It is not operated as a hosted
-service, and it makes no network requests of its own.
+This repository is the source. The hosted copy is published from the
+[comeixalpha.github.io](https://github.com/ComeixAlpha/comeixalpha.github.io) Pages site, whose build
+checks this repository out and mounts it at `/ror2-editor/`, so that deployment always reflects
+`main` here.
+
+The app makes no network requests of its own: loading, editing and exporting a profile all happen in
+the browser, and the save never leaves the machine.
 
 ## Building locally
 
