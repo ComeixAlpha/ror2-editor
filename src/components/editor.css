@@ -1,0 +1,341 @@
+/* Two independent scroll panes side by side, like two lists. The page itself does not scroll: */
+/* each column owns its own scrollbar, so wheeling over one never moves the other. */
+/* Below 1100px the two regions stack and the page scrolls normally. */
+.editor-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  align-items: start;
+
+  @media (min-width: 1100px) {
+    grid-template-columns: minmax(360px, 440px) minmax(0, 1fr);
+/*
+ * The row is pinned to this element's height. Left as the default `auto` it is sized by its
+ * tallest item instead, so a long left column pushed the row past the container and the bottom of
+ * the list was clipped with no way to scroll to it. `minmax(0, 1fr)` also lets the children shrink
+ * below their content size, which is what makes the two scroll panes scroll rather than grow.
+ */
+    grid-template-rows: minmax(0, 1fr);
+/*
+ * No `height`. This used to be `calc(100vh - 32px)`, which ignored the "View the code" footer that
+ * the app root puts in a second grid row: the row this element sits in is already only
+ * `100vh - footer`, so a full-viewport height overflowed it and `.container` clipped the overflow.
+ * Taking the leftover height from `.container`'s flex column is correct at any footer size.
+ */
+    flex: 1 1 auto;
+    min-height: 0;
+    align-items: stretch;
+  }
+}
+
+/* ---------------------------------------------------------------- left pane */
+.editor-side {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+
+  @media (min-width: 1100px) {
+/* Scroll pane 1 of 2. */
+    height: 100%;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
+/*
+ * Symmetric horizontal padding, not just room for the scrollbar: `.ror2-button` draws its hover ring
+ * 8px outside itself, so a button flush against the edge has half of it cut off -- which is what the
+ * export button in the header used to do.
+ */
+    padding: 0 10px;
+/*
+ * `clip`, because `overflow-y: auto` would otherwise force this axis to `auto` and the ring's
+ * snap-in starts 20px out -- enough scrollable overflow to flash a horizontal scrollbar on hover.
+ */
+    overflow-x: clip;
+  }
+
+  .editor-header {
+    & h1 {
+      font-size: 1.9rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .intro {
+      font-size: 0.85rem;
+      line-height: 1.5;
+      color: #b9c3cc;
+      margin-bottom: 0.75rem;
+    }
+
+    .path {
+      color: #e3e9eb;
+      overflow-wrap: anywhere;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .panel {
+    padding: 1rem;
+    background: #151d26;
+    border: 1px solid #24303d;
+    border-radius: 4px;
+/* Never compress a panel: this is a scroll pane, so a tall child must push the others down */
+/* (and become reachable by scrolling) rather than squash them. */
+    flex: 0 0 auto;
+
+    & h2 {
+      margin: 0 0 0.75rem;
+    }
+
+    &.excerpt {
+      flex: 0 0 auto;
+    }
+  }
+}
+
+.editor-main {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+
+  @media (min-width: 1100px) {
+/* Scroll pane 2 of 2, but the scrolling happens in `.list-body` so the filter bar can stay */
+/* pinned. This element must clip, not scroll. */
+    height: 100%;
+    min-height: 0;
+    overflow: hidden;
+  }
+}
+
+/**
+ * The right region's view switcher. Spans the full width of the region and sits above whichever
+ * view is showing, so switching never moves the filter bar.
+ */
+.main-tabs {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 2px;
+  padding: 0 2px;
+  border-bottom: 2px solid #33404d;
+
+  .main-tab {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.5rem 1.1rem;
+    appearance: none;
+    font: inherit;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #9fb0c0;
+    background: #151d26;
+    border: 0;
+/* Square off the bottom so the active tab reads as joined to the panel below it. */
+    border-radius: 4px 4px 0 0;
+    cursor: pointer;
+
+    &:hover {
+      color: #e3e9eb;
+      background: #1c2632;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+
+    &.active {
+      color: #10161d;
+      background: #bde151;
+      font-weight: 600;
+    }
+
+    .tab-count {
+      font-size: 0.75rem;
+      font-weight: 500;
+      padding: 0.05rem 0.4rem;
+      border-radius: 999px;
+      color: #c6ced6;
+      background: #0d1319;
+    }
+
+    &.active .tab-count {
+      color: #e3e9eb;
+      background: #2f3a24;
+    }
+
+/* How much of the logbook is still unread. Reads as a call to action on the inactive tab and */
+/* as a plain counter on the active one. */
+    .tab-alert {
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 0.05rem 0.45rem;
+      border-radius: 999px;
+      color: #10161d;
+      background: #e2e15e;
+      white-space: nowrap;
+    }
+
+    .tab-ok {
+      font-size: 0.75rem;
+      color: #8fce8f;
+    }
+  }
+}
+
+.list-head {
+  flex: 0 0 auto;
+/* Generous padding: this bar floats above the list and used to sit flush against the edges. */
+  padding: 16px 20px 14px;
+  background: #151d26;
+  border: 1px solid #24303d;
+  border-radius: 4px 4px 0 0;
+
+  .search-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 12px;
+
+    & input[type="search"] {
+      flex: 1 1 18rem;
+      min-width: 0;
+    }
+  }
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+
+  + .chip-row {
+    margin-top: 8px;
+  }
+}
+
+.chip {
+  font-family: inherit;
+  font-size: 0.85rem;
+  color: #c6ced6;
+  background: #1c2632;
+  border: 1px solid #2c3a4a;
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+
+  &:hover {
+    border-color: #4a5f78;
+  }
+
+  &.active {
+    background: #bde151;
+    border-color: #bde151;
+    color: #10161d;
+    font-weight: 600;
+  }
+}
+
+.chip-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  color: #c6ced6;
+  cursor: pointer;
+  margin-left: 0.4rem;
+}
+
+.list-count {
+  margin-left: auto;
+  font-size: 0.8rem;
+  color: #8a97a6;
+  white-space: nowrap;
+}
+
+.list-body {
+/* Takes the remaining height and scrolls; the filter bar above stays put. */
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+/* Reserve the scrollbar so appearing/disappearing does not reflow the cards. */
+  scrollbar-gutter: stable;
+/*
+ * Its 20px of horizontal padding exactly covers the resting hover ring, but the snap-in animation
+ * starts 20px out as well, so this axis is clipped rather than left on the `auto` that `overflow-y`
+ * forces -- a hover should never flash a scrollbar.
+ */
+  overflow-x: clip;
+  padding: 16px 20px 24px;
+  border: 1px solid #24303d;
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
+
+  .empty,
+  .list-end {
+    font-size: 0.9rem;
+    color: #8a97a6;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .sentinel {
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 0;
+  }
+}
+
+.challenge-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 12px;
+
+/* Cards carry an icon plus wrapping text, so a second column only when there is real room. */
+  @media (min-width: 1500px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.stats-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: 0.75rem 0;
+  padding: 0.6rem 0.9rem;
+  background: #1c2632;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  color: #c6ced6;
+
+  & strong {
+    color: #e3e9eb;
+  }
+
+  .warn {
+    color: #ffd479;
+  }
+}
+
+/* The input itself is styled by the shared `.form-control` rule in styles.css, so the profile */
+/* fields and the challenge search box cannot drift apart. */
+.form-group.row {
+  margin-bottom: 16px;
+
+  .label {
+    display: block;
+    font-size: 1rem;
+    color: #e3e9eb;
+    margin-bottom: 4px;
+  }
+}

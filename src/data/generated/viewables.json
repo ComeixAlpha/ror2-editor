@@ -1,0 +1,4942 @@
+{
+ "generatedFrom": "game asset bundles: SkillDef.icon / SkinDef.icon resolved through serialized-file externals (tools/extract-icons/build-viewables.py)",
+ "count": 1151,
+ "icons": {
+  "/Loadout/Bodies/AcolyteBody/AcolytePassiveSkillFamily.AcolyteAltPassiveStealBackHealth": "texaconkuhanafavoricon",
+  "/Loadout/Bodies/AcolyteBody/AcolytePassiveSkillFamily.AcolyteBodyPassiveConvertHeal": "texacolyteskillicons8",
+  "/Loadout/Bodies/AcolyteBody/AcolytePrimarySkillFamily.BladeCombo": "texacolyteskillicons0",
+  "/Loadout/Bodies/AcolyteBody/AcolyteSecondarySkillFamily.AimSoulJar": "texacolyteskillicons15",
+  "/Loadout/Bodies/AcolyteBody/AcolyteSecondarySkillFamily.Bola": "texacolyteskillicons2",
+  "/Loadout/Bodies/AcolyteBody/AcolyteSpecialSkillFamily.Sacrifice": "texacolyteskillicons10",
+  "/Loadout/Bodies/AcolyteBody/AcolyteTransformationSkillFamily.BodySwap": "texacolyteskillicons6",
+  "/Loadout/Bodies/AcolyteBody/AcolyteTransformationSkillFamily.TransformBackpack": "texachievementanimaecho",
+  "/Loadout/Bodies/AcolyteBody/AcolyteUtilitySkillFamily.BladeSling": "texacolyteskillicons1",
+  "/Loadout/Bodies/AcolyteBody/AcolyteUtilitySkillFamily.ThrowJavelin": "texacolyteskillicons3",
+  "/Loadout/Bodies/AcolyteBody/Skins/skinAcolyteAltSkin": "texdlc4skinswatchesacolytealt",
+  "/Loadout/Bodies/AcolyteBody/Skins/skinAcolyteAltSkinFollowers": "texdlc4skinswatchesacolyte",
+  "/Loadout/Bodies/AcolyteBody/Skins/skinAcolyteDefault": "texdlc4skinswatchesacolyt",
+  "/Loadout/Bodies/AcolyteBody/Skins/skinAcolyteUnionAltSkin": "texdlc4skinswatchesacolytealt",
+  "/Loadout/Bodies/AcolyteBody/Skins/skinAcolyteUnionAltSkinFollowers": "texdlc4skinswatchesacolyte",
+  "/Loadout/Bodies/AcolyteBody/Skins/skinAcolyteUnionDefault": "texdlc4skinswatchesacolyt",
+  "/Loadout/Bodies/Bandit2Body/Bandit2BodyPrimaryFamily.Bandit2Blast": "texbandit2skillicons4",
+  "/Loadout/Bodies/Bandit2Body/Bandit2BodyPrimaryFamily.FireShotgun2": "texbandit2skillicons0",
+  "/Loadout/Bodies/Bandit2Body/Bandit2BodySecondaryFamily.Bandit2SerratedShivs": "texbandit2skillicons5",
+  "/Loadout/Bodies/Bandit2Body/Bandit2BodySecondaryFamily.SlashBlade": "texbandit2skillicons1",
+  "/Loadout/Bodies/Bandit2Body/Bandit2BodySpecialFamily.ResetRevolver": "texbandit2skillicons3",
+  "/Loadout/Bodies/Bandit2Body/Bandit2BodySpecialFamily.SkullRevolver": "texbandit2skillicons7",
+  "/Loadout/Bodies/Bandit2Body/Bandit2BodyUtilityFamily.ThrowSmokebomb": "texbandit2skillicons2",
+  "/Loadout/Bodies/Bandit2Body/Skins/skinBandit2Alt": "texskinswatches26",
+  "/Loadout/Bodies/Bandit2Body/Skins/skinBandit2AltColossus": "texdlc2altskinswatches5",
+  "/Loadout/Bodies/Bandit2Body/Skins/skinBandit2AltFollowers": "texdlc4skinswatchesbandit",
+  "/Loadout/Bodies/Bandit2Body/Skins/skinBandit2AltHallow": "texdlc4skinswatchesbandit",
+  "/Loadout/Bodies/Bandit2Body/Skins/skinBandit2AltSolus": "texdlc3skinswatchesbandit",
+  "/Loadout/Bodies/Bandit2Body/Skins/skinBandit2AltSolus_opaque": "texdlc3skinswatchesbandit",
+  "/Loadout/Bodies/Bandit2Body/Skins/skinBandit2Default": "texskinswatches18",
+  "/Loadout/Bodies/BanditBody/BanditBodyPrimaryFamily.BanditBodyFireShotgun": "texbanditskill1icon",
+  "/Loadout/Bodies/BanditBody/BanditBodySecondaryFamily.BanditBodyLightsOut": "texbanditskill4icon",
+  "/Loadout/Bodies/BanditBody/BanditBodySpecialFamily.BanditBodyGrenade": "texbanditskill2icon",
+  "/Loadout/Bodies/BanditBody/BanditBodyUtilityFamily.BanditBodyCloak": "texbanditskill3icon",
+  "/Loadout/Bodies/BanditBody/Skins/skinBanditBodyDefault": "texskinswatches2",
+  "/Loadout/Bodies/CaptainBody/CaptainPrimarySkillFamily.CaptainShotgun": "texcaptainskillicons1",
+  "/Loadout/Bodies/CaptainBody/CaptainSecondarySkillFamily.CaptainTazer": "texcaptainskillicons5",
+  "/Loadout/Bodies/CaptainBody/CaptainSpecialSkillFamily.PrepSupplyDrop": "texcaptainskillicons7",
+  "/Loadout/Bodies/CaptainBody/CaptainSupplyDrop1SkillFamily.CallSupplyDropEquipmentRestock": "texcaptainskillicons10",
+  "/Loadout/Bodies/CaptainBody/CaptainSupplyDrop1SkillFamily.CallSupplyDropHacking": "texcaptainskillicons11",
+  "/Loadout/Bodies/CaptainBody/CaptainSupplyDrop1SkillFamily.CallSupplyDropHealing": "texcaptainskillicons8",
+  "/Loadout/Bodies/CaptainBody/CaptainSupplyDrop1SkillFamily.CallSupplyDropShocking": "texcaptainskillicons9",
+  "/Loadout/Bodies/CaptainBody/CaptainSupplyDrop2SkillFamily.CallSupplyDropEquipmentRestock": "texcaptainskillicons10",
+  "/Loadout/Bodies/CaptainBody/CaptainSupplyDrop2SkillFamily.CallSupplyDropHacking": "texcaptainskillicons11",
+  "/Loadout/Bodies/CaptainBody/CaptainSupplyDrop2SkillFamily.CallSupplyDropHealing": "texcaptainskillicons8",
+  "/Loadout/Bodies/CaptainBody/CaptainSupplyDrop2SkillFamily.CallSupplyDropShocking": "texcaptainskillicons9",
+  "/Loadout/Bodies/CaptainBody/CaptainUtilitySkillFamily.PrepAirstrike": "texcaptainskillicons2",
+  "/Loadout/Bodies/CaptainBody/CaptainUtilitySkillFamily.PrepAirstrikeAlt": "texcaptainskillicons15",
+  "/Loadout/Bodies/CaptainBody/Skins/skinCaptainAlt": "texskinswatches25",
+  "/Loadout/Bodies/CaptainBody/Skins/skinCaptainAltColossus": "texdlc2altskinswatches6",
+  "/Loadout/Bodies/CaptainBody/Skins/skinCaptainAltFollowers": "texdlc4skinswatchescaptain",
+  "/Loadout/Bodies/CaptainBody/Skins/skinCaptainAltHollow": "texdlc4skinswatchescaptain",
+  "/Loadout/Bodies/CaptainBody/Skins/skinCaptainAltSolus": "texdlc3skinswatchescaptain",
+  "/Loadout/Bodies/CaptainBody/Skins/skinCaptainAltSolus_opaque": "texdlc3skinswatchescaptain",
+  "/Loadout/Bodies/CaptainBody/Skins/skinCaptainDefault": "texskinswatches17",
+  "/Loadout/Bodies/ChefBody/ChefPassiveFamily.ChefChefsKiss": "texchefskillicon6",
+  "/Loadout/Bodies/ChefBody/ChefPrimaryFamily.ChefDice": "texchefskillicon0",
+  "/Loadout/Bodies/ChefBody/ChefSecondaryFamily.ChefIceBox": "texchefskillicon10",
+  "/Loadout/Bodies/ChefBody/ChefSecondaryFamily.ChefSear": "texchefskillicon1",
+  "/Loadout/Bodies/ChefBody/ChefSpecialFamily.ChefGlaze": "texchefskillicon3",
+  "/Loadout/Bodies/ChefBody/ChefSpecialFamily.YesChef": "texchefskillicon13",
+  "/Loadout/Bodies/ChefBody/ChefUtilityFamily.ChefOilSpill": "texchefoilspillachievementicon",
+  "/Loadout/Bodies/ChefBody/ChefUtilityFamily.ChefRolyPoly": "texchefskillicon2",
+  "/Loadout/Bodies/ChefBody/Skins/skinChefAlt": "texdlc2altskinswatches1",
+  "/Loadout/Bodies/ChefBody/Skins/skinChefAltLynx": "texdlc4skinswatcheschef",
+  "/Loadout/Bodies/ChefBody/Skins/skinChefDefault": "texskinswatches23",
+  "/Loadout/Bodies/CommandoBody/CommandoBodyPrimaryFamily.CommandoBodyFirePistol": "texcommandoskillicons0",
+  "/Loadout/Bodies/CommandoBody/CommandoBodySecondaryFamily.CommandoBodyFireFMJ": "texcommandoskillicons1",
+  "/Loadout/Bodies/CommandoBody/CommandoBodySecondaryFamily.CommandoBodyFireShotgunBlast": "texcommandoskillicons5",
+  "/Loadout/Bodies/CommandoBody/CommandoBodySpecialFamily.CommandoBodyBarrage": "texcommandoskillicons3",
+  "/Loadout/Bodies/CommandoBody/CommandoBodySpecialFamily.CommandoSabotageSpread": "texsabotageicon",
+  "/Loadout/Bodies/CommandoBody/CommandoBodySpecialFamily.ThrowGrenade": "texcommandoskillicons7",
+  "/Loadout/Bodies/CommandoBody/CommandoBodyUtilityFamily.CommandoBodyRoll": "texcommandoskillicons2",
+  "/Loadout/Bodies/CommandoBody/CommandoBodyUtilityFamily.CommandoSlide": "texcommandoskillicons6",
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoAlt": "texskinswatches8",
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoAltColorShift01": "texskinswatches8",
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoAltColossus": "texdlc2altskinswatches3",
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoAltLynx": "texdlc4skinswatchescommando",
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoAltVulture": "texdlc3skinswatchescommando",
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoDefault": "texskinswatches0",
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoUmbraHornet": "texskinswatches0",
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoUmbraLesser": "texskinswatches0",
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoUmbraMonarch": "texskinswatches0",
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoUmbraSilly": "texskinswatches0",
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoUmbraSummoner": "texskinswatches0",
+  "/Loadout/Bodies/CommandoPerformanceTestBody/CommandoPerformanceTestBodyPrimaryFamily.CommandoPerformanceTestBodyFirePistol": "texcommandoskillicons0",
+  "/Loadout/Bodies/CommandoPerformanceTestBody/CommandoPerformanceTestBodySecondaryFamily.CommandoPerformanceTestBodyFireFMJ": "texcommandoskillicons1",
+  "/Loadout/Bodies/CommandoPerformanceTestBody/CommandoPerformanceTestBodySpecialFamily.CommandoPerformanceTestBodyBarrage": "texcommandoskillicons3",
+  "/Loadout/Bodies/CommandoPerformanceTestBody/CommandoPerformanceTestBodyUtilityFamily.CommandoPerformanceTestBodyRoll": "texcommandoskillicons2",
+  "/Loadout/Bodies/CrocoBody/CrocoBodyPassiveFamily.CrocoPassiveBlight": "texcrocoskillicons7",
+  "/Loadout/Bodies/CrocoBody/CrocoBodyPassiveFamily.CrocoPassivePoison": "texcrocoskillicons4",
+  "/Loadout/Bodies/CrocoBody/CrocoBodyPrimaryFamily.CrocoSlash": "texcrocoskillicons0",
+  "/Loadout/Bodies/CrocoBody/CrocoBodySecondaryFamily.CrocoBite": "texcrocoskillicons5",
+  "/Loadout/Bodies/CrocoBody/CrocoBodySecondaryFamily.CrocoSpit": "texcrocoskillicons1",
+  "/Loadout/Bodies/CrocoBody/CrocoBodySpecialFamily.CrocoBreath": "texcrocodevour",
+  "/Loadout/Bodies/CrocoBody/CrocoBodySpecialFamily.CrocoDisease": "texcrocoskillicons3",
+  "/Loadout/Bodies/CrocoBody/CrocoBodyUtilityFamily.CrocoChainableLeap": "texcrocoskillicons6",
+  "/Loadout/Bodies/CrocoBody/CrocoBodyUtilityFamily.CrocoLeap": "texcrocoskillicons2",
+  "/Loadout/Bodies/CrocoBody/Skins/skinCrocoAlt": "texskinswatches24",
+  "/Loadout/Bodies/CrocoBody/Skins/skinCrocoAltColossus": "texdlc2altskinswatches7",
+  "/Loadout/Bodies/CrocoBody/Skins/skinCrocoAltFollowers": "texdlc4skinswatchesacrid",
+  "/Loadout/Bodies/CrocoBody/Skins/skinCrocoAltVulture": "texdlc3skinswatchescroco",
+  "/Loadout/Bodies/CrocoBody/Skins/skinCrocoDefault": "texskinswatches16",
+  "/Loadout/Bodies/DrifterBody/DrifterSurvivorPassiveFamily.DrifterBodyPassiveScrapToStats": "texdrifterskillicons5",
+  "/Loadout/Bodies/DrifterBody/DrifterSurvivorPrimaryFamily.BluntForce": "texdrifterskillicons0",
+  "/Loadout/Bodies/DrifterBody/DrifterSurvivorSecondaryFamily.Cleanup": "texdrifterskillicons2",
+  "/Loadout/Bodies/DrifterBody/DrifterSurvivorSecondaryFamily.JunkCube": "texdrifterskillicons7",
+  "/Loadout/Bodies/DrifterBody/DrifterSurvivorSpecial.Salvage": "texdrifterskillicons4",
+  "/Loadout/Bodies/DrifterBody/DrifterSurvivorSpecial.Tinker": "texdrifterskillicons9",
+  "/Loadout/Bodies/DrifterBody/DrifterSurvivorUtilityFamily.Repossess": "texdrifterskillicons10",
+  "/Loadout/Bodies/DrifterBody/DrifterSurvivorUtilityFamily.TornadoSlam": "texdrifterskillicons1",
+  "/Loadout/Bodies/DrifterBody/Skins/Drifter.Skin.Alt1": "texdrifteralt1skinicon",
+  "/Loadout/Bodies/DrifterBody/Skins/Drifter.Skin.Default": "texdrifterdefaultskinicon",
+  "/Loadout/Bodies/DroneTechBody/DroneTechPassiveSkillFamily1.DroneCombat": "texdronecompanioncombat",
+  "/Loadout/Bodies/DroneTechBody/DroneTechPassiveSkillFamily1.DroneHauler": "texdthaulerdroneicon",
+  "/Loadout/Bodies/DroneTechBody/DroneTechPassiveSkillFamily1.DroneHealing": "texdronecompanionhealing",
+  "/Loadout/Bodies/DroneTechBody/DroneTechPassiveSkillFamily2.DroneCombat": "texdronecompanioncombat",
+  "/Loadout/Bodies/DroneTechBody/DroneTechPassiveSkillFamily2.DroneHauler": "texdthaulerdroneicon",
+  "/Loadout/Bodies/DroneTechBody/DroneTechPassiveSkillFamily2.DroneHealing": "texdronecompanionhealing",
+  "/Loadout/Bodies/DroneTechBody/DroneTechPrimarySkillFamily.FireNanoPistol": "texdronetechskillicons0",
+  "/Loadout/Bodies/DroneTechBody/DroneTechSecondarySkillFamily.Command": "texdronetechskillicons2",
+  "/Loadout/Bodies/DroneTechBody/DroneTechSecondarySkillFamily.CommandHeadbutt": "texdronetechskillicons1",
+  "/Loadout/Bodies/DroneTechBody/DroneTechSpecialSkillFamily.DroneBall": "texdronetechskillicons9",
+  "/Loadout/Bodies/DroneTechBody/DroneTechSpecialSkillFamily.DroneBallShootable": "texdronetechskillicons3",
+  "/Loadout/Bodies/DroneTechBody/DroneTechUtilitySkillFamily.CommandShieldFormation": "texdronetechskillicons5",
+  "/Loadout/Bodies/DroneTechBody/DroneTechUtilitySkillFamily.DroneLeap": "texdronetechskillicons4",
+  "/Loadout/Bodies/DroneTechBody/Skins/skinDroneTechDef": "texdlc3skinswatchesdronetech",
+  "/Loadout/Bodies/DroneTechBody/Skins/skinDroneTechDefAlt": "texdlc3skinswatchesdronetechalt",
+  "/Loadout/Bodies/Enforcer2Body/EnforcerPrimarySkill.EnforcerClusterGrenade": "texenforcerclustergrenadeicon",
+  "/Loadout/Bodies/Enforcer2Body/EnforcerPrimarySkill.EnforcerRiotShotgun": "texenforcertrenchbroomicon",
+  "/Loadout/Bodies/Enforcer2Body/EnforcerSecondarySkill.EnforcerKineticCharge2": "texenforcerkineticchargeicon",
+  "/Loadout/Bodies/Enforcer2Body/EnforcerSecondarySkill.EnforcerProtectAndServeActivate": "texenforcersteelprotectionicon",
+  "/Loadout/Bodies/Enforcer2Body/EnforcerSpecialSkill.EnforcerCrowdControlDef": "texenforcerrallyicon",
+  "/Loadout/Bodies/Enforcer2Body/EnforcerSpecialSkill.ShieldLeap": "texenforcershieldleapactivation",
+  "/Loadout/Bodies/Enforcer2Body/EnforcerUtilityFamily.EnforcerShieldTackleCharged": "texenforcershieldtackleicon",
+  "/Loadout/Bodies/Enforcer2Body/EnforcerUtilityFamily.EnforcerTearGas": "texenforcerripcordshoot",
+  "/Loadout/Bodies/EnforcerBody/EnforcerBodyPrimaryFamily.EnforcerBodyFirePistol": "texcommandoskill1icon",
+  "/Loadout/Bodies/EnforcerBody/EnforcerBodySecondaryFamily.EnforcerBodyFireFMJ": "texcommandoskill2icon",
+  "/Loadout/Bodies/EnforcerBody/EnforcerBodySpecialFamily.EnforcerBodyFireBarrage": "texcommandoskill4icon",
+  "/Loadout/Bodies/EnforcerBody/EnforcerBodyUtilityFamily.EnforcerBodyRoll": "texcommandoskill3icon",
+  "/Loadout/Bodies/EnforcerBody/EnforcerPassiveFamily.EnforcerPassiveBigMan": "texenforcerpassive",
+  "/Loadout/Bodies/EnforcerBody/Skins/skinEnforcerAlt": "texdlc4skinswatchesenforceralt",
+  "/Loadout/Bodies/EnforcerBody/Skins/skinEnforcerAltFollowers": "texdlc4skinswatchesenforcerlynx",
+  "/Loadout/Bodies/EnforcerBody/Skins/skinEnforcerBodyDefault": "texskinswatches2",
+  "/Loadout/Bodies/EnforcerBody/Skins/skinEnforcerDefault": "texdlc4skinswatchesenforce",
+  "/Loadout/Bodies/EngiBeamTurretBody/Skins/skinEngiBeamTurretBodyDefault": "texskinswatches2",
+  "/Loadout/Bodies/EngiBody/EngiBodyPrimaryFamily.EngiBodyFireGrenade": "texengiskillicons0",
+  "/Loadout/Bodies/EngiBody/EngiBodyPrimaryFamily.LaserCutter": "texlasercuttericon",
+  "/Loadout/Bodies/EngiBody/EngiBodySecondaryFamily.EngiBodyPlaceMine": "texengiskillicons5",
+  "/Loadout/Bodies/EngiBody/EngiBodySecondaryFamily.EngiBodyPlaceSpiderMine": "texengiskillicons1",
+  "/Loadout/Bodies/EngiBody/EngiBodySpecialFamily.EngiBodyPlaceTurret": "texengiskillicons3",
+  "/Loadout/Bodies/EngiBody/EngiBodySpecialFamily.EngiBodyPlaceWalkerTurret": "texengiskillicons7",
+  "/Loadout/Bodies/EngiBody/EngiBodyUtilityFamily.EngiBodyPlaceBubbleShield": "texengiskillicons2",
+  "/Loadout/Bodies/EngiBody/EngiBodyUtilityFamily.EngiHarpoons": "texengiclearteleporterwithzeromonstersicon",
+  "/Loadout/Bodies/EngiBody/Skins/skinEngiAlt": "texskinswatches9",
+  "/Loadout/Bodies/EngiBody/Skins/skinEngiAltColossus": "texdlc2altskinswatches8",
+  "/Loadout/Bodies/EngiBody/Skins/skinEngiAltHallow": "texdlc4skinswatchesengineer",
+  "/Loadout/Bodies/EngiBody/Skins/skinEngiAltVulture": "texdlc3skinswatchesengineer",
+  "/Loadout/Bodies/EngiBody/Skins/skinEngiDefault": "texskinswatches1",
+  "/Loadout/Bodies/FalseSonBody/FalseSonBodyPassiveFamily.FalseSonBodyTheTamperedHeart": "texfalsesonskillicons4",
+  "/Loadout/Bodies/FalseSonBody/FalseSonBodyPrimaryFamily.FalseSonBodyClub": "texfalsesonskillicons6",
+  "/Loadout/Bodies/FalseSonBody/FalseSonBodySecondaryFamily.FalseSonBodyLunarSpikes": "texfalsesonskillicons2",
+  "/Loadout/Bodies/FalseSonBody/FalseSonBodySecondaryFamily.FalseSonLunarStake": "texfalsesonskillicons7",
+  "/Loadout/Bodies/FalseSonBody/FalseSonBodySpecialFamily.FalseSonBodyLaser": "texfalsesonskillicons3",
+  "/Loadout/Bodies/FalseSonBody/FalseSonBodySpecialFamily.FalseSonBodyLaserBurst": "texfalsesonskillicons5",
+  "/Loadout/Bodies/FalseSonBody/FalseSonBodyUtilityFamily.FalseSonBodyStep": "texfalsesonskillicons0",
+  "/Loadout/Bodies/FalseSonBody/FalseSonBodyUtilityFamily.FalseSonMeridiansWill": "texfalsesonskillicons8",
+  "/Loadout/Bodies/FalseSonBody/Skins/skinFalseSonAlt": "texdlc2altskinswatches0",
+  "/Loadout/Bodies/FalseSonBody/Skins/skinFalseSonAltFungal": "texdlc4skinswatchesfalseson",
+  "/Loadout/Bodies/FalseSonBody/Skins/skinFalseSonDefault": "texskinswatches22",
+  "/Loadout/Bodies/FalseSonBossBody/FalseSonBossLunarShardBrokenPrimaryFamily.FalseSonBossCorruptedPaths": "texcommandoskillicons0",
+  "/Loadout/Bodies/FalseSonBossBody/FalseSonBossPrimaryFamily.FalseSonBossFissureSlam": "texcommandoskillicons0",
+  "/Loadout/Bodies/FalseSonBossBody/FalseSonBossPrimaryFamily.FalseSonBossSwatAwayPlayers": "texcommandoskillicons0",
+  "/Loadout/Bodies/FalseSonBossBody/FalseSonBossSecondaryFamily.FalseSonBossLunarRain": "texcommandoskillicons1",
+  "/Loadout/Bodies/FalseSonBossBody/FalseSonBossSpecialFamily.FalseSonBossPrimeDevastator": "texcommandoskillicons0",
+  "/Loadout/Bodies/FalseSonBossBody/Skins/skinFalseSonBossBodyDefault": "texskinswatches2",
+  "/Loadout/Bodies/FalseSonBossBodyBrokenLunarShard/FalseSonBossPrimaryFamily.FalseSonBossFissureSlam": "texcommandoskillicons0",
+  "/Loadout/Bodies/FalseSonBossBodyBrokenLunarShard/FalseSonBossPrimaryFamily.FalseSonBossSwatAwayPlayers": "texcommandoskillicons0",
+  "/Loadout/Bodies/FalseSonBossBodyBrokenLunarShard/FalseSonBossSecondaryFamily.FalseSonBossLunarRain": "texcommandoskillicons1",
+  "/Loadout/Bodies/FalseSonBossBodyBrokenLunarShard/FalseSonBossSpecialFamily.FalseSonBossPrimeDevastator": "texcommandoskillicons0",
+  "/Loadout/Bodies/FalseSonBossBodyBrokenLunarShard/Skins/skinFalseSonBossBodyBrokenLunarShardDefault": "texskinswatches2",
+  "/Loadout/Bodies/FalseSonBossBodyLunarShard/FalseSonBossPrimaryFamily.FalseSonBossFissureSlam": "texcommandoskillicons0",
+  "/Loadout/Bodies/FalseSonBossBodyLunarShard/FalseSonBossPrimaryFamily.FalseSonBossSwatAwayPlayers": "texcommandoskillicons0",
+  "/Loadout/Bodies/FalseSonBossBodyLunarShard/FalseSonBossSecondaryFamily.FalseSonBossLunarRain": "texcommandoskillicons1",
+  "/Loadout/Bodies/FalseSonBossBodyLunarShard/FalseSonBossSpecialFamily.FalseSonBossPrimeDevastator": "texcommandoskillicons0",
+  "/Loadout/Bodies/FalseSonBossBodyLunarShard/Skins/skinFalseSonBossBodyLunarShardDefault": "texskinswatches2",
+  "/Loadout/Bodies/HereticBody/HereticPrimaryFamily.HereticDefaultAbility": "texcrowskillicons4",
+  "/Loadout/Bodies/HereticBody/HereticSecondaryFamily.HereticDefaultAbility": "texcrowskillicons4",
+  "/Loadout/Bodies/HereticBody/HereticSpecialFamily.HereticDefaultAbility": "texcrowskillicons4",
+  "/Loadout/Bodies/HereticBody/HereticUtilityFamily.HereticDefaultAbility": "texcrowskillicons4",
+  "/Loadout/Bodies/HuntressBody/HuntressBodyPrimaryFamily.FireFlurrySeekingArrow": "texhuntressskillicons5",
+  "/Loadout/Bodies/HuntressBody/HuntressBodyPrimaryFamily.HuntressBodyFireSeekingArrow": "texhuntressskillicons0",
+  "/Loadout/Bodies/HuntressBody/HuntressBodySecondaryFamily.HuntressBodyGlaive": "texhuntressskillicons1",
+  "/Loadout/Bodies/HuntressBody/HuntressBodySecondaryFamily.ThrowCyclone_Kick": "texlasercycloneicon",
+  "/Loadout/Bodies/HuntressBody/HuntressBodySpecialFamily.AimArrowSnipe": "texhuntressskillicons7",
+  "/Loadout/Bodies/HuntressBody/HuntressBodySpecialFamily.HuntressBodyArrowRain": "texhuntressskillicons3",
+  "/Loadout/Bodies/HuntressBody/HuntressBodyUtilityFamily.HuntressBodyBlink": "texhuntressskillicons2",
+  "/Loadout/Bodies/HuntressBody/HuntressBodyUtilityFamily.HuntressBodyMiniBlink": "texhuntressskillicons6",
+  "/Loadout/Bodies/HuntressBody/Skins/skinHuntressAlt": "texskinswatches10",
+  "/Loadout/Bodies/HuntressBody/Skins/skinHuntressAltColossus": "texdlc2altskinswatches4",
+  "/Loadout/Bodies/HuntressBody/Skins/skinHuntressAltLynx": "texdlc4skinswatcheshuntress",
+  "/Loadout/Bodies/HuntressBody/Skins/skinHuntressAltVulture": "texdlc3skinswatcheshuntress",
+  "/Loadout/Bodies/HuntressBody/Skins/skinHuntressDefault": "texskinswatches2",
+  "/Loadout/Bodies/LoaderBody/LoaderBodyPrimaryFamily.SwingFist": "texloaderskillicons0",
+  "/Loadout/Bodies/LoaderBody/LoaderBodySecondaryFamily.FireHook": "texloaderskillicons1",
+  "/Loadout/Bodies/LoaderBody/LoaderBodySecondaryFamily.FireYankHook": "texloaderskillicons5",
+  "/Loadout/Bodies/LoaderBody/LoaderBodySpecialFamily.GroundSlam": "texloaderskillicons7",
+  "/Loadout/Bodies/LoaderBody/LoaderBodySpecialFamily.ThrowPylon": "texloaderskillicons3",
+  "/Loadout/Bodies/LoaderBody/LoaderBodyUtilityFamily.ChargeFist": "texloaderskillicons2",
+  "/Loadout/Bodies/LoaderBody/LoaderBodyUtilityFamily.ChargeZapFist": "texloaderskillicons6",
+  "/Loadout/Bodies/LoaderBody/Skins/skinLoaderAlt": "texskinswatches15",
+  "/Loadout/Bodies/LoaderBody/Skins/skinLoaderAltColossus": "texdlc2altskinswatches9",
+  "/Loadout/Bodies/LoaderBody/Skins/skinLoaderAltFungal": "texdlc4skinswatchesloader",
+  "/Loadout/Bodies/LoaderBody/Skins/skinLoaderAltSolus": "texdlc3skinswatchesloader",
+  "/Loadout/Bodies/LoaderBody/Skins/skinLoaderAltSolus_opaque": "texdlc3skinswatchesloader",
+  "/Loadout/Bodies/LoaderBody/Skins/skinLoaderDefault": "texskinswatches7",
+  "/Loadout/Bodies/LunarRainModel/Skins/skinLunarRainModelDefault": "texskinswatches2",
+  "/Loadout/Bodies/MageBody/MageBodyPrimaryFamily.MageBodyFireFirebolt": "texmageskillicons0",
+  "/Loadout/Bodies/MageBody/MageBodyPrimaryFamily.MageBodyFireLightningBolt": "texmageskillicons6",
+  "/Loadout/Bodies/MageBody/MageBodySecondaryFamily.MageBodyIceBomb": "texmageskillicons5",
+  "/Loadout/Bodies/MageBody/MageBodySecondaryFamily.MageBodyNovaBomb": "texmageskillicons1",
+  "/Loadout/Bodies/MageBody/MageBodySpecialFamily.MageBodyFlamethrower": "texmageskillicons3",
+  "/Loadout/Bodies/MageBody/MageBodySpecialFamily.MageBodyFlyUp": "texmageskillicons7",
+  "/Loadout/Bodies/MageBody/MageBodyUtilityFamily.MageBodyFireEarthShards": "texmagerockoclap",
+  "/Loadout/Bodies/MageBody/MageBodyUtilityFamily.MageBodyWall": "texmageskillicons2",
+  "/Loadout/Bodies/MageBody/Skins/skinMageAlt": "texskinswatches12",
+  "/Loadout/Bodies/MageBody/Skins/skinMageAltColossus": "texdlc2altskinswatches15",
+  "/Loadout/Bodies/MageBody/Skins/skinMageAltHallow": "texdlc4skinswatchesartificer",
+  "/Loadout/Bodies/MageBody/Skins/skinMageAltSolus": "texdlc3skinswatchesmage",
+  "/Loadout/Bodies/MageBody/Skins/skinMageAltSolus_opaque": "texdlc3skinswatchesmage",
+  "/Loadout/Bodies/MageBody/Skins/skinMageDefault": "texskinswatches4",
+  "/Loadout/Bodies/MercBody/MercBodyPrimaryFamily.MercGroundLight2": "texmercskillicons0",
+  "/Loadout/Bodies/MercBody/MercBodySecondaryFamily.MercBodyUppercut": "texmercskillicons5",
+  "/Loadout/Bodies/MercBody/MercBodySecondaryFamily.MercBodyWhirlwind": "texmercskillicons1",
+  "/Loadout/Bodies/MercBody/MercBodySpecialFamily.MercBodyEvis": "texmercskillicons3",
+  "/Loadout/Bodies/MercBody/MercBodySpecialFamily.MercBodyEvisProjectile": "texmercskillicons8",
+  "/Loadout/Bodies/MercBody/MercBodyUtilityFamily.MercBodyAssaulter": "texmercskillicons2",
+  "/Loadout/Bodies/MercBody/MercBodyUtilityFamily.MercBodyFocusedAssault": "texmercxskillsinysecondsicon",
+  "/Loadout/Bodies/MercBody/Skins/skinMercAlt": "texskinswatches13",
+  "/Loadout/Bodies/MercBody/Skins/skinMercAltColossus": "texdlc2altskinswatches11",
+  "/Loadout/Bodies/MercBody/Skins/skinMercAltFungal": "texdlc4skinswatchesmerc",
+  "/Loadout/Bodies/MercBody/Skins/skinMercAltPrisoner": "texmercaltprisonericon",
+  "/Loadout/Bodies/MercBody/Skins/skinMercAltVulture": "texdlc3skinswatchesmercenary",
+  "/Loadout/Bodies/MercBody/Skins/skinMercDefault": "texskinswatches5",
+  "/Loadout/Bodies/ProliferationFlowerTurretBody/Skins/skinProliferationFlowerTurretDefault": "texskinswatches2",
+  "/Loadout/Bodies/RailgunnerBody/RailgunnerBodyPrimaryFamily.RailgunnerBodyFirePistol": "texrailgunnerskillicons0",
+  "/Loadout/Bodies/RailgunnerBody/RailgunnerBodySecondaryFamily.RailgunnerBodyScopeHeavy": "texrailgunnerskillicons1",
+  "/Loadout/Bodies/RailgunnerBody/RailgunnerBodySecondaryFamily.RailgunnerBodyScopeLight": "texrailgunnerskillicons5",
+  "/Loadout/Bodies/RailgunnerBody/RailgunnerBodySpecialFamily.RailgunnerBodyChargeSnipeCryo": "texrailgunnerskillicons7",
+  "/Loadout/Bodies/RailgunnerBody/RailgunnerBodySpecialFamily.RailgunnerBodyChargeSnipeSuper": "texrailgunnerskillicons3",
+  "/Loadout/Bodies/RailgunnerBody/RailgunnerBodyUtilityFamily.RailgunnerBodyFireMineBlinding": "texrailgunnerskillicons6",
+  "/Loadout/Bodies/RailgunnerBody/RailgunnerBodyUtilityFamily.RailgunnerBodyFireMineConcussive": "texrailgunnerskillicons2",
+  "/Loadout/Bodies/RailgunnerBody/RailgunnerPassiveFamily.RailgunnerBodyPassiveConvertCrit": "texrailgunnerskillicons9",
+  "/Loadout/Bodies/RailgunnerBody/Skins/skinRailGunnerAlt": "texskinswatches27",
+  "/Loadout/Bodies/RailgunnerBody/Skins/skinRailGunnerAltColossus": "texdlc2altskinswatches13",
+  "/Loadout/Bodies/RailgunnerBody/Skins/skinRailGunnerAltFollowers": "texdlc4skinswatchesrailgunner",
+  "/Loadout/Bodies/RailgunnerBody/Skins/skinRailGunnerDefault": "texskinswatches19",
+  "/Loadout/Bodies/SeekerBody/SeekerBodyPassiveFamily.SeekerBodyInnerStrength": "texseekerskillicon4",
+  "/Loadout/Bodies/SeekerBody/SeekerBodyPrimaryFamily.SeekerBodySpiritPunchCrosshair": "texseekerskillicon1",
+  "/Loadout/Bodies/SeekerBody/SeekerBodySecondaryFamily.SeekerBodySoulSpiral": "texseekermultikillairborneenemyicon",
+  "/Loadout/Bodies/SeekerBody/SeekerBodySecondaryFamily.SeekerBodyUnseenHand": "texseekerskillicon2",
+  "/Loadout/Bodies/SeekerBody/SeekerBodySpecialFamily.SeekerBodyMeditate": "texseekerskillicon3",
+  "/Loadout/Bodies/SeekerBody/SeekerBodySpecialFamily.SeekerPalmBlast": "texseekerskillicon5",
+  "/Loadout/Bodies/SeekerBody/SeekerBodyUtilityFamily.SeekerBodyReprieve": "texseekerskillicon6",
+  "/Loadout/Bodies/SeekerBody/SeekerBodyUtilityFamily.SeekerBodySojourn": "texseekerskillicon0",
+  "/Loadout/Bodies/SeekerBody/Skins/skinSeekerAlt": "texdlc2altskinswatches2",
+  "/Loadout/Bodies/SeekerBody/Skins/skinSeekerAltLynx": "texdlc4skinswatchesseeker",
+  "/Loadout/Bodies/SeekerBody/Skins/skinSeekerDefault": "texskinswatches21",
+  "/Loadout/Bodies/ToolbotBody/Skins/skinToolbotAlt": "texskinswatches11",
+  "/Loadout/Bodies/ToolbotBody/Skins/skinToolbotAltColossus": "texdlc2altskinswatches10",
+  "/Loadout/Bodies/ToolbotBody/Skins/skinToolbotAltFungal": "texdlc4skinswatchesmultt",
+  "/Loadout/Bodies/ToolbotBody/Skins/skinToolbotAltVulture": "texdlc3skinswatchestoolbot",
+  "/Loadout/Bodies/ToolbotBody/Skins/skinToolbotDefault": "texskinswatches3",
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyPrimary1.ToolbotBodyFireBuzzsaw": "textoolbotskillicons6",
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyPrimary1.ToolbotBodyFireGrenadeLauncher": "textoolbotskillicons5",
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyPrimary1.ToolbotBodyFireNailgun": "textoolbotskillicons0",
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyPrimary1.ToolbotBodyFireSpear": "textoolbotskillicons4",
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyPrimary2.ToolbotBodyFireBuzzsaw": "textoolbotskillicons6",
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyPrimary2.ToolbotBodyFireGrenadeLauncher": "textoolbotskillicons5",
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyPrimary2.ToolbotBodyFireNailgun": "textoolbotskillicons0",
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyPrimary2.ToolbotBodyFireSpear": "textoolbotskillicons4",
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodySecondaryFamily.ToolbotBodyStunDrone": "textoolbotskillicons1",
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodySpecialFamily.ToolbotBodySwap": "textoolbotskillicons3",
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodySpecialFamily.ToolbotDualWield": "textoolbotskillicons11",
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyUtilityFamily.ToolbotBodyToolbotDash": "textoolbotskillicons2",
+  "/Loadout/Bodies/TreebotBody/Skins/skinTreebotAlt": "texskinswatches14",
+  "/Loadout/Bodies/TreebotBody/Skins/skinTreebotAltColossus": "texdlc2altskinswatches12",
+  "/Loadout/Bodies/TreebotBody/Skins/skinTreebotAltHollow": "texdlc4skinswatchesmultt",
+  "/Loadout/Bodies/TreebotBody/Skins/skinTreebotAltSolus": "texdlc3skinswatchestreebot",
+  "/Loadout/Bodies/TreebotBody/Skins/skinTreebotAltSolus_opaque": "texdlc3skinswatchestreebot",
+  "/Loadout/Bodies/TreebotBody/Skins/skinTreebotDefault": "texskinswatches6",
+  "/Loadout/Bodies/TreebotBody/TreebotBodyPrimaryFamily.TreebotBodyFireSyringe": "textreebotskillicons0",
+  "/Loadout/Bodies/TreebotBody/TreebotBodySecondaryFamily.TreebotBodyAimMortar2": "textreebotskillicons1",
+  "/Loadout/Bodies/TreebotBody/TreebotBodySecondaryFamily.TreebotBodyAimMortarRain": "textreebotskillicons5",
+  "/Loadout/Bodies/TreebotBody/TreebotBodySpecialFamily.TreebotBodyFireFlower2": "textreebotskillicons3",
+  "/Loadout/Bodies/TreebotBody/TreebotBodySpecialFamily.TreebotBodyFireFruitSeed": "textreebotskillicons7",
+  "/Loadout/Bodies/TreebotBody/TreebotBodyUtilityFamily.TreebotBodyPlantSonicBoom": "textreebotskillicons6",
+  "/Loadout/Bodies/TreebotBody/TreebotBodyUtilityFamily.TreebotBodyProliferation": "texproliferationicon",
+  "/Loadout/Bodies/TreebotBody/TreebotBodyUtilityFamily.TreebotBodySonicBoom": "textreebotskillicons2",
+  "/Loadout/Bodies/VoidSurvivorBody/Skins/skinVoidSurvivorAlt": "texskinswatches28",
+  "/Loadout/Bodies/VoidSurvivorBody/Skins/skinVoidSurvivorAltColossus": "texdlc2altskinswatches14",
+  "/Loadout/Bodies/VoidSurvivorBody/Skins/skinVoidSurvivorAltFungal": "texdlc4skinswatchesvoidsurvivor",
+  "/Loadout/Bodies/VoidSurvivorBody/Skins/skinVoidSurvivorDefault": "texskinswatches20",
+  "/Loadout/Bodies/VoidSurvivorBody/VoidSurvivorPassiveFamily.VoidSurvivorPassive": "texvoidsurvivorskillicons8",
+  "/Loadout/Bodies/VoidSurvivorBody/VoidSurvivorPrimaryFamily.FireHandBeam": "texvoidsurvivorskillicons0",
+  "/Loadout/Bodies/VoidSurvivorBody/VoidSurvivorSecondaryFamily.ChargeMegaBlaster": "texvoidsurvivorskillicons1",
+  "/Loadout/Bodies/VoidSurvivorBody/VoidSurvivorSpecialFamily.CrushCorruption": "texvoidsurvivorskillicons3",
+  "/Loadout/Bodies/VoidSurvivorBody/VoidSurvivorUtilityFamily.VoidBlinkUp": "texvoidsurvivorskillicons2",
+  "/Loadout/Bodies/mdlJunkCube/Skins/skinJunkCubePrefabDefault": "texskinswatches2",
+  "/Loadout/Bodies/mdlSoulBody/Skins/skinAISoulBodyDefault": "texskinswatches2",
+  "/Survivors/Acolyte": "texacolytebodyicon",
+  "/Survivors/Bandit2": "texbanditicon",
+  "/Survivors/Captain": "texcaptainicon",
+  "/Survivors/Chef": "texchefbodyicon",
+  "/Survivors/Commando": "texcommandoicon",
+  "/Survivors/Croco": "texcrocoicon",
+  "/Survivors/Drifter": "texdriftericon",
+  "/Survivors/DroneTech": "texdronetechicon",
+  "/Survivors/Enforcer2": "texenforcer2bodyicon",
+  "/Survivors/Engi": "texengiicon",
+  "/Survivors/FalseSon": "texfalsesonbodyicon",
+  "/Survivors/Heretic": "texhereticicon",
+  "/Survivors/Huntress": "texhuntressicon",
+  "/Survivors/Loader": "texloadericon",
+  "/Survivors/Mage": "texmageicon",
+  "/Survivors/Merc": "texmercicon",
+  "/Survivors/Railgunner": "texrailgunnericon",
+  "/Survivors/Seeker": "texseekerbodyicon",
+  "/Survivors/Toolbot": "textoolboticon",
+  "/Survivors/Treebot": "texrexicon"
+ },
+ "viewables": {
+  "/Loadout/Bodies/AcolyteBody/AcolytePassiveSkillFamily.AcolyteAltPassiveStealBackHealth": {
+   "name": "N\u2019kuhana's Grace",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/AcolyteBody/AcolytePassiveSkillFamily.AcolyteBodyPassiveConvertHeal": {
+   "name": "N\u2019kuhana's Favor",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/AcolyteBody/AcolytePrimarySkillFamily.BladeCombo": {
+   "name": "Blade Slice",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/AcolyteBody/AcolyteSecondarySkillFamily.AimSoulJar": {
+   "name": "Soul Jar",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/AcolyteBody/AcolyteSecondarySkillFamily.Bola": {
+   "name": "Bola Throw",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/AcolyteBody/AcolyteSpecialSkillFamily.Sacrifice": {
+   "name": "Sacrifice",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/AcolyteBody/AcolyteTransformationSkillFamily.BodySwap": {
+   "name": "Dark Summons",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/AcolyteBody/AcolyteTransformationSkillFamily.TransformBackpack": {
+   "name": "Anima Echo",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/AcolyteBody/AcolyteUtilitySkillFamily.BladeSling": {
+   "name": "Blade Sling",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/AcolyteBody/AcolyteUtilitySkillFamily.ThrowJavelin": {
+   "name": "Javelin",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/AcolyteBody/Skins/skinAcolyteAltSkin": {
+   "name": "Twilight",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/AcolyteBody/Skins/skinAcolyteAltSkinFollowers": {
+   "name": "Vessel",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/AcolyteBody/Skins/skinAcolyteDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/AcolyteBody/Skins/skinAcolyteUnionAltSkin": {
+   "name": "Twilight",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/AcolyteBody/Skins/skinAcolyteUnionAltSkinFollowers": {
+   "name": "Vessel",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/AcolyteBody/Skins/skinAcolyteUnionDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/Bandit2Body/Bandit2BodyPrimaryFamily.Bandit2Blast": {
+   "name": "Blast",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/Bandit2Body/Bandit2BodyPrimaryFamily.FireShotgun2": {
+   "name": "Burst",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/Bandit2Body/Bandit2BodySecondaryFamily.Bandit2SerratedShivs": {
+   "name": "Serrated Shiv",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/Bandit2Body/Bandit2BodySecondaryFamily.SlashBlade": {
+   "name": "Serrated Dagger",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/Bandit2Body/Bandit2BodySpecialFamily.ResetRevolver": {
+   "name": "Lights Out",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/Bandit2Body/Bandit2BodySpecialFamily.SkullRevolver": {
+   "name": "Desperado",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/Bandit2Body/Bandit2BodyUtilityFamily.ThrowSmokebomb": {
+   "name": "Smoke Bomb",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/Bandit2Body/Skins/skinBandit2Alt": {
+   "name": "Chilly",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/Bandit2Body/Skins/skinBandit2AltColossus": {
+   "name": "Outlaw",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/Bandit2Body/Skins/skinBandit2AltFollowers": {
+   "name": "Plagued",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/Bandit2Body/Skins/skinBandit2AltHallow": {
+   "name": "Plagued",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/Bandit2Body/Skins/skinBandit2AltSolus": {
+   "name": "Pirated",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/Bandit2Body/Skins/skinBandit2AltSolus_opaque": {
+   "name": "Pirated",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/Bandit2Body/Skins/skinBandit2Default": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/BanditBody/BanditBodyPrimaryFamily.BanditBodyFireShotgun": {
+   "name": "BanditBodyFireShotgun",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/BanditBody/BanditBodySecondaryFamily.BanditBodyLightsOut": {
+   "name": "BanditBodyLightsOut",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/BanditBody/BanditBodySpecialFamily.BanditBodyGrenade": {
+   "name": "BanditBodyGrenade",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/BanditBody/BanditBodyUtilityFamily.BanditBodyCloak": {
+   "name": "BanditBodyCloak",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/BanditBody/Skins/skinBanditBodyDefault": {
+   "name": "skinBanditBodyDefault",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CaptainBody/CaptainPrimarySkillFamily.CaptainShotgun": {
+   "name": "Vulcan Shotgun",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CaptainBody/CaptainSecondarySkillFamily.CaptainTazer": {
+   "name": "Power Tazer",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CaptainBody/CaptainSpecialSkillFamily.PrepSupplyDrop": {
+   "name": "Orbital Supply Beacon",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CaptainBody/CaptainSupplyDrop1SkillFamily.CallSupplyDropEquipmentRestock": {
+   "name": "Beacon: Resupply",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CaptainBody/CaptainSupplyDrop1SkillFamily.CallSupplyDropHacking": {
+   "name": "Beacon: Hacking",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CaptainBody/CaptainSupplyDrop1SkillFamily.CallSupplyDropHealing": {
+   "name": "Beacon: Healing",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CaptainBody/CaptainSupplyDrop1SkillFamily.CallSupplyDropShocking": {
+   "name": "Beacon: Shocking",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CaptainBody/CaptainSupplyDrop2SkillFamily.CallSupplyDropEquipmentRestock": {
+   "name": "Beacon: Resupply",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CaptainBody/CaptainSupplyDrop2SkillFamily.CallSupplyDropHacking": {
+   "name": "Beacon: Hacking",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CaptainBody/CaptainSupplyDrop2SkillFamily.CallSupplyDropHealing": {
+   "name": "Beacon: Healing",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CaptainBody/CaptainSupplyDrop2SkillFamily.CallSupplyDropShocking": {
+   "name": "Beacon: Shocking",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CaptainBody/CaptainUtilitySkillFamily.PrepAirstrike": {
+   "name": "Orbital Probe",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CaptainBody/CaptainUtilitySkillFamily.PrepAirstrikeAlt": {
+   "name": "OGM-72 'DIABLO' Strike",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CaptainBody/Skins/skinCaptainAlt": {
+   "name": "Admiral",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CaptainBody/Skins/skinCaptainAltColossus": {
+   "name": "Colonel",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CaptainBody/Skins/skinCaptainAltFollowers": {
+   "name": "Adrift",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CaptainBody/Skins/skinCaptainAltHollow": {
+   "name": "Adrift",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CaptainBody/Skins/skinCaptainAltSolus": {
+   "name": "Private",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CaptainBody/Skins/skinCaptainAltSolus_opaque": {
+   "name": "Private",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CaptainBody/Skins/skinCaptainDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/ChefBody/ChefPassiveFamily.ChefChefsKiss": {
+   "name": "CHEF\\u2019s Kiss",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ChefBody/ChefPrimaryFamily.ChefDice": {
+   "name": "Dice",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ChefBody/ChefSecondaryFamily.ChefIceBox": {
+   "name": "Ice Box",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ChefBody/ChefSecondaryFamily.ChefSear": {
+   "name": "Sear",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ChefBody/ChefSpecialFamily.ChefGlaze": {
+   "name": "Glaze",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ChefBody/ChefSpecialFamily.YesChef": {
+   "name": "Yes, CHEF!",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ChefBody/ChefUtilityFamily.ChefOilSpill": {
+   "name": "Oil Spill",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ChefBody/ChefUtilityFamily.ChefRolyPoly": {
+   "name": "Roll",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ChefBody/Skins/skinChefAlt": {
+   "name": "PRES-10",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/ChefBody/Skins/skinChefAltLynx": {
+   "name": "KIL-N",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/ChefBody/Skins/skinChefDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CommandoBody/CommandoBodyPrimaryFamily.CommandoBodyFirePistol": {
+   "name": "Double Tap",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CommandoBody/CommandoBodySecondaryFamily.CommandoBodyFireFMJ": {
+   "name": "Phase Round",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CommandoBody/CommandoBodySecondaryFamily.CommandoBodyFireShotgunBlast": {
+   "name": "Phase Blast",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CommandoBody/CommandoBodySpecialFamily.CommandoBodyBarrage": {
+   "name": "Suppressive Fire",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CommandoBody/CommandoBodySpecialFamily.CommandoSabotageSpread": {
+   "name": "Sabotage",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CommandoBody/CommandoBodySpecialFamily.ThrowGrenade": {
+   "name": "Frag Grenade",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CommandoBody/CommandoBodyUtilityFamily.CommandoBodyRoll": {
+   "name": "Tactical Dive",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CommandoBody/CommandoBodyUtilityFamily.CommandoSlide": {
+   "name": "Tactical Slide",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoAlt": {
+   "name": "Hornet",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoAltColorShift01": {
+   "name": "Hornet",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoAltColossus": {
+   "name": "Helot",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoAltLynx": {
+   "name": "Lacerated",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoAltVulture": {
+   "name": "Commandeered",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoUmbraHornet": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoUmbraLesser": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoUmbraMonarch": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoUmbraSilly": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CommandoBody/Skins/skinCommandoUmbraSummoner": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CommandoPerformanceTestBody/CommandoPerformanceTestBodyPrimaryFamily.CommandoPerformanceTestBodyFirePistol": {
+   "name": "Double Tap",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CommandoPerformanceTestBody/CommandoPerformanceTestBodySecondaryFamily.CommandoPerformanceTestBodyFireFMJ": {
+   "name": "Phase Round",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CommandoPerformanceTestBody/CommandoPerformanceTestBodySpecialFamily.CommandoPerformanceTestBodyBarrage": {
+   "name": "Suppressive Fire",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CommandoPerformanceTestBody/CommandoPerformanceTestBodyUtilityFamily.CommandoPerformanceTestBodyRoll": {
+   "name": "Tactical Dive",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CrocoBody/CrocoBodyPassiveFamily.CrocoPassiveBlight": {
+   "name": "Blight",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CrocoBody/CrocoBodyPassiveFamily.CrocoPassivePoison": {
+   "name": "Poison",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CrocoBody/CrocoBodyPrimaryFamily.CrocoSlash": {
+   "name": "Vicious Wounds",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CrocoBody/CrocoBodySecondaryFamily.CrocoBite": {
+   "name": "Ravenous Bite",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CrocoBody/CrocoBodySecondaryFamily.CrocoSpit": {
+   "name": "Neurotoxin",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CrocoBody/CrocoBodySpecialFamily.CrocoBreath": {
+   "name": "Cloying Breath",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CrocoBody/CrocoBodySpecialFamily.CrocoDisease": {
+   "name": "Epidemic",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CrocoBody/CrocoBodyUtilityFamily.CrocoChainableLeap": {
+   "name": "Frenzied Leap",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CrocoBody/CrocoBodyUtilityFamily.CrocoLeap": {
+   "name": "Caustic Leap",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/CrocoBody/Skins/skinCrocoAlt": {
+   "name": "Albino",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CrocoBody/Skins/skinCrocoAltColossus": {
+   "name": "Iguania",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CrocoBody/Skins/skinCrocoAltFollowers": {
+   "name": "Primal",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CrocoBody/Skins/skinCrocoAltVulture": {
+   "name": "Rewild",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/CrocoBody/Skins/skinCrocoDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/DrifterBody/DrifterSurvivorPassiveFamily.DrifterBodyPassiveScrapToStats": {
+   "name": "Trash to Treasure",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DrifterBody/DrifterSurvivorPrimaryFamily.BluntForce": {
+   "name": "Blunt Force",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DrifterBody/DrifterSurvivorSecondaryFamily.Cleanup": {
+   "name": "Cleanup",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DrifterBody/DrifterSurvivorSecondaryFamily.JunkCube": {
+   "name": "Junk Cube",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DrifterBody/DrifterSurvivorSpecial.Salvage": {
+   "name": "Salvage",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DrifterBody/DrifterSurvivorSpecial.Tinker": {
+   "name": "Tinker",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DrifterBody/DrifterSurvivorUtilityFamily.Repossess": {
+   "name": "Repossess",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DrifterBody/DrifterSurvivorUtilityFamily.TornadoSlam": {
+   "name": "Tornado Slam",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DrifterBody/Skins/Drifter.Skin.Alt1": {
+   "name": "Collector",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/DrifterBody/Skins/Drifter.Skin.Default": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/DroneTechBody/DroneTechPassiveSkillFamily1.DroneCombat": {
+   "name": "Gunner Drone Mk 2",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DroneTechBody/DroneTechPassiveSkillFamily1.DroneHauler": {
+   "name": "Transport Drone Mk 2",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DroneTechBody/DroneTechPassiveSkillFamily1.DroneHealing": {
+   "name": "Healing Drone Mk 2",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DroneTechBody/DroneTechPassiveSkillFamily2.DroneCombat": {
+   "name": "Gunner Drone Mk 2",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DroneTechBody/DroneTechPassiveSkillFamily2.DroneHauler": {
+   "name": "Transport Drone Mk 2",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DroneTechBody/DroneTechPassiveSkillFamily2.DroneHealing": {
+   "name": "Healing Drone Mk 2",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DroneTechBody/DroneTechPrimarySkillFamily.FireNanoPistol": {
+   "name": "H3-11 OCR Custom",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DroneTechBody/DroneTechSecondarySkillFamily.Command": {
+   "name": "ADMIN-OVERRIDE",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DroneTechBody/DroneTechSecondarySkillFamily.CommandHeadbutt": {
+   "name": "CMD-SWARM",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DroneTechBody/DroneTechSpecialSkillFamily.DroneBall": {
+   "name": "Ejection Core",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DroneTechBody/DroneTechSpecialSkillFamily.DroneBallShootable": {
+   "name": "Amp Core",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DroneTechBody/DroneTechUtilitySkillFamily.CommandShieldFormation": {
+   "name": "FIREWALL",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DroneTechBody/DroneTechUtilitySkillFamily.DroneLeap": {
+   "name": "Ascent Protocol",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/DroneTechBody/Skins/skinDroneTechDef": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/DroneTechBody/Skins/skinDroneTechDefAlt": {
+   "name": "Drone Division",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/Enforcer2Body/EnforcerPrimarySkill.EnforcerClusterGrenade": {
+   "name": "Shrapnel Grenade",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/Enforcer2Body/EnforcerPrimarySkill.EnforcerRiotShotgun": {
+   "name": "Trenchbroom",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/Enforcer2Body/EnforcerSecondarySkill.EnforcerKineticCharge2": {
+   "name": "Surge Protection",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/Enforcer2Body/EnforcerSecondarySkill.EnforcerProtectAndServeActivate": {
+   "name": "Steel Protection",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/Enforcer2Body/EnforcerSpecialSkill.EnforcerCrowdControlDef": {
+   "name": "Rally Point",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/Enforcer2Body/EnforcerSpecialSkill.ShieldLeap": {
+   "name": "Crash Point",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/Enforcer2Body/EnforcerUtilityFamily.EnforcerShieldTackleCharged": {
+   "name": "Shield Tackle",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/Enforcer2Body/EnforcerUtilityFamily.EnforcerTearGas": {
+   "name": "Ripcord",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/EnforcerBody/EnforcerBodyPrimaryFamily.EnforcerBodyFirePistol": {
+   "name": "EnforcerBodyFirePistol",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/EnforcerBody/EnforcerBodySecondaryFamily.EnforcerBodyFireFMJ": {
+   "name": "EnforcerBodyFireFMJ",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/EnforcerBody/EnforcerBodySpecialFamily.EnforcerBodyFireBarrage": {
+   "name": "EnforcerBodyFireBarrage",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/EnforcerBody/EnforcerBodyUtilityFamily.EnforcerBodyRoll": {
+   "name": "EnforcerBodyRoll",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/EnforcerBody/EnforcerPassiveFamily.EnforcerPassiveBigMan": {
+   "name": "Big Man",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/EnforcerBody/Skins/skinEnforcerAlt": {
+   "name": "Palisade",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EnforcerBody/Skins/skinEnforcerAltFollowers": {
+   "name": "Impasse",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EnforcerBody/Skins/skinEnforcerBodyDefault": {
+   "name": "skinEnforcerBodyDefault",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EnforcerBody/Skins/skinEnforcerDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EngiBeamTurretBody/EngiBeamTurretBodyPrimaryFamily.EngiBeamTurretBodyTurret": {
+   "name": "EngiBeamTurretBodyTurret",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/EngiBeamTurretBody/Skins/skinEngiBeamTurretBodyDefault": {
+   "name": "skinEngiBeamTurretBodyDefault",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EngiBody/EngiBodyPrimaryFamily.EngiBodyFireGrenade": {
+   "name": "Bouncing Grenades",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/EngiBody/EngiBodyPrimaryFamily.LaserCutter": {
+   "name": "Laser Cutter",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/EngiBody/EngiBodySecondaryFamily.EngiBodyPlaceMine": {
+   "name": "Pressure Mines",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/EngiBody/EngiBodySecondaryFamily.EngiBodyPlaceSpiderMine": {
+   "name": "Spider Mines",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/EngiBody/EngiBodySpecialFamily.EngiBodyPlaceTurret": {
+   "name": "TR12 Gauss Auto-Turret",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/EngiBody/EngiBodySpecialFamily.EngiBodyPlaceWalkerTurret": {
+   "name": "TR58 Carbonizer Turret",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/EngiBody/EngiBodyUtilityFamily.EngiBodyPlaceBubbleShield": {
+   "name": "Bubble Shield",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/EngiBody/EngiBodyUtilityFamily.EngiHarpoons": {
+   "name": "Thermal Harpoons",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/EngiBody/Skins/skinEngiAlt": {
+   "name": "EOD Tech",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EngiBody/Skins/skinEngiAltColossus": {
+   "name": "HC Tech",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EngiBody/Skins/skinEngiAltHallow": {
+   "name": "Nautilus",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EngiBody/Skins/skinEngiAltVulture": {
+   "name": "Salvaged",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EngiBody/Skins/skinEngiDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EngiTurretBody/EngiTurretBodyPrimaryFamily.EngiTurretBodyTurret": {
+   "name": "EngiTurretBodyTurret",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/EngiTurretBody/Skins/skinEngiTurretAlt": {
+   "name": "skinEngiTurretAlt",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EngiTurretBody/Skins/skinEngiTurretAltColossus": {
+   "name": "skinEngiTurretAltColossus",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EngiTurretBody/Skins/skinEngiTurretAltHallow": {
+   "name": "skinEngiTurretAltHallow",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EngiTurretBody/Skins/skinEngiTurretAltVulture": {
+   "name": "skinEngiTurretAltVulture",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EngiTurretBody/Skins/skinEngiTurretDefault": {
+   "name": "skinEngiTurretDefault",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EngiWalkerTurretBody/EngiWalkerTurretBodyPrimaryFamily.EngiTurretFireBeam": {
+   "name": "EngiTurretFireBeam",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/EngiWalkerTurretBody/Skins/skinEngiWalkerTurretAlt": {
+   "name": "skinEngiWalkerTurretAlt",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EngiWalkerTurretBody/Skins/skinEngiWalkerTurretAltColossus": {
+   "name": "skinEngiWalkerTurretAltColossus",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EngiWalkerTurretBody/Skins/skinEngiWalkerTurretAltHallow": {
+   "name": "skinEngiWalkerTurretAltHallow",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EngiWalkerTurretBody/Skins/skinEngiWalkerTurretDefault": {
+   "name": "skinEngiWalkerTurretDefault",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/EngiWalkerTurretBody/Skins/skinEngiWalkerTurretVulture": {
+   "name": "skinEngiWalkerTurretVulture",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/FalseSonBody/FalseSonBodyPassiveFamily.FalseSonBodyTheTamperedHeart": {
+   "name": "Lunar Tampering",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBody/FalseSonBodyPrimaryFamily.FalseSonBodyClub": {
+   "name": "Club of the Forsaken",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBody/FalseSonBodySecondaryFamily.FalseSonBodyLunarSpikes": {
+   "name": "Lunar Spikes",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBody/FalseSonBodySecondaryFamily.FalseSonLunarStake": {
+   "name": "Lunar Stakes",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBody/FalseSonBodySpecialFamily.FalseSonBodyLaser": {
+   "name": "Laser of the Father",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBody/FalseSonBodySpecialFamily.FalseSonBodyLaserBurst": {
+   "name": "Laser Burst",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBody/FalseSonBodyUtilityFamily.FalseSonBodyStep": {
+   "name": "Step of the Brothers",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBody/FalseSonBodyUtilityFamily.FalseSonMeridiansWill": {
+   "name": "Meridian's Will",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBody/Skins/skinFalseSonAlt": {
+   "name": "Unchained",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/FalseSonBody/Skins/skinFalseSonAltFungal": {
+   "name": "Envoy",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/FalseSonBody/Skins/skinFalseSonDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/FalseSonBossBody/FalseSonBossLunarShardBrokenPrimaryFamily.FalseSonBossCorruptedPaths": {
+   "name": "Step of the Brothers",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBossBody/FalseSonBossPrimaryFamily.FalseSonBossFissureSlam": {
+   "name": "FalseSonBossFissureSlam",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBossBody/FalseSonBossPrimaryFamily.FalseSonBossSwatAwayPlayers": {
+   "name": "FalseSonBossSwatAwayPlayers",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBossBody/FalseSonBossSecondaryFamily.FalseSonBossLunarRain": {
+   "name": "Step of the Brothers",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBossBody/FalseSonBossSpecialFamily.FalseSonBossPrimeDevastator": {
+   "name": "FalseSonBossPrimeDevastator",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBossBody/FalseSonBossUtilityFamily.FalseSonBossLunarGaze": {
+   "name": "FalseSonBossLunarGaze",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBossBody/Skins/skinFalseSonBossBodyDefault": {
+   "name": "skinFalseSonBossBodyDefault",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/FalseSonBossBodyBrokenLunarShard/FalseSonBossPrimaryFamily.FalseSonBossFissureSlam": {
+   "name": "FalseSonBossFissureSlam",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBossBodyBrokenLunarShard/FalseSonBossPrimaryFamily.FalseSonBossSwatAwayPlayers": {
+   "name": "FalseSonBossSwatAwayPlayers",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBossBodyBrokenLunarShard/FalseSonBossSecondaryFamily.FalseSonBossLunarRain": {
+   "name": "Step of the Brothers",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBossBodyBrokenLunarShard/FalseSonBossSpecialFamily.FalseSonBossPrimeDevastator": {
+   "name": "FalseSonBossPrimeDevastator",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBossBodyBrokenLunarShard/FalseSonBossUtilityFamily.FalseSonBossLunarGaze": {
+   "name": "FalseSonBossLunarGaze",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBossBodyBrokenLunarShard/Skins/skinFalseSonBossBodyBrokenLunarShardDefault": {
+   "name": "skinFalseSonBossBodyBrokenLunarShardDefault",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/FalseSonBossBodyLunarShard/FalseSonBossPrimaryFamily.FalseSonBossFissureSlam": {
+   "name": "FalseSonBossFissureSlam",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBossBodyLunarShard/FalseSonBossPrimaryFamily.FalseSonBossSwatAwayPlayers": {
+   "name": "FalseSonBossSwatAwayPlayers",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBossBodyLunarShard/FalseSonBossSecondaryFamily.FalseSonBossLunarRain": {
+   "name": "Step of the Brothers",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBossBodyLunarShard/FalseSonBossSpecialFamily.FalseSonBossPrimeDevastator": {
+   "name": "FalseSonBossPrimeDevastator",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBossBodyLunarShard/FalseSonBossUtilityFamily.FalseSonBossLunarGaze": {
+   "name": "FalseSonBossLunarGaze",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/FalseSonBossBodyLunarShard/Skins/skinFalseSonBossBodyLunarShardDefault": {
+   "name": "skinFalseSonBossBodyLunarShardDefault",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/HereticBody/HereticPrimaryFamily.HereticDefaultAbility": {
+   "name": "Nevermore",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/HereticBody/HereticSecondaryFamily.HereticDefaultAbility": {
+   "name": "Nevermore",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/HereticBody/HereticSpecialFamily.HereticDefaultAbility": {
+   "name": "Nevermore",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/HereticBody/HereticUtilityFamily.HereticDefaultAbility": {
+   "name": "Nevermore",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/HuntressBody/HuntressBodyPrimaryFamily.FireFlurrySeekingArrow": {
+   "name": "Flurry",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/HuntressBody/HuntressBodyPrimaryFamily.HuntressBodyFireSeekingArrow": {
+   "name": "Strafe",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/HuntressBody/HuntressBodySecondaryFamily.HuntressBodyGlaive": {
+   "name": "Laser Glaive",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/HuntressBody/HuntressBodySecondaryFamily.ThrowCyclone_Kick": {
+   "name": "Laser Cyclone",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/HuntressBody/HuntressBodySpecialFamily.AimArrowSnipe": {
+   "name": "Ballista",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/HuntressBody/HuntressBodySpecialFamily.HuntressBodyArrowRain": {
+   "name": "Arrow Rain",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/HuntressBody/HuntressBodyUtilityFamily.HuntressBodyBlink": {
+   "name": "Blink",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/HuntressBody/HuntressBodyUtilityFamily.HuntressBodyMiniBlink": {
+   "name": "Phase Blink",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/HuntressBody/Skins/skinHuntressAlt": {
+   "name": "Arctic",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/HuntressBody/Skins/skinHuntressAltColossus": {
+   "name": "Woodland",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/HuntressBody/Skins/skinHuntressAltLynx": {
+   "name": "Vesper",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/HuntressBody/Skins/skinHuntressAltVulture": {
+   "name": "Predator",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/HuntressBody/Skins/skinHuntressDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/LoaderBody/LoaderBodyPrimaryFamily.SwingFist": {
+   "name": "Knuckleboom",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/LoaderBody/LoaderBodySecondaryFamily.FireHook": {
+   "name": "Grapple Fist",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/LoaderBody/LoaderBodySecondaryFamily.FireYankHook": {
+   "name": "Spiked Fist",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/LoaderBody/LoaderBodySpecialFamily.GroundSlam": {
+   "name": "Thunderslam",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/LoaderBody/LoaderBodySpecialFamily.ThrowPylon": {
+   "name": "M551 Pylon",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/LoaderBody/LoaderBodyUtilityFamily.ChargeFist": {
+   "name": "Charged Gauntlet",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/LoaderBody/LoaderBodyUtilityFamily.ChargeZapFist": {
+   "name": "Thunder Gauntlet",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/LoaderBody/Skins/skinLoaderAlt": {
+   "name": "Classic",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/LoaderBody/Skins/skinLoaderAltColossus": {
+   "name": "Neoteric",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/LoaderBody/Skins/skinLoaderAltFungal": {
+   "name": "Truffle",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/LoaderBody/Skins/skinLoaderAltSolus": {
+   "name": "Unloaded",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/LoaderBody/Skins/skinLoaderAltSolus_opaque": {
+   "name": "Unloaded",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/LoaderBody/Skins/skinLoaderDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/LunarRainModel/Skins/skinLunarRainModelDefault": {
+   "name": "skinLunarRainModelDefault",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/MageBody/MageBodyPrimaryFamily.MageBodyFireFirebolt": {
+   "name": "Flame Bolt",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/MageBody/MageBodyPrimaryFamily.MageBodyFireLightningBolt": {
+   "name": "Plasma Bolt",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/MageBody/MageBodySecondaryFamily.MageBodyIceBomb": {
+   "name": "Cast Nano-Spear",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/MageBody/MageBodySecondaryFamily.MageBodyNovaBomb": {
+   "name": "Charged Nano-Bomb",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/MageBody/MageBodySpecialFamily.MageBodyFlamethrower": {
+   "name": "Flamethrower",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/MageBody/MageBodySpecialFamily.MageBodyFlyUp": {
+   "name": "Ion Surge",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/MageBody/MageBodyUtilityFamily.MageBodyFireEarthShards": {
+   "name": "Tectonic Blast",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/MageBody/MageBodyUtilityFamily.MageBodyWall": {
+   "name": "Snapfreeze",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/MageBody/Skins/skinMageAlt": {
+   "name": "Chrome",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/MageBody/Skins/skinMageAltColossus": {
+   "name": "Meridian",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/MageBody/Skins/skinMageAltHallow": {
+   "name": "Andradite",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/MageBody/Skins/skinMageAltSolus": {
+   "name": "Struct",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/MageBody/Skins/skinMageAltSolus_opaque": {
+   "name": "Struct",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/MageBody/Skins/skinMageDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/MercBody/MercBodyPrimaryFamily.MercGroundLight2": {
+   "name": "Laser Sword",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/MercBody/MercBodySecondaryFamily.MercBodyUppercut": {
+   "name": "Rising Thunder",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/MercBody/MercBodySecondaryFamily.MercBodyWhirlwind": {
+   "name": "Whirlwind",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/MercBody/MercBodySpecialFamily.MercBodyEvis": {
+   "name": "Eviscerate",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/MercBody/MercBodySpecialFamily.MercBodyEvisProjectile": {
+   "name": "Slicing Winds",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/MercBody/MercBodyUtilityFamily.MercBodyAssaulter": {
+   "name": "Blinding Assault",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/MercBody/MercBodyUtilityFamily.MercBodyFocusedAssault": {
+   "name": "Focused Assault",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/MercBody/Skins/skinMercAlt": {
+   "name": "Oni",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/MercBody/Skins/skinMercAltColossus": {
+   "name": "Frail",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/MercBody/Skins/skinMercAltFungal": {
+   "name": "Rhizine",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/MercBody/Skins/skinMercAltPrisoner": {
+   "name": "The Prisoner",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/MercBody/Skins/skinMercAltVulture": {
+   "name": "Murder",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/MercBody/Skins/skinMercDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/ProliferationFlowerTurretBody/ProliferationFlowerTurretBodyPrimaryFamily.ProliferationFlowerTurretFireShot": {
+   "name": "ProliferationFlowerTurretFireShot",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ProliferationFlowerTurretBody/Skins/skinProliferationFlowerTurretDefault": {
+   "name": "skinProliferationFlowerTurretDefault",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/RailgunnerBody/RailgunnerBodyPrimaryFamily.RailgunnerBodyFirePistol": {
+   "name": "XQR Smart Round System",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/RailgunnerBody/RailgunnerBodySecondaryFamily.RailgunnerBodyScopeHeavy": {
+   "name": "M99 Sniper",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/RailgunnerBody/RailgunnerBodySecondaryFamily.RailgunnerBodyScopeLight": {
+   "name": "HH44 Marksman",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/RailgunnerBody/RailgunnerBodySpecialFamily.RailgunnerBodyChargeSnipeCryo": {
+   "name": "Cryocharge",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/RailgunnerBody/RailgunnerBodySpecialFamily.RailgunnerBodyChargeSnipeSuper": {
+   "name": "Supercharge",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/RailgunnerBody/RailgunnerBodyUtilityFamily.RailgunnerBodyFireMineBlinding": {
+   "name": "Polar Field Device",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/RailgunnerBody/RailgunnerBodyUtilityFamily.RailgunnerBodyFireMineConcussive": {
+   "name": "Concussion Device",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/RailgunnerBody/RailgunnerPassiveFamily.RailgunnerBodyPassiveConvertCrit": {
+   "name": "Magnetic Accelerator",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/RailgunnerBody/Skins/skinRailGunnerAlt": {
+   "name": "Marksman",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/RailgunnerBody/Skins/skinRailGunnerAltColossus": {
+   "name": "Deadeye",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/RailgunnerBody/Skins/skinRailGunnerAltFollowers": {
+   "name": "Crypsis",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/RailgunnerBody/Skins/skinRailGunnerDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/SeekerBody/SeekerBodyPassiveFamily.SeekerBodyInnerStrength": {
+   "name": "Inner Strength",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/SeekerBody/SeekerBodyPrimaryFamily.SeekerBodySpiritPunchCrosshair": {
+   "name": "Spirit Punch",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/SeekerBody/SeekerBodySecondaryFamily.SeekerBodySoulSpiral": {
+   "name": "Soul Spiral",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/SeekerBody/SeekerBodySecondaryFamily.SeekerBodyUnseenHand": {
+   "name": "Unseen Hand",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/SeekerBody/SeekerBodySpecialFamily.SeekerBodyMeditate": {
+   "name": "Meditate",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/SeekerBody/SeekerBodySpecialFamily.SeekerPalmBlast": {
+   "name": "Palm Blast",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/SeekerBody/SeekerBodyUtilityFamily.SeekerBodyReprieve": {
+   "name": "Reprieve",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/SeekerBody/SeekerBodyUtilityFamily.SeekerBodySojourn": {
+   "name": "Sojourn",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/SeekerBody/Skins/skinSeekerAlt": {
+   "name": "Beyond",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/SeekerBody/Skins/skinSeekerAltLynx": {
+   "name": "Vengeance",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/SeekerBody/Skins/skinSeekerDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/ToolbotBody/Skins/skinToolbotAlt": {
+   "name": "Janitor",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/ToolbotBody/Skins/skinToolbotAltColossus": {
+   "name": "Sentry",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/ToolbotBody/Skins/skinToolbotAltFungal": {
+   "name": "Yellowcap",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/ToolbotBody/Skins/skinToolbotAltVulture": {
+   "name": "Birdhouse",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/ToolbotBody/Skins/skinToolbotDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyPrimary1.ToolbotBodyFireBuzzsaw": {
+   "name": "Power-Saw",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyPrimary1.ToolbotBodyFireGrenadeLauncher": {
+   "name": "Scrap Launcher",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyPrimary1.ToolbotBodyFireNailgun": {
+   "name": "Auto-Nailgun",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyPrimary1.ToolbotBodyFireSpear": {
+   "name": "Rebar Puncher",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyPrimary2.ToolbotBodyFireBuzzsaw": {
+   "name": "Power-Saw",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyPrimary2.ToolbotBodyFireGrenadeLauncher": {
+   "name": "Scrap Launcher",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyPrimary2.ToolbotBodyFireNailgun": {
+   "name": "Auto-Nailgun",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyPrimary2.ToolbotBodyFireSpear": {
+   "name": "Rebar Puncher",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodySecondaryFamily.ToolbotBodyStunDrone": {
+   "name": "Blast Canister",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodySpecialFamily.ToolbotBodySwap": {
+   "name": "Retool",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodySpecialFamily.ToolbotDualWield": {
+   "name": "Power Mode",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/ToolbotBody/ToolbotBodyUtilityFamily.ToolbotBodyToolbotDash": {
+   "name": "Transport Mode",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/TreebotBody/Skins/skinTreebotAlt": {
+   "name": "Smoothie",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/TreebotBody/Skins/skinTreebotAltColossus": {
+   "name": "Verdant",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/TreebotBody/Skins/skinTreebotAltHollow": {
+   "name": "Indurate",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/TreebotBody/Skins/skinTreebotAltSolus": {
+   "name": "Merge Branch",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/TreebotBody/Skins/skinTreebotAltSolus_opaque": {
+   "name": "Merge Branch",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/TreebotBody/Skins/skinTreebotDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/TreebotBody/TreebotBodyPrimaryFamily.TreebotBodyFireSyringe": {
+   "name": "DIRECTIVE: Inject",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/TreebotBody/TreebotBodySecondaryFamily.TreebotBodyAimMortar2": {
+   "name": "Seed Barrage",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/TreebotBody/TreebotBodySecondaryFamily.TreebotBodyAimMortarRain": {
+   "name": "DIRECTIVE: Drill",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/TreebotBody/TreebotBodySpecialFamily.TreebotBodyFireFlower2": {
+   "name": "Tangling Growth",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/TreebotBody/TreebotBodySpecialFamily.TreebotBodyFireFruitSeed": {
+   "name": "DIRECTIVE: Harvest",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/TreebotBody/TreebotBodyUtilityFamily.TreebotBodyPlantSonicBoom": {
+   "name": "Bramble Volley",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/TreebotBody/TreebotBodyUtilityFamily.TreebotBodyProliferation": {
+   "name": "Proliferation",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/TreebotBody/TreebotBodyUtilityFamily.TreebotBodySonicBoom": {
+   "name": "DIRECTIVE: Disperse",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/VoidSurvivorBody/Skins/skinVoidSurvivorAlt": {
+   "name": "Purified",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/VoidSurvivorBody/Skins/skinVoidSurvivorAltColossus": {
+   "name": "Sanctified",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/VoidSurvivorBody/Skins/skinVoidSurvivorAltFungal": {
+   "name": "Justified",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/VoidSurvivorBody/Skins/skinVoidSurvivorDefault": {
+   "name": "Default",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/VoidSurvivorBody/VoidSurvivorPassiveFamily.VoidSurvivorPassive": {
+   "name": "\u300eV??oid Co??rruption\u3011",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/VoidSurvivorBody/VoidSurvivorPrimaryFamily.FireHandBeam": {
+   "name": "\u3010D??row?n\u300d",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/VoidSurvivorBody/VoidSurvivorSecondaryFamily.ChargeMegaBlaster": {
+   "name": "\u300eFloo?d\u300d",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/VoidSurvivorBody/VoidSurvivorSpecialFamily.CrushCorruption": {
+   "name": "\u3010Sup??ress\u300f",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/VoidSurvivorBody/VoidSurvivorUtilityFamily.VoidBlinkUp": {
+   "name": "\u300c?Tr?espass\u3011",
+   "category": "skill"
+  },
+  "/Loadout/Bodies/mdlJunkCube/Skins/skinJunkCubePrefabDefault": {
+   "name": "skinJunkCubePrefabDefault",
+   "category": "skin"
+  },
+  "/Loadout/Bodies/mdlSoulBody/Skins/skinAISoulBodyDefault": {
+   "name": "skinAISoulBodyDefault",
+   "category": "skin"
+  },
+  "/Loadouts/": {
+   "name": "/Loadouts/",
+   "category": "setting"
+  },
+  "/Logbook/": {
+   "name": "/Logbook/",
+   "category": "setting"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ACOLYTECLEARGAMEMONSOON_NAME": {
+   "name": "Acolyte: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ACOLYTECLEARULTIMA_NAME": {
+   "name": "Acolyte: Memento Mori",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ACOLYTEJUGGLELEMURIAN_NAME": {
+   "name": "Acolyte: Not Even Close",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ACOLYTEREAPERMULTIKILL_NAME": {
+   "name": "Acolyte: Bloodbath",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ACOLYTEUNIQUESACRIFICES_NAME": {
+   "name": "Acolyte: Hit List",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ACTIVATECHEF_NAME": {
+   "name": "Order Up!",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ATTACKSPEED_NAME": {
+   "name": "Rapidfire",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_AUTOMATIONACTIVATION_NAME": {
+   "name": "Automation Activation",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2CLEARGAMEMONSOON_NAME": {
+   "name": "Bandit: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2CLEARMERIDIANEVENT_NAME": {
+   "name": "Bandit: Cleared Prime Meridian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2CLEARULTIMA_NAME": {
+   "name": "Bandit: Memento Mori",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2CONSECUTIVERESET_NAME": {
+   "name": "Bandit: Classic Man",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2DECOMPILE_NAME": {
+   "name": "Bandit: Accept and Decompile",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2REVOLVERFINALE_NAME": {
+   "name": "Bandit: B&E",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BANDIT2STACKSUPERBLEED_NAME": {
+   "name": "Bandit: Sadist",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BARBECUEQUANTITYBISONINRUN_NAME": {
+   "name": "CHEF: Barbecued Bison Recipe Complete",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BEATARENA_NAME": {
+   "name": "...To Be Left Alone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BURNMITHRIX_NAME": {
+   "name": "CHEF: It's Getting Hot In Here!",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_BURNTODEATH_NAME": {
+   "name": "Warm For Life",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINBUYMEGADRONE_NAME": {
+   "name": "Captain: Worth Every Penny",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINCLEARGAMEMONSOON_NAME": {
+   "name": "Captain: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINCLEARMERIDIANEVENT_NAME": {
+   "name": "Captain: Cleared Prime Meridian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINCLEARULTIMA_NAME": {
+   "name": "Captain: Memento Mori",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINDECOMPILE_NAME": {
+   "name": "Captain: Accept and Decompile",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINSUPPLYDROPFINALE_NAME": {
+   "name": "Captain: Smushed",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CAPTAINVISITSEVERALSTAGES_NAME": {
+   "name": "Captain: Wanderlust",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CARRYLUNARITEMS_NAME": {
+   "name": "Moon Worshipper",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CHAMPRUSHRITUALCOMPLETED_NAME": {
+   "name": "A Broken Ritual",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CHARGETELEPORTERWHILENEARDEATH_NAME": {
+   "name": "Glorious Battle",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CHEFCLEARCHAMPRUSH_NAME": {
+   "name": "CHEF: Dying to Meet You",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CHEFCLEARGAMEMONSOON_NAME": {
+   "name": "CHEF: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CLEANUPDUTY_NAME": {
+   "name": "Cleanup Duty",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CLEARCHAMPRUSH_NAME": {
+   "name": "Dying to Meet You",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CLEARGAMEHEXES_NAME": {
+   "name": "Against All Odds",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CLEARULTIMA_NAME": {
+   "name": "Memento Mori",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDOBEATBROTHERMAXKARMA_NAME": {
+   "name": "Commando: Retribution",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDOCLEARCHAMPRUSH_NAME": {
+   "name": "Commando: Dying to Meet You",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDOCLEARGAMEMONSOON_NAME": {
+   "name": "Commando: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDOCLEARMERIDIANEVENT_NAME": {
+   "name": "Commando: Cleared Prime Meridian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDOFASTFIRSTSTAGECLEAR_NAME": {
+   "name": "Commando: Godspeed",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDOKILLOVERLOADINGWORM_NAME": {
+   "name": "Commando: Rolling Thunder",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDOMERIDIANEVENTTRIGGERACHIEVEMENT_NAME": {
+   "name": "Commando: Cleared Prime Meridian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDONONLUNARENDURANCE_NAME": {
+   "name": "Commando: Incorruptible",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMMANDOPURGE_NAME": {
+   "name": "Commando: Purge",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETE20STAGES_NAME": {
+   "name": "The Long Road",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETE30STAGESCAREER_NAME": {
+   "name": "Engineering Perfection",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEMAINENDINGHARD_NAME": {
+   "name": "The Calm",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEMAINENDING_NAME": {
+   "name": "Washed Away",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEMULTIBOSSSHRINE_NAME": {
+   "name": "Ascendant",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEPRISMATICTRIAL_NAME": {
+   "name": "Prismatically Aligned",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETETELEPORTERWITHOUTINJURY_NAME": {
+   "name": "Flawless",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETETELEPORTER_NAME": {
+   "name": "Advancement",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETETHREESTAGESWITHOUTHEALING_NAME": {
+   "name": "Naturopath",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETETHREESTAGES_NAME": {
+   "name": "Warrior",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEUNKNOWNENDING_NAME": {
+   "name": "True Respite",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_COMPLETEVOIDENDING_NAME": {
+   "name": "Dragged Below",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOBEATBROTHERMAXKARMA_NAME": {
+   "name": "Acrid: Retribution",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOCLEARCHAMPRUSH_NAME": {
+   "name": "Acrid: Dying to Meet You",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOCLEARGAMEMONSOON_NAME": {
+   "name": "Acrid: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOCLEARGAMERESTACK_NAME": {
+   "name": "Acrid: Miracle",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOCLEARMERIDIANEVENT_NAME": {
+   "name": "Acrid: Cleared Prime Meridian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOKILLSCAVENGER_NAME": {
+   "name": "Acrid: Bad Medicine",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOKILLWEAKENEMIESMILESTONE_NAME": {
+   "name": "Acrid: Easy Prey",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOPURGE_NAME": {
+   "name": "Acrid: Purge",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_CROCOTOTALINFECTIONSMILESTONE_NAME": {
+   "name": "Acrid: Pandemic",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DEFEATFALSESON_NAME": {
+   "name": "King of the Hill",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DEFEATSUPERROBOBALLBOSS_NAME": {
+   "name": "Guidance Offline",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DIE20TIMES_NAME": {
+   "name": "I Love Dying!",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DIE5TIMES_NAME": {
+   "name": "Learning Process",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DISCOVER10UNIQUETIER1_NAME": {
+   "name": "The Basics",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DISCOVER5EQUIPMENT_NAME": {
+   "name": "Experimenting",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DRIFTERCLEARGAMEMONSOON_NAME": {
+   "name": "Drifter: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DRIFTERJUNKCUBEACHIEVEMENT_NAME": {
+   "name": "Drifter: Trash Compactor",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DRIFTERTINKERACHIEVEMENT_NAME": {
+   "name": "Drifter: Leave No Trace",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DRIFTERTORNADOSLAMACHIEVEMENT_NAME": {
+   "name": "Drifter: In The Bag",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DRONETECHCLEARGAMEMONSOON_NAME": {
+   "name": "Operator: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DRONETECHDEFEATVULTUREBOSSWHILEAIRBORNE_NAME": {
+   "name": "Operator: Not So Different",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DRONETECHJUGGLELEMURIAN_NAME": {
+   "name": "Operator: That Just Happened",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DRONETECHTRICKSHOT_NAME": {
+   "name": "Operator: That All You Got?",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_DRONETECHUNIQUEDRONES_NAME": {
+   "name": "Operator: Putting Together a Team",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENFORCER2BLOCKXTELEPORTER_NAME": {
+   "name": "Enforcer: Safe and Sound",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENFORCER2CLEARCHAMPRUSH_NAME": {
+   "name": "Enforcer: Dying to Meet You",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENFORCER2CLEARGAMEMONSOON_NAME": {
+   "name": "Enforcer: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENFORCER2PARRYVAGRANT_NAME": {
+   "name": "Enforcer: +PARRY",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENFORCER2REPEATEDLYDAMAGEMAGMAWORM_NAME": {
+   "name": "Enforcer: Burning Lead",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENFORCER2TANKTITANLASER_NAME": {
+   "name": "Enforcer: Indomitable",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGIARMY_NAME": {
+   "name": "Engineer: Better With Friends",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGIBATTERYDRONE_NAME": {
+   "name": "Engineer: Mad Scientist",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGIBEATBROTHERMAXKARMA_NAME": {
+   "name": "Engineer: Retribution",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGICLEARGAMEMONSOON_NAME": {
+   "name": "Engineer: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGICLEARMERIDIANEVENT_NAME": {
+   "name": "Engineer: Cleared Prime Meridian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGICLEARTELEPORTERWITHZEROMONSTERS_NAME": {
+   "name": "Engineer: Zero Sum",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGICLEARULTIMA_NAME": {
+   "name": "Engineer: Memento Mori",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGIKILLBOSSQUICK_NAME": {
+   "name": "Engineer: 100% Calculated",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ENGIPURGE_NAME": {
+   "name": "Engineer: Purge",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FAILSHRINECHANCE_NAME": {
+   "name": "\\\"Is This Bugged?\\\"",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FALSESONCLEARGAMEHEXES_NAME": {
+   "name": "False Son: Against All Odds",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FALSESONCLEARGAMEMONSOON_NAME": {
+   "name": "False Son: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FALSESONGROWTHCHALLENGE_NAME": {
+   "name": "False Son: Protein Heavy Diet",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FALSESONKILLMITHRIXWITHGOLDENGAL_NAME": {
+   "name": "False Son: Family Bonding",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FALSESONLASERMULTIKILL_NAME": {
+   "name": "False Son: Stare Them Down",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FINDCLAYDOLLS_NAME": {
+   "name": "Lunar Omens",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FINDDEVILALTAR_NAME": {
+   "name": "Her Concepts",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FINDTIMEDCHEST_NAME": {
+   "name": "[REDACTED]",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FINDUNIQUENEWTSTATUES_NAME": {
+   "name": "Newtist",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FREEDRIFTER_NAME": {
+   "name": "Lost in Transit",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_FREEMAGE_NAME": {
+   "name": "Pause.",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HARDELITEBOSSKILL_NAME": {
+   "name": "Deicide",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HARDHITTER_NAME": {
+   "name": "Macho",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSALLGLAIVEBOUNCESKILL_NAME": {
+   "name": "Huntress: Finishing Touch",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSBEATBROTHERMAXKARMA_NAME": {
+   "name": "Huntress: Retribution",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSCLEARCHAMPRUSH_NAME": {
+   "name": "Huntress: Dying to Meet You",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSCLEARGAMEMONSOON_NAME": {
+   "name": "Huntress: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSCLEARMERIDIANEVENT_NAME": {
+   "name": "Huntress: Cleared Prime Meridian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSCOLLECTARTIFACT_NAME": {
+   "name": "Huntress: Tomb Raider",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSCOLLECTCROWBARS_NAME": {
+   "name": "Huntress: One Shot, One Kill",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSMAINTAINFULLHEALTHONFROZENWALL_NAME": {
+   "name": "Huntress: Piercing Wind",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_HUNTRESSPURGE_NAME": {
+   "name": "Huntress: Purge",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLBOSSQUANTITYINRUN_NAME": {
+   "name": "Blockade Breaker",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLBOSSQUICK_NAME": {
+   "name": "Keyed Up",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLELEMENTALLEMURIANS_NAME": {
+   "name": "Death Do Us Part",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLELITEMONSTER_NAME": {
+   "name": "Elite Slayer",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLELITESMILESTONE_NAME": {
+   "name": "Cut Down",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLGOLDTITANINONECYCLE_NAME": {
+   "name": "Blackout",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_KILLTOTALENEMIES_NAME": {
+   "name": "Slaughter",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERBIGSLAM_NAME": {
+   "name": "Loader: Earthshatter",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERCLEARGAMEHEXES_NAME": {
+   "name": "Loader: Against All Odds",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERCLEARGAMEMONSOON_NAME": {
+   "name": "Loader: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERCLEARMERIDIANEVENT_NAME": {
+   "name": "Loader: Cleared Prime Meridian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERDECOMPILE_NAME": {
+   "name": "Loader: Accept and Decompile",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERKILLLOADERS_NAME": {
+   "name": "Loader: The Thunderdome",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOADERSPEEDRUN_NAME": {
+   "name": "Loader: Swing By",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOGCOLLECTOR_NAME": {
+   "name": "Bookworm",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_LOOPONCE_NAME": {
+   "name": "Deja Vu?",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGEAIRBORNEMULTIKILL_NAME": {
+   "name": "Artificer: Orbital Bombardment",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGEBEATBROTHERMAXKARMA_NAME": {
+   "name": "Artificer: Retribution",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGECLEARGAMEMONSOON_NAME": {
+   "name": "Artificer: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGECLEARMERIDIANEVENT_NAME": {
+   "name": "Artificer: Cleared Prime Meridian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGECLEARULTIMA_NAME": {
+   "name": "Artificer: Memento Mori",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGEDECOMPILE_NAME": {
+   "name": "Artificer: Accept and Decompile",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGEFASTBOSS_NAME": {
+   "name": "Artificer: Chunked!",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGEMULTIKILL_NAME": {
+   "name": "Artificer: Massacre",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAGEPILLARSKIP_NAME": {
+   "name": "Artificer: One Giant Leap",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAJORMULTIKILL_NAME": {
+   "name": "Multikill!",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MAXHEALINGSHRINE_NAME": {
+   "name": "One with the Woods",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCCLEARGAMEHEXES_NAME": {
+   "name": "Mercenary: Against All Odds",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCCLEARGAMEMONSOON_NAME": {
+   "name": "Mercenary: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCCLEARMERIDIANEVENT_NAME": {
+   "name": "Mercenary: Cleared Prime Meridian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCCOMPLETETRIALWITHFULLHEALTH_NAME": {
+   "name": "Mercenary: Ethereal",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCDONTTOUCHGROUND_NAME": {
+   "name": "Mercenary: Demon of the Skies",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCPURGE_NAME": {
+   "name": "Mercenary: Purge",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERCXSKILLSINYSECONDS_NAME": {
+   "name": "Mercenary: Flash of Blades",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MERIDIANEVENTTRIGGERACHIEVEMENT_NAME": {
+   "name": "Prime Meridian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MOVESPEED_NAME": {
+   "name": "Going Fast Recommended",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_MULTICOMBATSHRINE_NAME": {
+   "name": "Warmonger",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_NEVERBACKDOWN_NAME": {
+   "name": "Never Back Down",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_NUKESOJOURN_NAME": {
+   "name": "Seeker: Scorched Earth",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTBOMB_NAME": {
+   "name": "Trial of Spite",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTCOMMAND_NAME": {
+   "name": "Trial of Command",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTDELUSION_NAME": {
+   "name": "Trial of Delusion",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTDEVOTION_NAME": {
+   "name": "Trial of Devotion",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTELITEONLY_NAME": {
+   "name": "Trial of Honor",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTENIGMA_NAME": {
+   "name": "Trial of Enigma",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTFRIENDLYFIRE_NAME": {
+   "name": "Trial of Chaos",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTGLASS_NAME": {
+   "name": "Trial of Glass",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTMIXENEMY_NAME": {
+   "name": "Trial of Dissonance",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTMONSTERTEAMGAINSITEMS_NAME": {
+   "name": "Trial of Evolution",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTPRESTIGE_NAME": {
+   "name": "Trial of Prestige",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTRANDOMSURVIVORONRESPAWN_NAME": {
+   "name": "Trial of Metamorphosis",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTREBIRTH_NAME": {
+   "name": "Experienced Rebirth",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTSACRIFICE_NAME": {
+   "name": "Trial of Sacrifice",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTSHADOWCLONE_NAME": {
+   "name": "Trial of Vengeance",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTSINGLEMONSTERTYPE_NAME": {
+   "name": "Trial of Kin",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTSWARMS_NAME": {
+   "name": "Trial of Swarms",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTTEAMDEATH_NAME": {
+   "name": "Trial of Death",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTWEAKASSKNEES_NAME": {
+   "name": "Trial of Frailty",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_OBTAINARTIFACTWISPONDEATH_NAME": {
+   "name": "Trial of Soul",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERAIRBORNEMULTIKILL_NAME": {
+   "name": "Railgunner: Trickshot",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERCLEARGAMEHEXES_NAME": {
+   "name": "Railgunner: Against All Odds",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERCLEARGAMEMONSOON_NAME": {
+   "name": "Railgunner: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERCLEARMERIDIANEVENT_NAME": {
+   "name": "Railgunner: Cleared Prime Meridian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERCONSECUTIVEWEAKPOINTS_NAME": {
+   "name": "Railgunner: Marksman",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RAILGUNNERDEALMASSIVEDAMAGE_NAME": {
+   "name": "Railgunner: Annihilator",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_REPEATEDLYDUPLICATEITEMS_NAME": {
+   "name": "...Maybe One More.",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_REPEATFIRSTTELEPORTER_NAME": {
+   "name": "Verified",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_RESCUETREEBOT_NAME": {
+   "name": "Power Plant",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_ROLYPOLYHITFIVEAIRENEMIES_NAME": {
+   "name": "CHEF: You've Always Been Crazy",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_SAVEDRIFTERFROMSOLUSWING_NAME": {
+   "name": "Drifting",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_SEEKERAIRMULTIHIT_NAME": {
+   "name": "Seeker: Airborne Souls",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_SEEKERCLEARCHAMPRUSH_NAME": {
+   "name": "Seeker: Dying to Meet You",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_SEEKERCLEARGAMEMONSOON_NAME": {
+   "name": "Seeker: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_SEEKERPERFECT20MEDITATION_NAME": {
+   "name": "Seeker: Clear Mind",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_STAYALIVE1_NAME": {
+   "name": "The Lone Survivor",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_SUICIDEHERMITCRABS_NAME": {
+   "name": "The Demons And The Crabs",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTBEATARENALATER_NAME": {
+   "name": "MUL-T: Seventh Day",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTCLEARGAMEHEXES_NAME": {
+   "name": "MUL-T: Against All Odds",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTCLEARGAMEMONSOON_NAME": {
+   "name": "MUL-T: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTCLEARMERIDIANEVENT_NAME": {
+   "name": "MUL-T: Cleared Prime Meridian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTGUARDTELEPORTER_NAME": {
+   "name": "MUL-T: Pest Control",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTKILLIMPBOSSWITHBFG_NAME": {
+   "name": "MUL-T: Gotcha!",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOOLBOTPURGE_NAME": {
+   "name": "MUL-T: Purge",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOTALDRONESREPAIRED_NAME": {
+   "name": "Mechanic",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TOTALMONEYCOLLECTED_NAME": {
+   "name": "Funded!",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTBEATBROTHERMAXKARMA_NAME": {
+   "name": "REX: Retribution",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTBIGHEAL_NAME": {
+   "name": "REX: Full of Life",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTCLEARGAMEMONSOON_NAME": {
+   "name": "REX: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTCLEARGAMEWITHLUNARS_NAME": {
+   "name": "REX: Invasive Growth",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTCLEARMERIDIANEVENT_NAME": {
+   "name": "REX: Cleared Prime Meridian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTCLEARULTIMA_NAME": {
+   "name": "REX: Memento Mori",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTDECOMPILE_NAME": {
+   "name": "REX: Accept and Decompile",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTDUNKCLAYBOSS_NAME": {
+   "name": "REX: Dunked",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_TREEBOTLOWHEALTHTELEPORTER_NAME": {
+   "name": "REX: Bushwhacked",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_UNLOCKFALSESON_NAME": {
+   "name": "Purified Freedom",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_USETHREEPORTALS_NAME": {
+   "name": "Cosmic Explorer",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_VOIDSURVIVORCLEARGAMEHEXES_NAME": {
+   "name": "\u300cV??oid Fiend\u300f: Against All Odds",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_VOIDSURVIVORCLEARGAMEMONSOON_NAME": {
+   "name": "\u300cV??oid Fiend\u300f: Mastery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT_VOIDSURVIVORCLEARMERIDIANEVENT_NAME": {
+   "name": "\u300cV??oid Fiend\u300f: Cleared Prime Meridian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT__NAME": {
+   "name": "/Logbook/LOGBOOK_CATEGORY_ACHIEVEMENTS/ACHIEVEMENT__NAME",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/BAZAAR_UPGRADE_DRONE_NAME": {
+   "name": "Slab",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONETECHSHIELD_BODY_NAME": {
+   "name": "Drone Firewall",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONETECH_COMPANIONCOMBAT_NAME": {
+   "name": "Gunner Drone Mk 2",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONETECH_COMPANIONHAULER_NAME": {
+   "name": "Transport Drone Mk 2",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONETECH_COMPANIONHEALING_NAME": {
+   "name": "Healing Drone Mk 2",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONETECH_GUNNERDRONE_NAME": {
+   "name": "CROSSHAIRS",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONETECH_HAULERDRONE_NAME": {
+   "name": "CHIRP",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONETECH_HEALINGDRONE_NAME": {
+   "name": "DOC",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONETECH_PASSIVE_NAME": {
+   "name": "Drone Tech",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONETECH_PRIMARY_ALT_NAME": {
+   "name": "Nano Canister",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONETECH_PRIMARY_NAME": {
+   "name": "H3-11 OCR Custom",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONETECH_SECONDARY_ALT_NAME": {
+   "name": "CMD-SWARM",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONETECH_SECONDARY_NAME": {
+   "name": "ADMIN-OVERRIDE",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONETECH_SKIN_ALT1_NAME": {
+   "name": "Drone Division",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONETECH_SPECIAL_ALT_NAME": {
+   "name": "Amp Core",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONETECH_SPECIAL_NAME": {
+   "name": "Ejection Core",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONETECH_UTILITY_ALT_NAME": {
+   "name": "FIREWALL",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONETECH_UTILITY_NAME": {
+   "name": "Ascent Protocol",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_ASSEMBLY_NAME": {
+   "name": "Drone Upgrade Station",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_BACKUP_BODY_NAME": {
+   "name": "Strike Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_BACKUP_PRIMARY_SKILL_NAME": {
+   "name": "Enfilade",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_BOMBARDMENT_BODY_NAME": {
+   "name": "Bombardment Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_BOMBARDMENT_INTERACTABLE_NAME": {
+   "name": "Broken Bombardment Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_BOMBARDMENT_PRIMARY_SKILL_NAME": {
+   "name": "Bombardment",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_BOMBER_BODY_NAME": {
+   "name": "Lt. Droneboy",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_CLEANUP_BODY_NAME": {
+   "name": "Cleanup Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_CLEANUP_INTERACTABLE_NAME": {
+   "name": "Broken Cleanup Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_CLEANUP_PRIMARY_SKILL_NAME": {
+   "name": "Recycle",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_COMBINER_NAME": {
+   "name": "Drone Combiner Station",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_COMMANDER_BODY_NAME": {
+   "name": "Col. Droneman",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_COMMAND_SKILL_NAME": {
+   "name": "Activate",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_COPYCAT_BODY_NAME": {
+   "name": "Freeze Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_COPYCAT_INTERACTABLE_NAME": {
+   "name": "Broken Freeze Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_COPYCAT_PRIMARY_SKILL_NAME": {
+   "name": "Freeze Disc",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_DTGUNNER_BODY_NAME": {
+   "name": "CROSSHAIRS",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_DTGUNNER_INTERACTABLE_NAME": {
+   "name": "Rebooting Gunner Drone Mk 2",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_DTHAULER_BODY_NAME": {
+   "name": "CHIRP",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_DTHAULER_INTERACTABLE_NAME": {
+   "name": "Rebooting Transport Drone Mk 2",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_DTHEALING_BODY_NAME": {
+   "name": "DOC",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_DTHEALING_INTERACTABLE_NAME": {
+   "name": "Rebooting Healing Drone Mk 2",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_EMERGENCY_PRIMARY_SKILL_NAME": {
+   "name": "Enhanced Heal Beam",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_FLAME_PRIMARY_SKILL_NAME": {
+   "name": "Flamethrower",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_GUNNER_BODY_NAME": {
+   "name": "Gunner Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_GUNNER_INTERACTABLE_NAME": {
+   "name": "Broken Gunner Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_GUNNER_PRIMARY_SKILL_NAME": {
+   "name": "Fusilade",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_HAULER_BODY_NAME": {
+   "name": "Transport Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_HAULER_INTERACTABLE_NAME": {
+   "name": "Broken Transport Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_HEALING_BODY_NAME": {
+   "name": "Healing Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_HEALING_INTERACTABLE_NAME": {
+   "name": "Broken Healing Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_HEALING_PRIMARY_SKILL_NAME": {
+   "name": "Heal Beam",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_JAILER_BODY_NAME": {
+   "name": "Jailer Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_JAILER_INTERACTABLE_NAME": {
+   "name": "Broken Jailer Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_JAILER_PRIMARY_SKILL_NAME": {
+   "name": "Lockdown",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_JUNK_BODY_NAME": {
+   "name": "Junk Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_JUNK_INTERACTABLE_NAME": {
+   "name": "Broken Junk Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_JUNK_PRIMARY_SKILL_NAME": {
+   "name": "Surprise!",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_MEGA_BODY_NAME": {
+   "name": "TC-280 Prototype",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_MEGA_INTERACTABLE_NAME": {
+   "name": "Broken TC-280",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_MEGA_PRIMARY_SKILL_NAME": {
+   "name": "Mega Turret",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_MEGA_SECONDARY_SKILL_NAME": {
+   "name": "Twin Rocket",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_MISSILE_BODY_NAME": {
+   "name": "Missile Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_MISSILE_INTERACTABLE_NAME": {
+   "name": "Broken Missile Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_MISSILE_PRIMARY_SKILL_NAME": {
+   "name": "Missile Barrage",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_RECHARGE_BODY_NAME": {
+   "name": "Barrier Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_RECHARGE_INTERACTABLE_NAME": {
+   "name": "Broken Barrier Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_RECHARGE_PRIMARY_SKILL_NAME": {
+   "name": "Barrier Buildup",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_SCRAPPER_NAME": {
+   "name": "Drone Scrapper",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/DRONE_VENDOR_TERMINAL_NAME": {
+   "name": "Triple Drone Shop",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/EMERGENCYDRONE_BODY_NAME": {
+   "name": "Emergency Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/EMERGENCYDRONE_INTERACTABLE_NAME": {
+   "name": "Broken Emergency Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/ENGITURRET_BODY_NAME": {
+   "name": "Engineer Turret",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/EQUIPMENTDRONE_BODY_NAME": {
+   "name": "Equipment Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/EQUIPMENTDRONE_INTERACTABLE_NAME": {
+   "name": "Broken Equipment Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/FLAMEDRONE_BODY_NAME": {
+   "name": "Incinerator Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/FLAMEDRONE_INTERACTABLE_NAME": {
+   "name": "Broken Incinerator Drone",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/FLOWERTURRET_BODY_NAME": {
+   "name": "Offshoot",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/LYNXGHOSTTURRETBODY_NAME": {
+   "name": "Lingering Spirit",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/SQUIDTURRET_BODY_NAME": {
+   "name": "Squid Turret",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/TURRET1_BODY_NAME": {
+   "name": "Gunner Turret",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/TURRET1_INTERACTABLE_NAME": {
+   "name": "Broken Gunner Turret",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_DRONE/URCHINTURRET_BODY_NAME": {
+   "name": "Malachite Urchin",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_AFFIXAURELIONITE_NAME": {
+   "name": "Aurelionite's Blessing",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_AFFIXBEAD_NAME": {
+   "name": "His Spiteful Boon",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_AFFIXBLUE_NAME": {
+   "name": "Silence Between Two Strikes",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_AFFIXCOLLECTIVE_NAME": {
+   "name": "Of One Mind",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_AFFIXDEATH_NAME": {
+   "name": "N'kuhana's Rebirth",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_AFFIXEARTH_NAME": {
+   "name": "His Reassurance",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_AFFIXGOLD_NAME": {
+   "name": "Coven of Gold",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_AFFIXHAUNTED_NAME": {
+   "name": "Spectral Circlet",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_AFFIXLUNAR_NAME": {
+   "name": "Shared Design",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_AFFIXPOISON_NAME": {
+   "name": "N'kuhana's Retort",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_AFFIXRED_NAME": {
+   "name": "Ifrit's Distinction",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_AFFIXSECRETSPEED_NAME": {
+   "name": "Beyond the Limits",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_AFFIXWHITE_NAME": {
+   "name": "Her Biting Embrace",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_BFG_NAME": {
+   "name": "Preon Accumulator",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_BLACKHOLE_NAME": {
+   "name": "Primordial Cube",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_BOSSHUNTERCONSUMED_NAME": {
+   "name": "Trophy Hunter's Tricorn (Consumed)",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_BOSSHUNTER_NAME": {
+   "name": "Trophy Hunter's Tricorn",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_BURNNEARBY_NAME": {
+   "name": "Helfire Tincture",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_CLEANSE_NAME": {
+   "name": "Blast Shower",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_COMMANDMISSILE_NAME": {
+   "name": "Disposable Missile Launcher",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_CRIPPLEWARD_NAME": {
+   "name": "Effigy of Grief",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_CRITONUSE_NAME": {
+   "name": "Ocular HUD",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_DEATHPROJECTILE_NAME": {
+   "name": "Forgive Me Please",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_DISABLED_NAME": {
+   "name": "Disabled",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_DRONEBACKUP_NAME": {
+   "name": "The Back-up",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_DRONESHOCKDAMAGE_NAME": {
+   "name": "Faulty Conductor",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_FIREBALLDASH_NAME": {
+   "name": "Volcanic Egg",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_FRUIT_NAME": {
+   "name": "Foreign Fruit",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GAINARMOR_NAME": {
+   "name": "Jade Elephant",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GATEWAY_NAME": {
+   "name": "Eccentric Vase",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GHOSTGUN_NAME": {
+   "name": "Reaper's Remorse",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GOLDGAT_NAME": {
+   "name": "The Crowdfunder",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GROUNDENEMIES_NAME": {
+   "name": "G-Force Accelerator",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_GUMMYCLONE_NAME": {
+   "name": "Goobo Jr.",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_HEALANDREVIVECONSUMED_NAME": {
+   "name": "Seed of Life (Consumed)",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_HEALANDREVIVE_NAME": {
+   "name": "Seed of Life",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_IRRADIATINGLASER_NAME": {
+   "name": "Overloading Excavator",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_JETPACK_NAME": {
+   "name": "Milky Chrysalis",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_LIFESTEALONHIT_NAME": {
+   "name": "Super Massive Leech",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_LIGHTNING_NAME": {
+   "name": "Royal Capacitor",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_LUNARPORTALONUSE_NAME": {
+   "name": "Elegy of Extinction",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_METEOR_NAME": {
+   "name": "Glowing Meteorite",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_MOLOTOV_NAME": {
+   "name": "Molotov (6-Pack)",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_MULTISHOPCARD_NAME": {
+   "name": "Executive Card",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_PARRY_NAME": {
+   "name": "Deus Ex Machina",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_PASSIVEHEALING_NAME": {
+   "name": "Gnarled Woodsprite",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_QUESTVOLATILEBATTERY_NAME": {
+   "name": "Fuel Array",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_RECYCLER_NAME": {
+   "name": "Recycler",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_SAWMERANG_NAME": {
+   "name": "Sawmerang",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_SCANNER_NAME": {
+   "name": "Radar Scanner",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_SOULCORRUPTOR_NAME": {
+   "name": "EQUIPMENT_SOULCORRUPTOR_NAME",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_SOULJAR_NAME": {
+   "name": "Jar of Souls",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_SPAWNALTAR_NAME": {
+   "name": "Totem of Sacrifice",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_TEAMWARCRY_NAME": {
+   "name": "Gorag's Opus",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_TONIC_NAME": {
+   "name": "Spinel Tonic",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/EQUIPMENT_VENDINGMACHINE_NAME": {
+   "name": "Remote Caffeinator",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ALIENHEAD_NAME": {
+   "name": "Alien Head",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ANCESTRALINCUBATOR_NAME": {
+   "name": "Ancestral Incubator",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ARMORREDUCTIONONHIT_NAME": {
+   "name": "Shattering Justice",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ARTIFACTKEY_NAME": {
+   "name": "Artifact Key",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ATTACKSPEEDANDMOVESPEED_NAME": {
+   "name": "Mocha",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ATTACKSPEEDONCRIT_NAME": {
+   "name": "Predatory Instincts",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ATTACKSPEEDPERNEARBYALLYORENEMY_NAME": {
+   "name": "Bolstering Lantern",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_AUTOCASTEQUIPMENT_NAME": {
+   "name": "Gesture of the Drowned",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BANDOLIER_NAME": {
+   "name": "Bandolier",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BARRAGEONBOSS_NAME": {
+   "name": "War Bonds",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BARRIERENEMIES_NAME": {
+   "name": "Hex of Ossification",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BARRIERONCOOLDOWN_NAME": {
+   "name": "Eclipse Lite",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BARRIERONKILL_NAME": {
+   "name": "Topaz Brooch",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BARRIERONOVERHEAL_NAME": {
+   "name": "Aegis",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BEARVOID_NAME": {
+   "name": "Safer Spaces",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BEAR_NAME": {
+   "name": "Tougher Times",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BEETLEGLAND_NAME": {
+   "name": "Queen's Gland",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BEHEMOTH_NAME": {
+   "name": "Brilliant Behemoth",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BLEEDONHITANDEXPLODE_NAME": {
+   "name": "Shatterspleen",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BLEEDONHITVOID_NAME": {
+   "name": "Needletick",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BLEEDONHIT_NAME": {
+   "name": "Tri-Tip Dagger",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BLIGHTZONE_NAME": {
+   "name": "Corpse Lily",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BLINDNESS_NAME": {
+   "name": "Hex of Blindness",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BONUSGOLDPACKONKILL_NAME": {
+   "name": "Ghor's Tome",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BONUSHEALTHBOOST_NAME": {
+   "name": "Quick Fix",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BOOSTALLSTATS_NAME": {
+   "name": "Growth Nectar",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BOSSDAMAGEBONUS_NAME": {
+   "name": "Armor-Piercing Rounds",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_BOUNCENEARBY_NAME": {
+   "name": "Sentient Meat Hook",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CAPTAINDEFENSEMATRIX_NAME": {
+   "name": "Defensive Microbots",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CAUSTICPHEROMONES_NAME": {
+   "name": "Infernal Mark",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CHAINLIGHTNINGVOID_NAME": {
+   "name": "Polylute",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CHAINLIGHTNING_NAME": {
+   "name": "Ukulele",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CLOVERVOID_NAME": {
+   "name": "Benthic Bloom",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CLOVER_NAME": {
+   "name": "57 Leaf Clover",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_COOKEDSTEAK_NAME": {
+   "name": "Seared Steak",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_COOLDOWNONCRIT_NAME": {
+   "name": "Wicked Ring",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CRITATLOWERELEVATION_NAME": {
+   "name": "Hiker's Boots",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CRITDAMAGE_NAME": {
+   "name": "Laser Scope",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CRITGLASSESVOID_NAME": {
+   "name": "Lost Seer's Lenses",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CRITGLASSES_NAME": {
+   "name": "Lens-Maker's Glasses",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_CROWBAR_NAME": {
+   "name": "Crowbar",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_DAGGER_NAME": {
+   "name": "Ceremonial Dagger",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_DEATHMARK_NAME": {
+   "name": "Death Mark",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_DELAYEDDAMAGE_NAME": {
+   "name": "Warped Echo",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_DREAMDEMON_NAME": {
+   "name": "Nightmare Demon",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_DRONESDROPDYNAMITE_NAME": {
+   "name": "Box of Dynamite",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_DRONEWEAPONS_NAME": {
+   "name": "Spare Drone Parts",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_DUPLICATOR_NAME": {
+   "name": "Substandard Duplicator",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ELEMENTALRINGS_NAME": {
+   "name": "Kjaro and Runald's Bands",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ELEMENTALRINGVOID_NAME": {
+   "name": "Singularity Band",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ENERGIZEDONEQUIPMENTUSE_NAME": {
+   "name": "War Horn",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EQUIPMENTMAGAZINEVOID_NAME": {
+   "name": "Lysate Cell",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EQUIPMENTMAGAZINE_NAME": {
+   "name": "Fuel Cell",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXECUTELOWHEALTHELITE_NAME": {
+   "name": "Old Guillotine",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXPLODEONDEATHVOID_NAME": {
+   "name": "Voidsent Flame",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXPLODEONDEATH_NAME": {
+   "name": "Will-o'-the-wisp",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXTRAEQUIPMENT_NAME": {
+   "name": "Functional Coupler",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXTRALIFECONSUMED_NAME": {
+   "name": "Dio's Best Friend (Consumed)",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXTRALIFEVOIDCONSUMED_NAME": {
+   "name": "Pluripotent Larva (Consumed)",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXTRALIFEVOID_NAME": {
+   "name": "Pluripotent Larva",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXTRALIFE_NAME": {
+   "name": "Dio's Best Friend",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXTRASHRINEITEM_NAME": {
+   "name": "Chance Doll",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_EXTRASTATSONLEVELUP_NAME": {
+   "name": "Prayer Beads",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FALLBOOTS_NAME": {
+   "name": "H3AD-5T v2",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FEATHER_NAME": {
+   "name": "Hopoo Feather",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FIREBALLSONHIT_NAME": {
+   "name": "Molten Perforator",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FIRERING_NAME": {
+   "name": "Kjaro's Band",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FIREWORK_NAME": {
+   "name": "Bundle of Fireworks",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FLATHEALTH_NAME": {
+   "name": "Bison Steak",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FOCUSEDCONVERGENCE_NAME": {
+   "name": "Focused Convergence",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FRAGILEDAMAGEBONUSCONSUMED_NAME": {
+   "name": "Delicate Watch (Broken)",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FRAGILEDAMAGEBONUS_NAME": {
+   "name": "Delicate Watch",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_FREECHEST_NAME": {
+   "name": "Shipping Request Form",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_GHOSTBLADES_NAME": {
+   "name": "Stained Scimitar",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_GHOSTONKILL_NAME": {
+   "name": "Happiest Mask",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_GOLDENGOOSE_NAME": {
+   "name": "Totem of Avarice",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_GOLDONHIT_NAME": {
+   "name": "Brittle Crown",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_GOLDONHURT_NAME": {
+   "name": "Roll of Pennies",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_GOLDONSTAGESTART_NAME": {
+   "name": "War Bonds",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HALFATTACKSPEEDHALFCOOLDOWNS_NAME": {
+   "name": "Light Flux Pauldron",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HALFSPEEDDOUBLEHEALTH_NAME": {
+   "name": "Stone Flux Pauldron",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEADHUNTER_NAME": {
+   "name": "Wake of Vultures",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEALINGPOTIONCONSUMED_NAME": {
+   "name": "Empty Bottle",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEALINGPOTION_NAME": {
+   "name": "Power Elixir",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEALONCRIT_NAME": {
+   "name": "Harvester's Scythe",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEALWHILESAFE_NAME": {
+   "name": "Cautious Slug",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HELPWAKE_NAME": {
+   "name": "Peace Flower",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEXCLEANSECONSUMED_NAME": {
+   "name": "Cleansing Rune (Consumed)",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEXCURSE_NAME": {
+   "name": "Hex of Pain",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEXHAUNTING_NAME": {
+   "name": "Hex of Haunting",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HEXMOUNTAIN_NAME": {
+   "name": "Hex of Strife",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HOLLOW_NAME": {
+   "name": "Seed of Insight",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_HOOF_NAME": {
+   "name": "Paul's Goat Hoof",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ICERING_NAME": {
+   "name": "Runald's Band",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ICICLE_NAME": {
+   "name": "Frost Relic",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_IGNITEONKILL_NAME": {
+   "name": "Gasoline",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_IMMUNETODEBUFF_NAME": {
+   "name": "Ben's Raincoat",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_INCREASEDAMAGEONMULTIKILL_NAME": {
+   "name": "Chronic Expansion",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_INCREASEDDIFFICULTY_NAME": {
+   "name": "Hex of Rain",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_INCREASEHEALING_NAME": {
+   "name": "Rejuvenation Rack",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_INCREASEPRIMARYDAMAGE_NAME": {
+   "name": "Luminous Shot",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_INFUSION_NAME": {
+   "name": "Infusion",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_INTERSTELLARDESKPLANT_NAME": {
+   "name": "Interstellar Desk Plant",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ITEMDROPCHANCEONKILL_NAME": {
+   "name": "Sonorous Whispers",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_JUMPBOOST_NAME": {
+   "name": "Wax Quail",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_JUMPDAMAGESTRIKE_NAME": {
+   "name": "Faraday Spur",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_JUNK_NAME": {
+   "name": "Junk",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_KILLELITEFRENZY_NAME": {
+   "name": "Brainstalks",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_KNOCKBACKHITENEMIES_NAME": {
+   "name": "Breaching Fin",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_KNURL_NAME": {
+   "name": "Titanic Knurl",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LASERTURBINE_NAME": {
+   "name": "Resonance Disc",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LIGHTNINGSTRIKEONHIT_NAME": {
+   "name": "Charged Perforator",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LOWERHEALING_NAME": {
+   "name": "Hex of Famine",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LOWERPRICEDCHESTSCONSUMED_NAME": {
+   "name": "Sale Star (Consumed)",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LOWERPRICEDCHESTS_NAME": {
+   "name": "Sale Star",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LOWHEALTHORBSPAWNERBROKEN_NAME": {
+   "name": "Dream Crucible (Consumed)",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LOWHEALTHORBSPAWNER_NAME": {
+   "name": "Dream Crucible",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LOWHEALTHORBSPAWNER_RESTORED_TITLE": {
+   "name": "Dream stored!",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARBADLUCK_NAME": {
+   "name": "Purity",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARDAGGER_NAME": {
+   "name": "Shaped Glass",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARPRIMARYREPLACEMENT_NAME": {
+   "name": "Visions of Heresy",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARSECONDARYREPLACEMENT_NAME": {
+   "name": "Hooks of Heresy",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARSKILLREPLACEMENTS_NAME": {
+   "name": "Heresy Set",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARSPECIALREPLACEMENT_NAME": {
+   "name": "Essence of Heresy",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARSUN_NAME": {
+   "name": "Egocentrism",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARTRINKET_NAME": {
+   "name": "Beads of Fealty",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARUTILITYREPLACEMENT_NAME": {
+   "name": "Strides of Heresy",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_LUNARWINGS_NAME": {
+   "name": "Blessings of Terafirmae",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MASTERBATTERY_NAME": {
+   "name": "Encrypted Cerebellum",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MASTERCORE_NAME": {
+   "name": "Exposed Cerebellum",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MEDKIT_NAME": {
+   "name": "Medkit",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_METEORATTACKONHIGHDAMAGE_NAME": {
+   "name": "Runic Lens",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MIMICRY_NAME": {
+   "name": "Hex of Mimicry",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MINORCONSTRUCTONKILL_NAME": {
+   "name": "Defense Nucleus",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MISSILEVOID_NAME": {
+   "name": "Plasma Shrimp",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MISSILE_NAME": {
+   "name": "AtG Missile Mk. 1",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MONEYLOAN_NAME": {
+   "name": "Ominous Loan Note",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MONSTERSONSHRINEUSE_NAME": {
+   "name": "Defiant Gouge",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MOREMISSILE_NAME": {
+   "name": "Pocket I.C.B.M.",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MOVESPEEDONKILL_NAME": {
+   "name": "Hunter's Harpoon",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MUSHROOMVOID_NAME": {
+   "name": "Weeping Fungus",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MUSHROOM_NAME": {
+   "name": "Bustling Fungus",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_MUSHSHOT_NAME": {
+   "name": "Mycelium Cap",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_NEARBYDAMAGEBONUS_NAME": {
+   "name": "Focus Crystal",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_NOVAONHEAL_NAME": {
+   "name": "N'kuhana's Opinion",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_NOVAONLOWHEALTH_NAME": {
+   "name": "Genesis Loop",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ONLEVELUPFREEUNLOCK_NAME": {
+   "name": "Longstanding Solitude",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_OUTOFCOMBATARMOR_NAME": {
+   "name": "Oddly-shaped Opal",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_OUTOFTPRADIUS_NAME": {
+   "name": "Hex of Patience",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PAGESHREDDED_NAME": {
+   "name": "Shredded Page",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PARENTEGG_NAME": {
+   "name": "Planula",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PEARL_NAME": {
+   "name": "Pearl",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PERMANENTDEBUFFONHIT_NAME": {
+   "name": "Symbiotic Scorpion",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PERSONALSHIELD_NAME": {
+   "name": "Personal Shield Generator",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PHASING_NAME": {
+   "name": "Old War Stealthkit",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PHYSICSPROJECTILE_NAME": {
+   "name": "Orphaned Core",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_POWERCUBE_NAME": {
+   "name": "Prison Matrix",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_POWERORB_NAME": {
+   "name": "Ocular Battery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_POWERPYRAMID_NAME": {
+   "name": "Sentry Key",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PRIMARYSKILLSHURIKEN_NAME": {
+   "name": "Shuriken",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_PROTECTIONPOTION_NAME": {
+   "name": "Gold Flask",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_RANDOMDAMAGEZONE_NAME": {
+   "name": "Mercurial Rachis",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_RANDOMDEBUFFONSUCCESSFULROLL_NAME": {
+   "name": "Hex of Misfortune",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_RANDOMEQUIPMENTTRIGGER_NAME": {
+   "name": "Bottled Chaos",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_RANDOMLYLUNAR_NAME": {
+   "name": "Eulogy Zero",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_RECHARGEABLEJUMP_NAME": {
+   "name": "Earthbound Vessel",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_REGENERATINGSCRAPCONSUMED_NAME": {
+   "name": "Regenerating Scrap (Consumed)",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_REGENERATINGSCRAP_NAME": {
+   "name": "Regenerating Scrap",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_REPEATHEAL_NAME": {
+   "name": "Corpsebloom",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_REPULSIONARMORPLATE_NAME": {
+   "name": "Repulsion Armor Plate",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ROAMINGITEMDISABLE_NAME": {
+   "name": "Hex of Loss",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ROAMINGITEMDISABLE_NOTIFICATION_TITLE": {
+   "name": "Item(s) disabled!",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ROBOBALLBUDDY_NAME": {
+   "name": "Empathy Cores",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SANGUINECHALICE_NAME": {
+   "name": "Sanguine Chalice",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPGREENSUPPRESSED_NAME": {
+   "name": "Strange Scrap, Green",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPGREEN_NAME": {
+   "name": "Item Scrap, Green",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPREDSUPPRESSED_NAME": {
+   "name": "Strange Scrap, Red",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPRED_NAME": {
+   "name": "Item Scrap, Red",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPWHITESUPPRESSED_NAME": {
+   "name": "Strange Scrap, White",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPWHITE_NAME": {
+   "name": "Item Scrap, White",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SCRAPYELLOW_NAME": {
+   "name": "Item Scrap, Yellow",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SECONDARYSKILLMAGAZINE_NAME": {
+   "name": "Backup Magazine",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SEED_NAME": {
+   "name": "Leeching Seed",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SHAREDSUFFERING_NAME": {
+   "name": "Networked Suffering",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SHAREITEMS_NAME": {
+   "name": "Hex of Greed",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SHIELDBOOSTER_NAME": {
+   "name": "Kinetic Dampener",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SHIELDONLY_NAME": {
+   "name": "Transcendence",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SHINYPEARL_NAME": {
+   "name": "Irradiant Pearl",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SHOCKDAMAGEAURA_NAME": {
+   "name": "Faulty Conductor",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SHOCKNEARBY_NAME": {
+   "name": "Unstable Tesla Coil",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SIPHONONLOWHEALTH_NAME": {
+   "name": "Mired Urn",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SKULLCOUNTER_NAME": {
+   "name": "Skull Token",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SLIPPERYGROUND_NAME": {
+   "name": "Hex of Acceleration",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SLOWONHITVOID_NAME": {
+   "name": "Tentabauble",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SLOWONHIT_NAME": {
+   "name": "Chronobauble",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPEEDBOOSTPICKUP_NAME": {
+   "name": "Elusive Antlers",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPEEDONPICKUP_NAME": {
+   "name": "Collector's Compulsion",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPRINTARMOR_NAME": {
+   "name": "Rose Buckler",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPRINTBONUS_NAME": {
+   "name": "Energy Drink",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPRINTDAMAGE_NAME": {
+   "name": "Ritual Helmet",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPRINTOUTOFCOMBAT_NAME": {
+   "name": "Red Whip",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SPRINTWISP_NAME": {
+   "name": "Little Disciple",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SQUIDTURRET_NAME": {
+   "name": "Squid Polyp",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_STEW_NAME": {
+   "name": "Hearty Stew",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_STICKYBOMB_NAME": {
+   "name": "Sticky Bomb",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_STRENGTHENBURN_NAME": {
+   "name": "Ignition Tank",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_STUNANDPIERCE_NAME": {
+   "name": "Electric Boomerang",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_STUNCHANCEONHIT_NAME": {
+   "name": "Stun Grenade",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_SYRINGE_NAME": {
+   "name": "Soldier's Syringe",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TALISMAN_NAME": {
+   "name": "Soulbound Catalyst",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TELEPORTONLOWHEALTHCONSUMED_NAME": {
+   "name": "Unstable Transmitter (Consumed)",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TELEPORTONLOWHEALTH_NAME": {
+   "name": "Unstable Transmitter",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_THORNS_NAME": {
+   "name": "Razorwire",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TITANGOLDDURINGTP_NAME": {
+   "name": "Halcyon Seed",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TONICAFFLICTION_NAME": {
+   "name": "Tonic Affliction",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TOOTH_NAME": {
+   "name": "Monster Tooth",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TPHEALINGNOVA_NAME": {
+   "name": "Lepton Daisy",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TRANSFERDEBUFFONHIT_NAME": {
+   "name": "Neutronium Weight",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TREASURECACHEVOID_NAME": {
+   "name": "Encrusted Key",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TREASURECACHE_NAME": {
+   "name": "Rusted Key",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_TRIGGERENEMYDEBUFFS_NAME": {
+   "name": "Noxious Thorn",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_ULTIMATEMEAL_NAME": {
+   "name": "Ultimate Meal",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_UTILITYSKILLMAGAZINE_NAME": {
+   "name": "Hardlight Afterburner",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_VENGEFULSPIRITRAGEMODE_NAME": {
+   "name": "Dormant Spirit",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_VENGEFULSPIRIT_NAME": {
+   "name": "Vengeful Spirit",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_VILECENSER_NAME": {
+   "name": "Vile Censer",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_VOIDMEGACRABITEM_NAME": {
+   "name": "Newly Hatched Zoea",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_WARCRYONMULTIKILL_NAME": {
+   "name": "Berzerker's Pauldron",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_WARDONLEVEL_NAME": {
+   "name": "Warbanner",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_WEAKASSHAMSTRING_NAME": {
+   "name": "Hex of Leaping",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_WISPONKILL_NAME": {
+   "name": "Whispering Fragment",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_ITEMANDEQUIPMENT/ITEM_WYRMONHIT_NAME": {
+   "name": "Saut\u00e9ed Worms",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/ACIDLARVA_BODY_NAME": {
+   "name": "Larva",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/AFFIXEARTH_HEALER_BODY_NAME": {
+   "name": "Healing Core",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/ALTARSKELETON_BODY_NAME": {
+   "name": "???",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/ARTIFACTSHELL_BODY_NAME": {
+   "name": "Artifact Reliquary",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/ASSASSIN2_BODY_NAME": {
+   "name": "Assassin",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/BANDIT_BODY_NAME": {
+   "name": "Bandit",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/BEETLEGUARD_BODY_NAME": {
+   "name": "Beetle Guard",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/BEETLEQUEEN_BODY_NAME": {
+   "name": "Beetle Queen",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/BEETLE_BODY_NAME": {
+   "name": "Beetle",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/BELL_BODY_NAME": {
+   "name": "Brass Contraption",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/BIGMUSH_BODY_NAME": {
+   "name": "Shruum",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/BIRDSHARK_BODY_NAME": {
+   "name": "Watcher",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/BISON_BODY_NAME": {
+   "name": "Bighorn Bison",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/BOMBER_BODY_NAME": {
+   "name": "Bomber",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/BROTHER_BODY_NAME": {
+   "name": "Mithrix",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/CHILD_BODY_NAME": {
+   "name": "Child",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/CLAYBOSS_BODY_NAME": {
+   "name": "Clay Dunestrider",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/CLAYBRUISER_BODY_NAME": {
+   "name": "Clay Templar",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/CLAYGRENADIER_BODY_NAME": {
+   "name": "Clay Apothecary",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/CLAY_BODY_NAME": {
+   "name": "Clay Man",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/CORRUPTIONSPIKE_BODY_NAME": {
+   "name": "Lunar Rain",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/DEFECTIVEUNIT_BODY_NAME": {
+   "name": "Solus Invalidator",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/ELECTRICWORM_BODY_NAME": {
+   "name": "Overloading Worm",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/ENFORCER_BODY_NAME": {
+   "name": "Enforcer",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/EXTRACTED_SOUL_BODY_NAME": {
+   "name": "Extracted Soul",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/EXTRACTORUNIT_BODY_NAME": {
+   "name": "Solus Extractor",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/FALSESONBOSS_BODY_NAME": {
+   "name": "False Son",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/FLYINGVERMIN_BODY_NAME": {
+   "name": "Blind Pest",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/FRIENDUNIT_BODY_NAME": {
+   "name": "Best Buddy",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/FUSIONCELL_BODY_NAME": {
+   "name": "Fusion Cell",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/GEEP_BODY_NAME": {
+   "name": "Geep",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/GILDEDWURM_BODY_NAME": {
+   "name": "Corroded Wurms",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/GIP_BODY_NAME": {
+   "name": "Gip",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/GOLEM_BODY_NAME": {
+   "name": "Stone Golem",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/GRANDPARENT_BODY_NAME": {
+   "name": "Grandparent",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/GRAVEKEEPER_BODY_NAME": {
+   "name": "Grovetender",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/GREASEPUDDLE_BODY_NAME": {
+   "name": "Grease Puddle",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/GREATERWISP_BODY_NAME": {
+   "name": "Greater Wisp",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/GUP_BODY_NAME": {
+   "name": "Gup",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/HALCYONITE_BODY_NAME": {
+   "name": "Halcyonite",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/HAND_BODY_NAME": {
+   "name": "HAN-D",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/HERMIT_CRAB_BODY_NAME": {
+   "name": "Hermit Crab",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/IMPBOSS_BODY_NAME": {
+   "name": "Imp Overlord",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/IMP_BODY_NAME": {
+   "name": "Imp",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/IRONHAULER_BODY_NAME": {
+   "name": "Solus Transporter",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/JELLYFISH_BODY_NAME": {
+   "name": "Jellyfish",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/KARMASPIRE_BODY_NAME": {
+   "name": "Karmic Spire",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/LEMURIANBRUISER_BODY_NAME": {
+   "name": "Elder Lemurian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/LEMURIAN_BODY_NAME": {
+   "name": "Lemurian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/LUNAREXPLODER_BODY_NAME": {
+   "name": "Lunar Chimera",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/LUNARGOLEM_BODY_NAME": {
+   "name": "Lunar Chimera",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/LUNARRAINSHARD_BODY_NAME": {
+   "name": "Lunar Rain Shard",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/LUNARWISP_BODY_NAME": {
+   "name": "Lunar Chimera",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/LYNX2_BODY_NAME": {
+   "name": "Lynx Berserker",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/LYNXAMBUSHER_BODY_NAME": {
+   "name": "Lynx Assassin",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/LYNXARCHER_BODY_NAME": {
+   "name": "Lynx Deadeye",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/LYNXTOTEM_BODY_NAME": {
+   "name": "Lynx Totem",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/MAGMAWORM_BODY_NAME": {
+   "name": "Magma Worm",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/MAULINGROCK_BODY_NAME": {
+   "name": "Flying Rock",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/MEGACONSTRUCT_BODY_NAME": {
+   "name": "Xi Construct",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/MIMIC_BODY_NAME": {
+   "name": "Mimic",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/MINEPOD_BODY_NAME": {
+   "name": "Solus Distributor",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/MINILYNX_BODY_NAME": {
+   "name": "Lynx Pup",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/MINIMUSHROOM_BODY_NAME": {
+   "name": "Mini Mushrum",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/MINORCONSTRUCT_BODY_NAME": {
+   "name": "Alpha Construct",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/NULLIFIER_BODY_NAME": {
+   "name": "Void Reaver",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/PARENT_BODY_NAME": {
+   "name": "Parent",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/PLAYER_SOUL_BODY_NAME": {
+   "name": "Exposed Soul",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/POD_BODY_NAME": {
+   "name": "Ancestral Pod",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/POLTERGEIST_BODY_NAME": {
+   "name": "Poltergeist",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/POT2_BODY_NAME": {
+   "name": "Pot",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/POTMOBILE_BODY_NAME": {
+   "name": "Potmobile",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/PROVIDENCE_BODY_NAME": {
+   "name": "Echo of Providence",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/PROVIDENCE_SHADOW_BODY_NAME": {
+   "name": "Echoing Umbra",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/REAPER_BODY_NAME": {
+   "name": "Anima Harvester",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/ROBOBALLBOSS_BODY_NAME": {
+   "name": "Solus Control Unit",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/ROBOBALLGREENBUDDY_BODY_NAME": {
+   "name": "Delighted Probe",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/ROBOBALLMINI_BODY_NAME": {
+   "name": "Solus Probe",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/ROBOBALLREDBUDDY_BODY_NAME": {
+   "name": "Quiet Probe",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SCAVLUNAR1_BODY_NAME": {
+   "name": "Kipkip the Gentle",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SCAVLUNAR2_BODY_NAME": {
+   "name": "Wipwip the Wild",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SCAVLUNAR3_BODY_NAME": {
+   "name": "Twiptwip the Devotee",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SCAVLUNAR4_BODY_NAME": {
+   "name": "Guragura the Lucky",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SCAVSACKPROJECTILE_BODY_NAME": {
+   "name": "Thqwib",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SCAV_BODY_NAME": {
+   "name": "Scavenger",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SCORCHLING_BODY_NAME": {
+   "name": "Scorch Worm",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SHOPKEEPER_BODY_NAME": {
+   "name": "Newt",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SOLUSAMALGAMATOR_BODY_NAME": {
+   "name": "Solus Amalgamator",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SOLUSAMALGAMATOR_FLAMETHROWERCANNON_BODY_NAME": {
+   "name": "Severed Scorcher",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SOLUSAMALGAMATOR_MISSILEPOD_BODY_NAME": {
+   "name": "Severed Breaker",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SOLUSAMALGAMATOR_THRUSTER_BODY_NAME": {
+   "name": "Severed Probe",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SOLUSHEART_BODY_NAME": {
+   "name": "Solus Heart",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SOLUSWING_BODY_NAME": {
+   "name": "Solus Wing",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SOLUS_VENDOR_BODY_NAME": {
+   "name": "SPEX",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SPORESPIT_BODY_NAME": {
+   "name": "Spore Bulb",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SULFURPOD_BODY_NAME": {
+   "name": "Sulfur Pod",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/SUPERROBOBALLBOSS_BODY_NAME": {
+   "name": "Alloy Worship Unit",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/TANKER_BODY_NAME": {
+   "name": "Solus Scorcher",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/TARGET_BODY_NAME": {
+   "name": "Soul Lantern",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/TIMECRYSTAL_BODY_NAME": {
+   "name": "Time Crystal",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/TITANGOLD_BODY_NAME": {
+   "name": "Aurelionite",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/TITAN_BODY_NAME": {
+   "name": "Stone Titan",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/TOTEMCRYSTAL_BODY_NAME": {
+   "name": "Lynxite Spire",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/VAGRANT_BODY_NAME": {
+   "name": "Wandering Vagrant",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/VENGEFULSPIRITFOLLOWER_BODY_NAME": {
+   "name": "Protective Spirit",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/VERMIN_BODY_NAME": {
+   "name": "Blind Vermin",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDBARNACLE_BODY_NAME": {
+   "name": "Void Barnacle",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDINFESTOR_BODY_NAME": {
+   "name": "Void Infestor",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDJAILER_BODY_NAME": {
+   "name": "Void Jailer",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDMEGACRAB_BODY_NAME": {
+   "name": "Void Devastator",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/VOIDRAIDCRAB_BODY_NAME": {
+   "name": "\u300cVoidling\u300d",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/VULTUREEGG_BODY_NAME": {
+   "name": "Eggs",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/VULTUREHUNTER_BODY_NAME": {
+   "name": "Alloy Hunter",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/VULTURE_BODY_NAME": {
+   "name": "Alloy Vulture",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/WISP_BODY_NAME": {
+   "name": "Lesser Wisp",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/WORKERUNIT_BODY_NAME": {
+   "name": "Solus Prospector",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_MONSTER/WORKERUNIT_MINE_BODY_NAME": {
+   "name": "Solus Mine",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ANCIENTLOFT_TITLE": {
+   "name": "Aphelian Sanctuary",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ARENA_TITLE": {
+   "name": "Hidden Realm: Void Fields",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ARTIFACTWORLD01_TITLE": {
+   "name": "Hidden Realm: Bulwark\\u2019s Ambry",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ARTIFACTWORLD02_TITLE": {
+   "name": "Hidden Realm: Bulwark\\u2019s Ambry",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ARTIFACTWORLD03_TITLE": {
+   "name": "Hidden Realm: Bulwark\\u2019s Ambry",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ARTIFACTWORLD_TITLE": {
+   "name": "Hidden Realm: Bulwark's Ambry",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_BAZAAR_TITLE": {
+   "name": "Hidden Realm: Bazaar Between Time",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_BEACH_TITLE": {
+   "name": "Dried Lake",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_BLACKBEACH_TITLE": {
+   "name": "Distant Roost",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_CHAMPRUSH_TITLE": {
+   "name": "Hidden Realm: Soulbound Threshold",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_COMPUTATIONALEXCHANGE_TITLE": {
+   "name": "Hidden Realm: Computational Exchange",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_CONDUITCANYON_TITLE": {
+   "name": "Conduit Canyon",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_DAMPCAVE_TITLE": {
+   "name": "Abyssal Depths",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_FOGGYSWAMP_TITLE": {
+   "name": "Wetland Aspect",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_FOREST_TITLE": {
+   "name": "Desolate Forest",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_FROZENWALL_TITLE": {
+   "name": "Rallypoint Delta",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_FUNGAL_TITLE": {
+   "name": "Damp Caverns",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_GOLDSHORES_TITLE": {
+   "name": "Hidden Realm: Gilded Coast",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_GOLEMPLAINS_TITLE": {
+   "name": "Titanic Plains",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_GOOLAKE_TITLE": {
+   "name": "Abandoned Aqueduct",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_HABITATFALL_TITLE": {
+   "name": "Golden Dieback",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_HABITAT_TITLE": {
+   "name": "Treeborn Colony",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_HELMINTHROOST_TITLE": {
+   "name": "Helminth Hatchery",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_INFINITETOWER_TITLE": {
+   "name": "The Simulacrum",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_IRONALLUVIUM2_TITLE": {
+   "name": "Iron Auroras",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_IRONALLUVIUM_TITLE": {
+   "name": "Iron Alluvium",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_LAKESNIGHT_TITLE": {
+   "name": "Viscous Falls",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_LAKES_TITLE": {
+   "name": "Verdant Falls",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_LEMURIANTEMPLE_TITLE": {
+   "name": "Reformed Altar",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_LIMBO_TITLE": {
+   "name": "Hidden Realm: A Moment, Whole",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_MERIDIAN_TITLE": {
+   "name": "Prime Meridian",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_MIRE_TITLE": {
+   "name": "Tenebrous Quagmire",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_MOON_TITLE": {
+   "name": "Commencement",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_MYSTERYSPACE_TITLE": {
+   "name": "Hidden Realm: A Moment, Fractured",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_NEST_TITLE": {
+   "name": "Pretender's Precipice",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_REPURPOSEDCRATER_TITLE": {
+   "name": "Repurposed Crater",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ROOTJUNGLE_TITLE": {
+   "name": "Sundered Grove",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SAD1_TITLE": {
+   "name": "Hidden Realm: Winnowing of Predation",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SANCTUM_TITLE": {
+   "name": "Lurid Basilica",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SHIPGRAVEYARD_TITLE": {
+   "name": "Siren's Call",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SKYMEADOW_TITLE": {
+   "name": "Sky Meadow",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SNOWYFOREST_TITLE": {
+   "name": "Siphoned Forest",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SOLUSWEB_NAME": {
+   "name": "Hidden Realm: Neural Sanctum",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SOLUTIONALHAUNT_TITLE": {
+   "name": "Solutional Haunt",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SOUL1_TITLE": {
+   "name": "Hidden Realm: Winnowing of Mortality",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SULFURPOOLS_TITLE": {
+   "name": "Sulfur Pools",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SURV1_TITLE": {
+   "name": "Winnowing of Survival",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_SURV2_TITLE": {
+   "name": "Hidden Realm: Winnowing of Survival",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_ULTIMA_TITLE": {
+   "name": "Hidden Realm: Terminal Lucidity",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_VILLAGENIGHT_TITLE": {
+   "name": "Disturbed Impact",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_VILLAGE_TITLE": {
+   "name": "Shattered Abodes",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_VOIDRAID_TITLE": {
+   "name": "Hidden Realm: The Planetarium",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_VOIDSTAGE_TITLE": {
+   "name": "Hidden Realm: Void Locus",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_STAGE/MAP_WISPGRAVEYARD_TITLE": {
+   "name": "Scorched Acres",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/ACOLYTE_BODY_NAME": {
+   "name": "Acolyte",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/BANDIT2_BODY_NAME": {
+   "name": "Bandit",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/CAPTAIN_BODY_NAME": {
+   "name": "Captain",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/CHEF_BODY_NAME": {
+   "name": "CHEF",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/COMMANDO_BODY_NAME": {
+   "name": "Commando",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/CROCO_BODY_NAME": {
+   "name": "Acrid",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/DRIFTER_BODY_NAME": {
+   "name": "Drifter",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/DRONETECH_BODY_NAME": {
+   "name": "Operator",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/ENFORCER2_BODY_NAME": {
+   "name": "Enforcer",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/ENGI_BODY_NAME": {
+   "name": "Engineer",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/FALSESON_BODY_NAME": {
+   "name": "False Son",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/HERETIC_BODY_NAME": {
+   "name": "Heretic",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/HUNTRESS_BODY_NAME": {
+   "name": "Huntress",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/LOADER_BODY_NAME": {
+   "name": "Loader",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/MAGE_BODY_NAME": {
+   "name": "Artificer",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/MERC_BODY_NAME": {
+   "name": "Mercenary",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/RAILGUNNER_BODY_NAME": {
+   "name": "Railgunner",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/SEEKER_BODY_NAME": {
+   "name": "Seeker",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/TOOLBOT_BODY_NAME": {
+   "name": "MUL-T",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/TREEBOT_BODY_NAME": {
+   "name": "REX",
+   "category": "logbook"
+  },
+  "/Logbook/LOGBOOK_CATEGORY_SURVIVOR/VOIDSURVIVOR_BODY_NAME": {
+   "name": "\u300cV??oid Fiend\u300f",
+   "category": "logbook"
+  },
+  "/Settings": {
+   "name": "Settings",
+   "category": "setting"
+  },
+  "/Settings/": {
+   "name": "/Settings/",
+   "category": "setting"
+  },
+  "/Settings/Gameplay/": {
+   "name": "/Settings/Gameplay/",
+   "category": "setting"
+  },
+  "/Settings/Gameplay/OPTION_MAGETOGGLEHOVER": {
+   "name": "<style=cUserSetting>Toggle Artificer Hover</style>",
+   "category": "setting"
+  },
+  "/Settings/Gameplay/OPTION_SEEKER_SOJOURNTOGGLE": {
+   "name": "<style=cUserSetting>Toggle Seeker Sojourn and Reprieve</style>",
+   "category": "setting"
+  },
+  "/Settings/Gameplay/OPTION_TOGGLEACOLYTEINVERT": {
+   "name": "<style=cUserSetting>Invert Acolyte Quickstrike Controls</style>",
+   "category": "setting"
+  },
+  "/Settings/Gameplay/OPTION_TOGGLE_ENFORCER2_KINETICCHARGE_HOLD": {
+   "name": "<style=cUserSetting>Enforcer Surge Protection Hold Input</style>",
+   "category": "setting"
+  },
+  "/Settings/Gameplay/OPTION_TOGGLE_ENFORCER2_RAGEGAS_HOLD": {
+   "name": "<style=cUserSetting>Enforcer Ripcord Hold Input</style>",
+   "category": "setting"
+  },
+  "/Settings/Gameplay/OPTION_TOGGLE_ENFORCER2_STEELPROTECTION_HOLD": {
+   "name": "<style=cUserSetting>Enforcer Steel Protection Hold Input</style>",
+   "category": "setting"
+  },
+  "/Settings/Gameplay/Umbrella/": {
+   "name": "/Settings/Gameplay/Umbrella/",
+   "category": "setting"
+  },
+  "/Settings/Gameplay/Umbrella/OPTION_DIFFICULTY_BAR_FX": {
+   "name": "Increase Difficulty Bar Effects",
+   "category": "setting"
+  },
+  "/Settings/Gameplay/Umbrella/OPTION_DIRECTIONAL_DAMAGE_INDICATOR": {
+   "name": "Directional Damage Indicator Scale",
+   "category": "setting"
+  },
+  "/Settings/Gameplay/Umbrella/OPTION_INSPECT_AUTOPAUSE": {
+   "name": "Pause On Inspect",
+   "category": "setting"
+  },
+  "/Settings/Gameplay/Umbrella/OPTION_INSPECT_FEATURE": {
+   "name": "Enable Inspect",
+   "category": "setting"
+  },
+  "/Settings/Gameplay/Umbrella/OPTION_TELEPORTER_DISCOVERY_INDICATOR": {
+   "name": "Enable Indicator Upon Teleporter Discovery",
+   "category": "setting"
+  },
+  "/Settings/Gameplay/Umbrella/OPTION_TOGGLE_SCOREBOARD": {
+   "name": "Toggle Inventory",
+   "category": "setting"
+  },
+  "/Settings/Input/": {
+   "name": "/Settings/Input/",
+   "category": "setting"
+  },
+  "/Settings/Input/KeyItemNextElement": {
+   "name": "KeyItemNextElement",
+   "category": "setting"
+  },
+  "/Settings/Input/KeyItemPrevElement": {
+   "name": "KeyItemPrevElement",
+   "category": "setting"
+  },
+  "/Settings/Input/UseKeyItem": {
+   "name": "UseKeyItem",
+   "category": "setting"
+  },
+  "/Signup": {
+   "name": "/Signup",
+   "category": "signup"
+  },
+  "/Survivors/": {
+   "name": "/Survivors/",
+   "category": "setting"
+  },
+  "/Survivors/Acolyte": {
+   "name": "Acolyte",
+   "category": "survivor"
+  },
+  "/Survivors/Bandit2": {
+   "name": "Bandit",
+   "category": "survivor"
+  },
+  "/Survivors/Captain": {
+   "name": "Captain",
+   "category": "survivor"
+  },
+  "/Survivors/Chef": {
+   "name": "CHEF",
+   "category": "survivor"
+  },
+  "/Survivors/Commando": {
+   "name": "Commando",
+   "category": "survivor"
+  },
+  "/Survivors/Croco": {
+   "name": "Acrid",
+   "category": "survivor"
+  },
+  "/Survivors/Drifter": {
+   "name": "Drifter",
+   "category": "survivor"
+  },
+  "/Survivors/DroneTech": {
+   "name": "Operator",
+   "category": "survivor"
+  },
+  "/Survivors/Enforcer2": {
+   "name": "Enforcer",
+   "category": "survivor"
+  },
+  "/Survivors/Engi": {
+   "name": "Engineer",
+   "category": "survivor"
+  },
+  "/Survivors/FalseSon": {
+   "name": "False Son",
+   "category": "survivor"
+  },
+  "/Survivors/Heretic": {
+   "name": "Heretic",
+   "category": "survivor"
+  },
+  "/Survivors/Huntress": {
+   "name": "Huntress",
+   "category": "survivor"
+  },
+  "/Survivors/Loader": {
+   "name": "Loader",
+   "category": "survivor"
+  },
+  "/Survivors/Mage": {
+   "name": "Artificer",
+   "category": "survivor"
+  },
+  "/Survivors/Merc": {
+   "name": "Mercenary",
+   "category": "survivor"
+  },
+  "/Survivors/Railgunner": {
+   "name": "Railgunner",
+   "category": "survivor"
+  },
+  "/Survivors/Seeker": {
+   "name": "Seeker",
+   "category": "survivor"
+  },
+  "/Survivors/Toolbot": {
+   "name": "MUL-T",
+   "category": "survivor"
+  },
+  "/Survivors/Treebot": {
+   "name": "REX",
+   "category": "survivor"
+  },
+  "/Survivors/VoidSurvivor": {
+   "name": "\u300cV??oid Fiend\u300f",
+   "category": "survivor"
+  }
+ }
+}

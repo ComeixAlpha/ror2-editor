@@ -1,43 +1,60 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Button from "./button";
 import sample from "../sample-save";
+import { loadSave, SaveData } from "../lib/save";
+import { useI18n } from "../i18n";
 
 interface Props {
   onFilenameChange: React.Dispatch<string>;
-  onSavedataChange: React.Dispatch<XMLDocument>;
+  onSavedataChange: React.Dispatch<SaveData>;
   style?: React.CSSProperties;
+  /**
+   * Rendered between the import button and the sample-save line.
+   *
+   * The language switch goes here so it lands directly under the button, with the sample link
+   * below it, without this component needing to know what it is.
+   */
+  children?: React.ReactNode;
 }
 
 export default function SaveImport({
   onFilenameChange,
   onSavedataChange,
   style,
+  children,
 }: Props): React.JSX.Element {
+  const { t } = useI18n();
   const inputRef = useRef<HTMLInputElement>(null);
+  const [error, setError] = useState<string>();
+
+  const load = (xml: string, filename: string): void => {
+    try {
+      const save = loadSave(xml);
+      setError(undefined);
+      onFilenameChange(filename);
+      onSavedataChange(save);
+    } catch (e) {
+      setError(e instanceof Error ? e.message : String(e));
+    }
+  };
 
   const handleInputFileChange: React.ChangeEventHandler<HTMLInputElement> = (
     event,
   ) => {
     const files = event.target.files;
-    if (files === null) return;
-    if (files.length === 0) return;
+    if (files === null || files.length === 0) return;
     const savefile = files[0];
 
-    onFilenameChange(savefile.name);
-    getSavedata(savefile, onSavedataChange);
+    const reader = new FileReader();
+    reader.addEventListener("load", () => {
+      load(reader.result as string, savefile.name);
+    });
+    reader.addEventListener("error", () => setError(t("readFailed")));
+    reader.readAsText(savefile);
   };
 
   const handleClick = (): void => {
-    const input = inputRef.current as HTMLInputElement;
-    input.click();
-  };
-
-  const handleImportSample = (): void => {
-    const parser = new DOMParser();
-    const savedata = parser.parseFromString(sample, "text/xml") as XMLDocument;
-    console.log(savedata);
-    onFilenameChange("sample.xml");
-    onSavedataChange(savedata);
+    (inputRef.current as HTMLInputElement).click();
   };
 
   return (
@@ -46,35 +63,24 @@ export default function SaveImport({
         hidden
         aria-hidden
         type="file"
-        accept="text/xml"
+        accept="text/xml,.xml"
         onChange={handleInputFileChange}
         ref={inputRef}
       />
       <Button style={style} onClick={handleClick}>
-        Import savefile
+        {t("importAction")}
       </Button>
-      <div style={{ textAlign: "center" }}>
-        <button className="link" onClick={handleImportSample}>
-          Just want to try it out? Use our sample savefile
+      {children}
+      <div className="sample-row">
+        <button className="link" onClick={() => load(sample, "sample.xml")}>
+          {t("importSample")}
         </button>
       </div>
+      {error ? (
+        <p className="import-error">
+          {t("notAProfile")} {error}
+        </p>
+      ) : null}
     </>
   );
 }
-
-const getSavedata = (
-  savefile: File,
-  callback: (saveData: XMLDocument) => void,
-): void => {
-  const reader = new FileReader();
-  reader.addEventListener("load", () => {
-    const parser = new DOMParser();
-    const savedataAsString = reader.result as string;
-    const savedata = parser.parseFromString(
-      savedataAsString,
-      "text/xml",
-    ) as XMLDocument;
-    callback(savedata);
-  });
-  reader.readAsText(savefile);
-};

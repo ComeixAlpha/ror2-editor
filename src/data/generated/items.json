@@ -1,0 +1,398 @@
+{
+  "generatedFrom": [
+    "Language/en"
+  ],
+  "count": 39,
+  "items": [
+    {
+      "name": "Infernal Mark",
+      "internalId": "CausticPheromones",
+      "namespace": "ITEM",
+      "unlock": "Items.CausticPheromones",
+      "dlc": "hc",
+      "displayNameInGame": "Infernal Mark",
+      "verified": true,
+      "wikiId": "CausticPheromones"
+    },
+    {
+      "name": "Dream Crucible",
+      "internalId": "LowHealthOrbSpawner",
+      "namespace": "ITEM",
+      "unlock": "Items.LowHealthOrbSpawner",
+      "dlc": "hc",
+      "displayNameInGame": "Dream Crucible",
+      "verified": true,
+      "wikiId": "LowHealthOrbSpawner"
+    },
+    {
+      "name": "Totem of Avarice",
+      "internalId": "GoldenGoose",
+      "namespace": "ITEM",
+      "unlock": "Items.GoldenGoose",
+      "dlc": "hc",
+      "displayNameInGame": "Totem of Avarice",
+      "verified": true,
+      "wikiId": "GoldenGoose"
+    },
+    {
+      "name": "Corpse Lily",
+      "internalId": "BlightZone",
+      "namespace": "ITEM",
+      "unlock": "Items.BlightZone",
+      "dlc": "hc",
+      "displayNameInGame": "Corpse Lily",
+      "verified": true,
+      "wikiId": "BlightZone"
+    },
+    {
+      "name": "Earthbound Vessel",
+      "internalId": "RechargeableJump",
+      "namespace": "ITEM",
+      "unlock": "Items.RechargeableJump",
+      "dlc": "hc",
+      "displayNameInGame": "Earthbound Vessel",
+      "verified": true,
+      "wikiId": "RechargeableJump"
+    },
+    {
+      "name": "Nightmare Demon",
+      "internalId": "DreamDemon",
+      "namespace": "ITEM",
+      "unlock": "Items.DreamDemon",
+      "dlc": "hc",
+      "displayNameInGame": "Nightmare Demon",
+      "verified": true,
+      "wikiId": "DreamDemon"
+    },
+    {
+      "name": "Vengeful Spirit",
+      "internalId": "VengefulSpirit",
+      "namespace": "ITEM",
+      "unlock": "Items.VengefulSpirit",
+      "dlc": "hc",
+      "displayNameInGame": "Vengeful Spirit",
+      "verified": true,
+      "wikiId": "VengefulSpirit"
+    },
+    {
+      "name": "Sanguine Chalice",
+      "internalId": "SanguineChalice",
+      "namespace": "ITEM",
+      "unlock": "Items.SanguineChalice",
+      "dlc": "hc",
+      "displayNameInGame": "Sanguine Chalice",
+      "verified": true,
+      "wikiId": "SanguineChalice"
+    },
+    {
+      "name": "Stained Scimitar",
+      "internalId": "GhostBlades",
+      "namespace": "ITEM",
+      "unlock": "Items.GhostBlades",
+      "dlc": "hc",
+      "displayNameInGame": "Stained Scimitar",
+      "verified": true,
+      "wikiId": "GhostBlades"
+    },
+    {
+      "name": "Vile Censer",
+      "internalId": "VileCenser",
+      "namespace": "ITEM",
+      "unlock": "Items.VileCenser",
+      "dlc": "hc",
+      "displayNameInGame": "Vile Censer",
+      "verified": true,
+      "wikiId": "VileCenser"
+    },
+    {
+      "name": "Ritual Helmet",
+      "internalId": "SprintDamage",
+      "namespace": "ITEM",
+      "unlock": "Items.SprintDamage",
+      "dlc": "hc",
+      "displayNameInGame": "Ritual Helmet",
+      "verified": true,
+      "wikiId": "SprintDamage"
+    },
+    {
+      "name": "Hex of Strife",
+      "internalId": "HexMountain",
+      "namespace": "ITEM",
+      "unlock": "Items.HexMountain",
+      "dlc": "hc",
+      "displayNameInGame": "Hex of Strife",
+      "verified": true,
+      "wikiId": "HexMountain"
+    },
+    {
+      "name": "Hex of Blindness",
+      "internalId": "Blindness",
+      "namespace": "ITEM",
+      "unlock": "Items.Blindness",
+      "dlc": "hc",
+      "displayNameInGame": "Hex of Blindness",
+      "verified": true,
+      "wikiId": "Blindness"
+    },
+    {
+      "name": "Hex of Leaping",
+      "internalId": "WeakAssHamstring",
+      "namespace": "ITEM",
+      "unlock": "Items.WeakAssHamstring",
+      "dlc": "hc",
+      "displayNameInGame": "Hex of Leaping",
+      "verified": true,
+      "wikiId": "WeakAssHamstring"
+    },
+    {
+      "name": "Hex of Greed",
+      "internalId": "ShareItems",
+      "namespace": "ITEM",
+      "unlock": "Items.ShareItems",
+      "dlc": "hc",
+      "displayNameInGame": "Hex of Greed",
+      "verified": true,
+      "wikiId": "ShareItemsWithEnemies"
+    },
+    {
+      "name": "Hex of Acceleration",
+      "internalId": "SlipperyGround",
+      "namespace": "ITEM",
+      "unlock": "Items.SlipperyGround",
+      "dlc": "hc",
+      "displayNameInGame": "Hex of Acceleration",
+      "verified": true,
+      "wikiId": "SlipperyGround"
+    },
+    {
+      "name": "Hex of Haunting",
+      "internalId": "HexHaunting",
+      "namespace": "ITEM",
+      "unlock": "Items.HexHaunting",
+      "dlc": "hc",
+      "displayNameInGame": "Hex of Haunting",
+      "verified": true,
+      "wikiId": "HexHaunting"
+    },
+    {
+      "name": "Hex of Mimicry",
+      "internalId": "Mimicry",
+      "namespace": "ITEM",
+      "unlock": "Items.Mimicry",
+      "dlc": "hc",
+      "displayNameInGame": "Hex of Mimicry",
+      "verified": true,
+      "wikiId": "Mimicry"
+    },
+    {
+      "name": "Hex of Patience",
+      "internalId": "OutOfTPRadius",
+      "namespace": "ITEM",
+      "unlock": "Items.OutOfTPRadius",
+      "dlc": "hc",
+      "displayNameInGame": "Hex of Patience",
+      "verified": true,
+      "wikiId": "OutOfTPRadius"
+    },
+    {
+      "name": "Hex of Ossification",
+      "internalId": "BarrierEnemies",
+      "namespace": "ITEM",
+      "unlock": "Items.BarrierEnemies",
+      "dlc": "hc",
+      "displayNameInGame": "Hex of Ossification",
+      "verified": true,
+      "wikiId": "BarrierEnemiesOnKill"
+    },
+    {
+      "name": "Hex of Famine",
+      "internalId": "LowerHealing",
+      "namespace": "ITEM",
+      "unlock": "Items.LowerHealing",
+      "dlc": "hc",
+      "displayNameInGame": "Hex of Famine",
+      "verified": true,
+      "wikiId": "LowerHealing"
+    },
+    {
+      "name": "Hex of Pain",
+      "internalId": "HexCurse",
+      "namespace": "ITEM",
+      "unlock": "Items.HexCurse",
+      "dlc": "hc",
+      "displayNameInGame": "Hex of Pain",
+      "verified": true,
+      "wikiId": "HexCurse"
+    },
+    {
+      "name": "Hex of Rain",
+      "internalId": "IncreasedDifficulty",
+      "namespace": "ITEM",
+      "unlock": "Items.IncreasedDifficulty",
+      "dlc": "hc",
+      "displayNameInGame": "Hex of Rain",
+      "verified": true,
+      "wikiId": "IncreasedDifficulty"
+    },
+    {
+      "name": "Hex of Misfortune",
+      "internalId": "RandomDebuffOnSuccessfulRoll",
+      "namespace": "ITEM",
+      "unlock": "Items.RandomDebuffOnSuccessfulRoll",
+      "dlc": "hc",
+      "displayNameInGame": "Hex of Misfortune",
+      "verified": true,
+      "wikiId": "RandomDebuffOnInteract"
+    },
+    {
+      "name": "Hex of Loss",
+      "internalId": "RoamingItemDisable",
+      "namespace": "ITEM",
+      "unlock": "Items.RoamingItemDisable",
+      "dlc": "hc",
+      "displayNameInGame": "Hex of Loss",
+      "verified": true,
+      "wikiId": "RoamingItemDisable"
+    },
+    {
+      "name": "Whispering Fragment",
+      "internalId": "WispOnKill",
+      "namespace": "ITEM",
+      "unlock": "Items.WispOnKill",
+      "dlc": "hc",
+      "displayNameInGame": "Whispering Fragment",
+      "verified": true,
+      "wikiId": "WispOnKill"
+    },
+    {
+      "name": "Mycelium Cap",
+      "internalId": "MushShot",
+      "namespace": "ITEM",
+      "unlock": "Items.MushShot",
+      "dlc": "hc",
+      "displayNameInGame": "Mycelium Cap",
+      "verified": true,
+      "wikiId": "MushShot"
+    },
+    {
+      "name": "Peace Flower",
+      "internalId": "HelpWake",
+      "namespace": "ITEM",
+      "unlock": "Items.HelpWake",
+      "dlc": "hc",
+      "displayNameInGame": "Peace Flower",
+      "verified": true,
+      "wikiId": "HelpWake"
+    },
+    {
+      "name": "Totem of Sacrifice",
+      "internalId": "SpawnAltar",
+      "namespace": "EQUIPMENT",
+      "unlock": "Equipment.SpawnAltar",
+      "dlc": "hc",
+      "displayNameInGame": "Totem of Sacrifice",
+      "verified": true,
+      "wikiId": "SpawnAltar"
+    },
+    {
+      "name": "N'kuhana's Rebirth",
+      "internalId": "AffixDeath",
+      "namespace": "EQUIPMENT",
+      "unlock": "Equipment.AffixDeath",
+      "dlc": "hc",
+      "displayNameInGame": "N'kuhana's Rebirth",
+      "verified": true,
+      "wikiId": "AffixDeath"
+    },
+    {
+      "name": "Clarity",
+      "internalId": "Clarity",
+      "namespace": "CURSEDBOOK_SPELL",
+      "unlock": null,
+      "dlc": "hc",
+      "displayNameInGame": "Clarity",
+      "verified": true,
+      "wikiId": "PageClarity"
+    },
+    {
+      "name": "Dark Alchemy",
+      "internalId": "UpgradeItem",
+      "namespace": "CURSEDBOOK_SPELL",
+      "unlock": null,
+      "dlc": "hc",
+      "displayNameInGame": "Dark Alchemy",
+      "verified": true,
+      "wikiId": "PageUpgradeItem"
+    },
+    {
+      "name": "Fanatic Summons",
+      "internalId": "SummonFeralToddlers",
+      "namespace": "CURSEDBOOK_SPELL",
+      "unlock": null,
+      "dlc": "hc",
+      "displayNameInGame": "Fanatic Summons",
+      "verified": true,
+      "wikiId": "PageSummonFeralToddlers"
+    },
+    {
+      "name": "Purify",
+      "internalId": "Purify",
+      "namespace": "CURSEDBOOK_SPELL",
+      "unlock": null,
+      "dlc": "hc",
+      "displayNameInGame": "Purify",
+      "verified": true,
+      "wikiId": "PagePurify"
+    },
+    {
+      "name": "Reincarnation",
+      "internalId": "Die",
+      "namespace": "CURSEDBOOK_SPELL",
+      "unlock": null,
+      "dlc": "hc",
+      "displayNameInGame": "Reincarnation",
+      "verified": true,
+      "wikiId": "PageDie"
+    },
+    {
+      "name": "Shadow Cloak",
+      "internalId": "TeamInvisibility",
+      "namespace": "CURSEDBOOK_SPELL",
+      "unlock": null,
+      "dlc": "hc",
+      "displayNameInGame": "Shadow Cloak",
+      "verified": true,
+      "wikiId": "PageTeamInvisibility"
+    },
+    {
+      "name": "Warp Gate",
+      "internalId": "WarpGate",
+      "namespace": "CURSEDBOOK_SPELL",
+      "unlock": null,
+      "dlc": "hc",
+      "displayNameInGame": "Warp Gate",
+      "verified": true,
+      "wikiId": "PageWarpGate"
+    },
+    {
+      "name": "Shredded Page",
+      "internalId": "PageShredded",
+      "namespace": "ITEM",
+      "unlock": "Items.PageShredded",
+      "dlc": "hc",
+      "displayNameInGame": "Shredded Page",
+      "verified": true,
+      "wikiId": "PageShredded"
+    },
+    {
+      "name": "The N'tormat",
+      "internalId": "CursedBook",
+      "namespace": "KEYITEM",
+      "unlock": null,
+      "dlc": "hc",
+      "displayNameInGame": "The N'tormat",
+      "verified": true,
+      "wikiId": null
+    }
+  ]
+}

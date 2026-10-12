@@ -1,0 +1,78 @@
+/*
+ * The EN / 中文 switch: a full-width segmented control with a sliding thumb.
+ *
+ * Full width so it matches the import/export button above it -- that button spans its column on the
+ * import screen, and a narrower control under a wider button reads as misaligned.
+ *
+ * The thumb is positioned rather than each segment carrying its own background, so switching
+ * animates as one object moving instead of two colours cross-fading.
+ */
+.lang-switch {
+  position: relative;
+  display: flex;
+  flex: 0 0 auto;
+  width: 100%;
+  padding: 3px;
+  background: #0d1319;
+  border: 1px solid #33404d;
+  border-radius: 999px;
+}
+
+/* Only the import screen needs centring; in the editor the column already spans the width. */
+.import-screen .lang-switch {
+  margin-bottom: 1rem;
+}
+
+.lang-thumb {
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  left: 3px;
+  /*
+   * Half the track, minus the padding on one side. `translateX(100%)` then lands the thumb exactly
+   * on the second half, so the two positions are symmetric without hardcoding a pixel width.
+   */
+  width: calc(50% - 3px);
+  background: #bde151;
+  border-radius: 999px;
+  /* A touch of overshoot: the thumb arrives with a little weight rather than gliding to a stop. */
+  transition: transform 260ms cubic-bezier(0.34, 1.4, 0.64, 1);
+}
+
+.lang-option {
+  position: relative;
+  z-index: 1;
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 0.5rem 0.75rem;
+  appearance: none;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #9fb0c0;
+  background: transparent;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: color 180ms cubic-bezier(0.2, 0.9, 0.3, 1);
+
+  &:hover {
+    color: #e3e9eb;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #bde151;
+    outline-offset: 2px;
+  }
+
+  /* Sits on top of the green thumb, so the text flips to dark as it arrives. */
+  &.active {
+    color: #10161d;
+    font-weight: 600;
+  }
+}

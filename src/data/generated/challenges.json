@@ -1,0 +1,3098 @@
+{
+  "generatedFrom": [
+    "RoR2.dll",
+    "Language/en"
+  ],
+  "count": 205,
+  "byDlc": {
+    "hc": 34,
+    "sots": 29,
+    "base": 112,
+    "ac": 22,
+    "sotv": 8
+  },
+  "byCategory": {
+    "skins": 62,
+    "skills": 65,
+    "survivors": 14,
+    "items": 44,
+    "artifacts": 20
+  },
+  "challenges": [
+    {
+      "id": "AcolyteClearGameMonsoon",
+      "achievement": "AcolyteClearGameMonsoon",
+      "name": "Acolyte: Mastery",
+      "description": "As Acolyte, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.Acolyte.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 10,
+      "prerequisite": "ChampRushRitualCompleted",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "AcolyteClearUltima",
+      "achievement": "AcolyteClearUltima",
+      "name": "Acolyte: Memento Mori",
+      "description": "As Acolyte, defeat what lies beyond the door of Soulbound Threshold.",
+      "unlocks": [
+        "Skins.Acolyte.AltSkinHallow"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": "ChampRushRitualCompleted",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "AcolyteJuggleLemurian",
+      "achievement": "AcolyteJuggleLemurian",
+      "name": "Acolyte: Not Even Close",
+      "description": "As Acolyte, keep an Elder Lemurian airborne for 11 seconds.",
+      "unlocks": [
+        "Skills.Acolyte.Javelin"
+      ],
+      "category": "skills",
+      "dlc": "hc",
+      "lunarCoins": 3,
+      "prerequisite": "ChampRushRitualCompleted",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "AcolyteReaperMultiKill",
+      "achievement": "AcolyteReaperMultiKill",
+      "name": "Acolyte: Bloodbath",
+      "description": "As Acolyte, kill 15 enemies within one transformation into the Anima Harvester.",
+      "unlocks": [
+        "Skills.Acolyte.SoulJar"
+      ],
+      "category": "skills",
+      "dlc": "hc",
+      "lunarCoins": 3,
+      "prerequisite": "ChampRushRitualCompleted",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "AcolyteUniqueSacrifices",
+      "achievement": "AcolyteUniqueSacrifices",
+      "name": "Acolyte: Hit List",
+      "description": "As Acolyte, land a killing blow with Sacrifice on 20 different types of monsters in a single run.",
+      "unlocks": [
+        "Skills.Acolyte.Backpack"
+      ],
+      "category": "skills",
+      "dlc": "hc",
+      "lunarCoins": 3,
+      "prerequisite": "ChampRushRitualCompleted",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "ActivateChef",
+      "achievement": "ActivateChef",
+      "name": "Order Up!",
+      "description": "Complete the Wok’s recipe in Reformed Altar.",
+      "unlocks": [
+        "Characters.Chef"
+      ],
+      "category": "survivors",
+      "dlc": "sots",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "AttackSpeed",
+      "achievement": "AttackSpeed",
+      "name": "Rapidfire",
+      "description": "Reach +200% attack speed.",
+      "unlocks": [
+        "Items.AttackSpeedOnCrit"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "AutomationActivation",
+      "achievement": "AutomationActivation",
+      "name": "Automation Activation",
+      "description": "Activate 6 turrets in a single run.",
+      "unlocks": [
+        "Items.Squid"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "Bandit2ClearGameMonsoon",
+      "achievement": "Bandit2ClearGameMonsoon",
+      "name": "Bandit: Mastery",
+      "description": "As Bandit, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.Bandit2.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "base",
+      "lunarCoins": 10,
+      "prerequisite": "CompleteThreeStages",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "Bandit2ClearMeridianEvent",
+      "achievement": "Bandit2ClearMeridianEvent",
+      "name": "Bandit: Cleared Prime Meridian",
+      "description": "As Bandit, complete the Event on Prime Meridian.",
+      "unlocks": [
+        "Skins.Bandit2.Alt2"
+      ],
+      "category": "skins",
+      "dlc": "sots",
+      "lunarCoins": 5,
+      "prerequisite": "CompleteThreeStages",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "Bandit2ClearUltima",
+      "achievement": "Bandit2ClearUltima",
+      "name": "Bandit: Memento Mori",
+      "description": "As Bandit, defeat what lies beyond the door of Soulbound Threshold.",
+      "unlocks": [
+        "Skins.Bandit2.AltSkinHallow"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": "CompleteThreeStages",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "Bandit2ConsecutiveReset",
+      "achievement": "Bandit2ConsecutiveReset",
+      "name": "Bandit: Classic Man",
+      "description": "As Bandit, successfully use 'Lights Out' to reset your cooldowns 15 times in a row.",
+      "unlocks": [
+        "Skills.Bandit2.Rifle"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "CompleteThreeStages",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "Bandit2Decompile",
+      "achievement": "Bandit2Decompile",
+      "name": "Bandit: Accept and Decompile",
+      "description": "As Bandit, accept the offering of the Collective.",
+      "unlocks": [
+        "Skins.Bandit2.AltSkinSolus"
+      ],
+      "category": "skins",
+      "dlc": "ac",
+      "lunarCoins": 5,
+      "prerequisite": "CompleteThreeStages",
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "Bandit2RevolverFinale",
+      "achievement": "Bandit2RevolverFinale",
+      "name": "Bandit: B&E",
+      "description": "As Bandit, kill the final boss with 'Lights Out'.",
+      "unlocks": [
+        "Skills.Bandit2.SkullRevolver"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "CompleteThreeStages",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "Bandit2StackSuperBleed",
+      "achievement": "Bandit2StackSuperBleed",
+      "name": "Bandit: Sadist",
+      "description": "As Bandit, kill a monster with 20 stacks of Hemorrhage.",
+      "unlocks": [
+        "Skills.Bandit2.SerratedShivs"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "CompleteThreeStages",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "BarbecueQuantityBisonInRun",
+      "achievement": "BarbecueQuantityBisonInRun",
+      "name": "CHEF: Barbecued Bison Recipe Complete",
+      "description": "As CHEF complete 10 recipes by searing an oiled bison with Sear.",
+      "unlocks": [
+        "Skills.Chef.YesChef"
+      ],
+      "category": "skills",
+      "dlc": "sots",
+      "lunarCoins": 3,
+      "prerequisite": "ActivateChef",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "BeatArena",
+      "achievement": "BeatArena",
+      "name": "...To Be Left Alone",
+      "description": "Stabilize the Cell in the Void Fields.",
+      "unlocks": [
+        "Characters.Croco"
+      ],
+      "category": "survivors",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "BurnMithrix",
+      "achievement": "BurnMithrix",
+      "name": "CHEF: It's Getting Hot In Here!",
+      "description": "As CHEF apply 20 stacks of Burn at once to the final boss.",
+      "unlocks": [
+        "Skills.Chef.IceBox"
+      ],
+      "category": "skills",
+      "dlc": "sots",
+      "lunarCoins": 3,
+      "prerequisite": "ActivateChef",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "BurnToDeath",
+      "achievement": "BurnToDeath",
+      "name": "Warm For Life",
+      "description": "Die three times while burning.",
+      "unlocks": [
+        "Items.Cleanse"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CaptainBuyMegaDrone",
+      "achievement": "CaptainBuyMegaDrone",
+      "name": "Captain: Worth Every Penny",
+      "description": "As Captain, repair and recruit a TC-280 Prototype.",
+      "unlocks": [
+        "Skills.Captain.CaptainSupplyDropHacking"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "CompleteMainEnding",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CaptainClearGameMonsoon",
+      "achievement": "CaptainClearGameMonsoon",
+      "name": "Captain: Mastery",
+      "description": "As Captain, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.Captain.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "base",
+      "lunarCoins": 10,
+      "prerequisite": "CompleteMainEnding",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CaptainClearMeridianEvent",
+      "achievement": "CaptainClearMeridianEvent",
+      "name": "Captain: Cleared Prime Meridian",
+      "description": "As Captain, complete the Event on Prime Meridian.",
+      "unlocks": [
+        "Skins.Captain.Alt2"
+      ],
+      "category": "skins",
+      "dlc": "sots",
+      "lunarCoins": 5,
+      "prerequisite": "CompleteMainEnding",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "CaptainClearUltima",
+      "achievement": "CaptainClearUltima",
+      "name": "Captain: Memento Mori",
+      "description": "As Captain, defeat what lies beyond the door of Soulbound Threshold.",
+      "unlocks": [
+        "Skins.Captain.AltSkinHallow"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": "CompleteMainEnding",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "CaptainDecompile",
+      "achievement": "CaptainDecompile",
+      "name": "Captain: Accept and Decompile",
+      "description": "As Captain, accept the offering of the Collective.",
+      "unlocks": [
+        "Skins.Captain.AltSkinSolus"
+      ],
+      "category": "skins",
+      "dlc": "ac",
+      "lunarCoins": 5,
+      "prerequisite": "CompleteMainEnding",
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "CaptainSupplyDropFinale",
+      "achievement": "CaptainSupplyDropFinale",
+      "name": "Captain: Smushed",
+      "description": "As Captain, kill the final boss using a Supply Beacon.",
+      "unlocks": [
+        "Skills.Captain.UtilityAlt1"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "CompleteMainEnding",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CaptainVisitSeveralStages",
+      "achievement": "CaptainVisitSeveralStages",
+      "name": "Captain: Wanderlust",
+      "description": "As Captain, visit 10 different environments in a single run.",
+      "unlocks": [
+        "Skills.Captain.CaptainSupplyDropEquipmentRestock"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "CompleteMainEnding",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CarryLunarItems",
+      "achievement": "CarryLunarItems",
+      "name": "Moon Worshipper",
+      "description": "Carry 5 Lunar items in a single run.",
+      "unlocks": [
+        "Items.Meteor"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ChampRushRitualCompleted",
+      "achievement": "ChampRushRitualCompleted",
+      "name": "A Broken Ritual",
+      "description": "Revive the survivor within Soulbound Threshold.",
+      "unlocks": [
+        "Characters.Acolyte"
+      ],
+      "category": "survivors",
+      "dlc": "hc",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "ChargeTeleporterWhileNearDeath",
+      "achievement": "ChargeTeleporterWhileNearDeath",
+      "name": "Glorious Battle",
+      "description": "Charge the Teleporter with less than 10% health.",
+      "unlocks": [
+        "Items.WarCryOnMultiKill"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ChefClearChampRush",
+      "achievement": "ChefClearChampRush",
+      "name": "CHEF: Dying to Meet You",
+      "description": "As CHEF, complete Soulbound Threshold before the 4th Teleporter event.",
+      "unlocks": [
+        "Skins.Chef.AltSkinLynx"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": "ActivateChef",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "ChefClearGameMonsoon",
+      "achievement": "ChefClearGameMonsoon",
+      "name": "CHEF: Mastery",
+      "description": "As CHEF, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.Chef.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "sots",
+      "lunarCoins": 10,
+      "prerequisite": "ActivateChef",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "CleanupDuty",
+      "achievement": "CleanupDuty",
+      "name": "Cleanup Duty",
+      "description": "Destroy 20 flying rocks in Sky Meadow.",
+      "unlocks": [
+        "Items.Recycle"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CommandoBeatBrotherMaxKarma",
+      "achievement": "CommandoBeatBrotherMaxKarma",
+      "name": "Commando: Retribution",
+      "description": "As Commando, defeat the final boss after earning 8 karma.",
+      "unlocks": [
+        "Skills.Commando.Sabotage"
+      ],
+      "category": "skills",
+      "dlc": "hc",
+      "lunarCoins": 10,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "CommandoClearChampRush",
+      "achievement": "CommandoClearChampRush",
+      "name": "Commando: Dying to Meet You",
+      "description": "As Commando, complete Soulbound Threshold before the 4th Teleporter event.",
+      "unlocks": [
+        "Skins.Commando.AltSkinLynx"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "CommandoClearGameMonsoon",
+      "achievement": "CommandoClearGameMonsoon",
+      "name": "Commando: Mastery",
+      "description": "As Commando, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.Commando.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "base",
+      "lunarCoins": 10,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CommandoClearMeridianEvent",
+      "achievement": "CommandoClearMeridianEvent",
+      "name": "Commando: Cleared Prime Meridian",
+      "description": "As Commando, complete the Event on Prime Meridian.",
+      "unlocks": [
+        "Skins.Commando.Alt2"
+      ],
+      "category": "skins",
+      "dlc": "sots",
+      "lunarCoins": 5,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "CommandoFastFirstStageClear",
+      "achievement": "CommandoFastFirstStageClear",
+      "name": "Commando: Godspeed",
+      "description": "As Commando, fully charge the first-stage teleporter before the timer hits 5 minutes.",
+      "unlocks": [
+        "Skills.Commando.SlideJet"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CommandoKillOverloadingWorm",
+      "achievement": "CommandoKillOverloadingWorm",
+      "name": "Commando: Rolling Thunder",
+      "description": "As Commando, land the killing blow on an Overloading Worm.",
+      "unlocks": [
+        "Skills.Commando.FireShotgunBlast"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CommandoNonLunarEndurance",
+      "achievement": "CommandoNonLunarEndurance",
+      "name": "Commando: Incorruptible",
+      "description": "As Commando, clear 20 stages in a single run without picking up any Lunar items.",
+      "unlocks": [
+        "Skills.Commando.ThrowGrenade"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CommandoPurge",
+      "achievement": "CommandoPurge",
+      "name": "Commando: Purge",
+      "description": "As Commando, reject the offering of the Collective.",
+      "unlocks": [
+        "Skins.Commando.AltSkinVulture"
+      ],
+      "category": "skins",
+      "dlc": "ac",
+      "lunarCoins": 5,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "Complete20Stages",
+      "achievement": "Complete20Stages",
+      "name": "The Long Road",
+      "description": "Complete 20 stages in a single run.",
+      "unlocks": [
+        "Items.Clover"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "Complete30StagesCareer",
+      "achievement": "Complete30StagesCareer",
+      "name": "Engineering Perfection",
+      "description": "Complete 30 stages.",
+      "unlocks": [
+        "Characters.Engineer"
+      ],
+      "category": "survivors",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CompleteMainEnding",
+      "achievement": "CompleteMainEnding",
+      "name": "Washed Away",
+      "description": "Escape the moon.",
+      "unlocks": [
+        "Characters.Captain"
+      ],
+      "category": "survivors",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CompleteMainEndingHard",
+      "achievement": "CompleteMainEndingHard",
+      "name": "The Calm",
+      "description": "Escape the moon on Monsoon difficulty.",
+      "unlocks": [
+        "Items.LunarBadLuck"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 10,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CompleteMultiBossShrine",
+      "achievement": "CompleteMultiBossShrine",
+      "name": "Ascendant",
+      "description": "Defeat the Teleporter bosses after activating 2 Shrines of the Mountain.",
+      "unlocks": [
+        "Items.Lightning"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CompletePrismaticTrial",
+      "achievement": "CompletePrismaticTrial",
+      "name": "Prismatically Aligned",
+      "description": "Complete a Prismatic Trial.",
+      "unlocks": [
+        "Items.HealOnCrit"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CompleteTeleporter",
+      "achievement": "CompleteTeleporter",
+      "name": "Advancement",
+      "description": "Complete a Teleporter event.",
+      "unlocks": [
+        "Items.BossDamageBonus"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 1,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CompleteTeleporterWithoutInjury",
+      "achievement": "CompleteTeleporterWithoutInjury",
+      "name": "Flawless",
+      "description": "Fully charge a Teleporter without getting hit.",
+      "unlocks": [
+        "Items.SecondarySkillMagazine"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 1,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CompleteThreeStages",
+      "achievement": "CompleteThreeStages",
+      "name": "Warrior",
+      "description": "Reach and complete the 3rd Teleporter event without dying.",
+      "unlocks": [
+        "Characters.Bandit2"
+      ],
+      "category": "survivors",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CompleteThreeStagesWithoutHealing",
+      "achievement": "CompleteThreeStagesWithoutHealing",
+      "name": "Naturopath",
+      "description": "Without healing, reach and complete the 3rd Teleporter event.",
+      "unlocks": [
+        "Items.IncreaseHealing"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CompleteUnknownEnding",
+      "achievement": "CompleteUnknownEnding",
+      "name": "True Respite",
+      "description": "Obliterate yourself at the Obelisk..",
+      "unlocks": [
+        "Characters.Mercenary"
+      ],
+      "category": "survivors",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CompleteVoidEnding",
+      "achievement": "CompleteVoidEnding",
+      "name": "Dragged Below",
+      "description": "Escape the Planetarium or complete wave 50 in Simulacrum.",
+      "unlocks": [
+        "Characters.VoidSurvivor"
+      ],
+      "category": "survivors",
+      "dlc": "sotv",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CrocoClearChampRush",
+      "achievement": "CrocoClearChampRush",
+      "name": "Acrid: Dying to Meet You",
+      "description": "As Acrid, complete Soulbound Threshold before the 4th Teleporter event.",
+      "unlocks": [
+        "Skins.Croco.AltSkinLynx"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": "BeatArena",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "CrocoClearGameMonsoon",
+      "achievement": "CrocoClearGameMonsoon",
+      "name": "Acrid: Mastery",
+      "description": "As Acrid, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.Croco.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "base",
+      "lunarCoins": 10,
+      "prerequisite": "BeatArena",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CrocoClearGameRestack",
+      "achievement": "CrocoClearGameRestack",
+      "name": "Acrid: Miracle",
+      "description": "As Acrid, beat the game after sequencing your items at least once.",
+      "unlocks": [
+        "Skills.Croco.CloyingBreath"
+      ],
+      "category": "skills",
+      "dlc": "hc",
+      "lunarCoins": 3,
+      "prerequisite": "BeatArena",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "CrocoClearMeridianEvent",
+      "achievement": "CrocoClearMeridianEvent",
+      "name": "Acrid: Cleared Prime Meridian",
+      "description": "As Acrid, complete the Event on Prime Meridian.",
+      "unlocks": [
+        "Skins.Croco.Alt2"
+      ],
+      "category": "skins",
+      "dlc": "sots",
+      "lunarCoins": 5,
+      "prerequisite": "BeatArena",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "CrocoKillScavenger",
+      "achievement": "CrocoKillScavenger",
+      "name": "Acrid: Bad Medicine",
+      "description": "As Acrid, land the final blow on a Scavenger.",
+      "unlocks": [
+        "Skills.Croco.CrocoBite"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "BeatArena",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CrocoKillWeakEnemiesMilestone",
+      "achievement": "CrocoKillWeakEnemiesMilestone",
+      "name": "Acrid: Easy Prey",
+      "description": "As Acrid, land the killing blow on 50 total enemies that have 1 hit point left.",
+      "unlocks": [
+        "Skills.Croco.PassivePoisonLethal"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "BeatArena",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "CrocoPurge",
+      "achievement": "CrocoPurge",
+      "name": "Acrid: Purge",
+      "description": "As Acrid, reject the offering of the Collective.",
+      "unlocks": [
+        "Skins.Croco.AltSkinVulture"
+      ],
+      "category": "skins",
+      "dlc": "ac",
+      "lunarCoins": 5,
+      "prerequisite": "BeatArena",
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "CrocoTotalInfectionsMilestone",
+      "achievement": "CrocoTotalInfectionsMilestone",
+      "name": "Acrid: Pandemic",
+      "description": "As Acrid, inflict Poison 1000 total times.",
+      "unlocks": [
+        "Skills.Croco.ChainableLeap"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "BeatArena",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "DefeatFalseSon",
+      "achievement": "DefeatFalseSon",
+      "name": "King of the Hill",
+      "description": "Journey to the Prime Meridian and defeat the False Son.",
+      "unlocks": [
+        "Items.HealAndRevive"
+      ],
+      "category": "items",
+      "dlc": "sots",
+      "lunarCoins": 5,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "DefeatSuperRoboBallBoss",
+      "achievement": "DefeatSuperRoboBallBoss",
+      "name": "Guidance Offline",
+      "description": "Defeat the unique guardian of Siren's Call.",
+      "unlocks": [
+        "Characters.Loader"
+      ],
+      "category": "survivors",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "Die20Times",
+      "achievement": "Die20Times",
+      "name": "I Love Dying!",
+      "description": "Die 20 times.",
+      "unlocks": [
+        "Items.DeathProjectile"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "Die5Times",
+      "achievement": "Die5Times",
+      "name": "Learning Process",
+      "description": "Die 5 times.",
+      "unlocks": [
+        "Items.Bear"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 1,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "Discover10UniqueTier1",
+      "achievement": "Discover10UniqueTier1",
+      "name": "The Basics",
+      "description": "Discover 10 unique white items.",
+      "unlocks": [
+        "Items.Crowbar"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 1,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "Discover5Equipment",
+      "achievement": "Discover5Equipment",
+      "name": "Experimenting",
+      "description": "Pick up 5 different types of Equipment.",
+      "unlocks": [
+        "Items.EquipmentMagazine"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "DrifterClearGameMonsoon",
+      "achievement": "DrifterClearGameMonsoon",
+      "name": "Drifter: Mastery",
+      "description": "As Drifter, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.Drifter.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "ac",
+      "lunarCoins": 5,
+      "prerequisite": "FreeDrifter",
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "DrifterJunkCubeAchievement",
+      "achievement": "DrifterJunkCubeAchievement",
+      "name": "Drifter: Trash Compactor",
+      "description": "As Drifter, carry 20 temporary items at once.",
+      "unlocks": [
+        "Skills.Drifter.JunkCube"
+      ],
+      "category": "skills",
+      "dlc": "ac",
+      "lunarCoins": 3,
+      "prerequisite": "FreeDrifter",
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "DrifterTinkerAchievement",
+      "achievement": "DrifterTinkerAchievement",
+      "name": "Drifter: Leave No Trace",
+      "description": "As Drifter, claim the contents of the lost backpack in the vault of Solutional Haunt.",
+      "unlocks": [
+        "Skills.Drifter.Tinker"
+      ],
+      "category": "skills",
+      "dlc": "ac",
+      "lunarCoins": 3,
+      "prerequisite": "FreeDrifter",
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "DrifterTornadoSlamAchievement",
+      "achievement": "DrifterTornadoSlamAchievement",
+      "name": "Drifter: In The Bag",
+      "description": "As Drifter, defeat a boss from the challenge of the Mountain by tossing a Shrine of the Mountain.",
+      "unlocks": [
+        "Skills.Drifter.Tornado"
+      ],
+      "category": "skills",
+      "dlc": "ac",
+      "lunarCoins": 3,
+      "prerequisite": "FreeDrifter",
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "DroneTechClearGameMonsoon",
+      "achievement": "DroneTechClearGameMonsoon",
+      "name": "Operator: Mastery",
+      "description": "As Operator, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.DroneTech.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "ac",
+      "lunarCoins": 5,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "DroneTechDefeatVultureBossWhileAirborne",
+      "achievement": "DroneTechDefeatVultureBossWhileAirborne",
+      "name": "Operator: Not So Different",
+      "description": "As Operator, defeat the Teleporter boss on Conduit Canyon without touching the ground.",
+      "unlocks": [
+        "Skills.DroneTech.ShieldFormation"
+      ],
+      "category": "skills",
+      "dlc": "ac",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "DroneTechJuggleLemurian",
+      "achievement": "DroneTechJuggleLemurian",
+      "name": "Operator: That Just Happened",
+      "description": "As Operator, keep an Elder Lemurian airborne for 10 seconds.",
+      "unlocks": [
+        "Skills.DroneTech.DroneBallShootable"
+      ],
+      "category": "skills",
+      "dlc": "ac",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "DroneTechTrickshot",
+      "achievement": "DroneTechTrickshot",
+      "name": "Operator: That All You Got?",
+      "description": "As Operator, kill 4 different types of monsters with a single ricochet.",
+      "unlocks": [
+        "Skills.DroneTech.CommandHeadbutt"
+      ],
+      "category": "skills",
+      "dlc": "ac",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "DroneTechUniqueDrones",
+      "achievement": "DroneTechUniqueDrones",
+      "name": "Operator: Putting Together a Team",
+      "description": "As Operator, recruit 5 different drones.",
+      "unlocks": [
+        "Skills.DroneTech.DroneHauler"
+      ],
+      "category": "skills",
+      "dlc": "ac",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "Enforcer2BlockXTeleporter",
+      "achievement": "Enforcer2BlockXTeleporter",
+      "name": "Enforcer: Safe and Sound",
+      "description": "As Enforcer, block the attacks of 12 enemies during a single teleporter event.",
+      "unlocks": [
+        "Skills.Enforcer2.RageGas"
+      ],
+      "category": "skills",
+      "dlc": "hc",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "Enforcer2ClearChampRush",
+      "achievement": "Enforcer2ClearChampRush",
+      "name": "Enforcer: Dying to Meet You",
+      "description": "As Enforcer, complete Soulbound Threshold before the 4th Teleporter event.",
+      "unlocks": [
+        "Skins.Enforcer2.AltSkinLynx"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "Enforcer2ClearGameMonsoon",
+      "achievement": "Enforcer2ClearGameMonsoon",
+      "name": "Enforcer: Mastery",
+      "description": "As Enforcer, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.Enforcer2.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 10,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "Enforcer2ParryVagrant",
+      "achievement": "Enforcer2ParryVagrant",
+      "name": "Enforcer: +PARRY",
+      "description": "As Enforcer, parry a Wandering Vagrant's supernova.",
+      "unlocks": [
+        "Skills.Enforcer2.KineticCharge"
+      ],
+      "category": "skills",
+      "dlc": "hc",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "Enforcer2RepeatedlyDamageMagmaWorm",
+      "achievement": "Enforcer2RepeatedlyDamageMagmaWorm",
+      "name": "Enforcer: Burning Lead",
+      "description": "As Enforcer, shoot a Magma Worm 24 times in 12 seconds.",
+      "unlocks": [
+        "Skills.Enforcer2.ClusterGrenade"
+      ],
+      "category": "skills",
+      "dlc": "hc",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "Enforcer2TankTitanLaser",
+      "achievement": "Enforcer2TankTitanLaser",
+      "name": "Enforcer: Indomitable",
+      "description": "As Enforcer, survive an entire Stone Titan's laser without blocking.",
+      "unlocks": [
+        "Skills.Enforcer2.ShieldLeap"
+      ],
+      "category": "skills",
+      "dlc": "hc",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "EngiArmy",
+      "achievement": "EngiArmy",
+      "name": "Engineer: Better With Friends",
+      "description": "As Engineer, recruit 12 minions at one time.",
+      "unlocks": [
+        "Skills.Engi.WalkerTurret"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "Complete30StagesCareer",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "EngiBatteryDrone",
+      "achievement": "EngiBatteryDrone",
+      "name": "Engineer: Mad Scientist",
+      "description": "As Engineer, repair an Equipment Drone with an Escape Pod's Fuel Array.",
+      "unlocks": [
+        "Skills.Engi.LaserCutter"
+      ],
+      "category": "skills",
+      "dlc": "hc",
+      "lunarCoins": 3,
+      "prerequisite": "Complete30StagesCareer",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "EngiClearGameMonsoon",
+      "achievement": "EngiClearGameMonsoon",
+      "name": "Engineer: Mastery",
+      "description": "As Engineer, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.Engi.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "base",
+      "lunarCoins": 10,
+      "prerequisite": "Complete30StagesCareer",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "EngiClearMeridianEvent",
+      "achievement": "EngiClearMeridianEvent",
+      "name": "Engineer: Cleared Prime Meridian",
+      "description": "As Engineer, complete the Event on Prime Meridian.",
+      "unlocks": [
+        "Skins.Engi.Alt2"
+      ],
+      "category": "skins",
+      "dlc": "sots",
+      "lunarCoins": 5,
+      "prerequisite": "Complete30StagesCareer",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "EngiClearTeleporterWithZeroMonsters",
+      "achievement": "EngiClearTeleporterWithZeroMonsters",
+      "name": "Engineer: Zero Sum",
+      "description": "As Engineer, finish charging the teleporter with zero monsters remaining on the stage.",
+      "unlocks": [
+        "Skills.Engi.Harpoon"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "Complete30StagesCareer",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "EngiClearUltima",
+      "achievement": "EngiClearUltima",
+      "name": "Engineer: Memento Mori",
+      "description": "As Engineer, defeat what lies beyond the door of Soulbound Threshold.",
+      "unlocks": [
+        "Skins.Engi.AltSkinHallow"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": "Complete30StagesCareer",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "EngiKillBossQuick",
+      "achievement": "EngiKillBossQuick",
+      "name": "Engineer: 100% Calculated",
+      "description": "As Engineer, defeat the teleporter boss in less than 5 seconds after it spawns.",
+      "unlocks": [
+        "Skills.Engi.SpiderMine"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "Complete30StagesCareer",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "EngiPurge",
+      "achievement": "EngiPurge",
+      "name": "Engineer: Purge",
+      "description": "As Engineer, reject the offering of the Collective.",
+      "unlocks": [
+        "Skins.Engi.AltSkinVulture"
+      ],
+      "category": "skins",
+      "dlc": "ac",
+      "lunarCoins": 5,
+      "prerequisite": "Complete30StagesCareer",
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "FailShrineChance",
+      "achievement": "FailShrineChance",
+      "name": "\"Is This Bugged?\"",
+      "description": "Fail the Shrine of Chance 3 times in a row.",
+      "unlocks": [
+        "Items.Hoof"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 1,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "FalseSonClearGameHexes",
+      "achievement": "FalseSonClearGameHexes",
+      "name": "False Son: Against All Odds",
+      "description": "As False Son, complete a run while holding 10 Hexes.",
+      "unlocks": [
+        "Skins.FalseSon.AltSkinFungal"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": "UnlockFalseSon",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "FalseSonClearGameMonsoon",
+      "achievement": "FalseSonClearGameMonsoon",
+      "name": "False Son: Mastery",
+      "description": "As False Son, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.FalseSon.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "sots",
+      "lunarCoins": 10,
+      "prerequisite": "UnlockFalseSon",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "FalseSonGrowthChallenge",
+      "achievement": "FalseSonGrowthChallenge",
+      "name": "False Son: Protein Heavy Diet",
+      "description": "As False Son, gain 40 additional Lunar Spikes through Growth.",
+      "unlocks": [
+        "Skills.FalseSon.LunarStake"
+      ],
+      "category": "skills",
+      "dlc": "sots",
+      "lunarCoins": 3,
+      "prerequisite": "UnlockFalseSon",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "FalseSonKillMithrixWithGoldenGal",
+      "achievement": "FalseSonKillMithrixWithGoldenGal",
+      "name": "False Son: Family Bonding",
+      "description": "As False Son, have Aurelionite kill the final boss while the final boss is inflicted with at least one Lunar Ruin.",
+      "unlocks": [
+        "Skills.FalseSon.MeridiansWill"
+      ],
+      "category": "skills",
+      "dlc": "sots",
+      "lunarCoins": 3,
+      "prerequisite": "UnlockFalseSon",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "FalseSonLaserMultiKill",
+      "achievement": "FalseSonLaserMultiKill",
+      "name": "False Son: Stare Them Down",
+      "description": "As False Son, kill 15 enemies with one activation of Laser of the Father.",
+      "unlocks": [
+        "Skills.FalseSon.LaserBurst"
+      ],
+      "category": "skills",
+      "dlc": "sots",
+      "lunarCoins": 3,
+      "prerequisite": "UnlockFalseSon",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "FindDevilAltar",
+      "achievement": "FindDevilAltar",
+      "name": "Her Concepts",
+      "description": "Find the Altar to N'kuhana.",
+      "unlocks": [
+        "Items.NovaOnHeal"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "FindTimedChest",
+      "achievement": "FindTimedChest",
+      "name": "[REDACTED]",
+      "description": "Open the Timed Security Chest on Rallypoint Delta.",
+      "unlocks": [
+        "Items.BFG"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "FindUniqueNewtStatues",
+      "achievement": "FindUniqueNewtStatues",
+      "name": "Newtist",
+      "description": "Discover and activate 8 unique Newt Altars.",
+      "unlocks": [
+        "Items.Talisman"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "FreeDrifter",
+      "achievement": "FreeDrifter",
+      "name": "Lost in Transit",
+      "description": "Free the survivor from the vault in Solutional Haunt.",
+      "unlocks": [
+        "Characters.Drifter"
+      ],
+      "category": "survivors",
+      "dlc": "ac",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "FreeMage",
+      "achievement": "FreeMage",
+      "name": "Pause.",
+      "description": "Free the survivor suspended in time.",
+      "unlocks": [
+        "Characters.Mage"
+      ],
+      "category": "survivors",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "HardEliteBossKill",
+      "achievement": "HardEliteBossKill",
+      "name": "Deicide",
+      "description": "Defeat an Elite boss on Monsoon difficulty.",
+      "unlocks": [
+        "Items.KillEliteFrenzy"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "HardHitter",
+      "achievement": "HardHitter",
+      "name": "Macho",
+      "description": "Deal 5000 damage in one shot.",
+      "unlocks": [
+        "Items.ShockNearby"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "HuntressAllGlaiveBouncesKill",
+      "achievement": "HuntressAllGlaiveBouncesKill",
+      "name": "Huntress: Finishing Touch",
+      "description": "As Huntress, land a killing blow with every possible hit of a single glaive.",
+      "unlocks": [
+        "Skills.Huntress.FlurryArrow"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "HuntressClearChampRush",
+      "achievement": "HuntressClearChampRush",
+      "name": "Huntress: Dying to Meet You",
+      "description": "As Huntress, complete Soulbound Threshold before the 4th Teleporter event.",
+      "unlocks": [
+        "Skins.Huntress.AltSkinLynx"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "HuntressClearGameMonsoon",
+      "achievement": "HuntressClearGameMonsoon",
+      "name": "Huntress: Mastery",
+      "description": "As Huntress, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.Huntress.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "base",
+      "lunarCoins": 10,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "HuntressClearMeridianEvent",
+      "achievement": "HuntressClearMeridianEvent",
+      "name": "Huntress: Cleared Prime Meridian",
+      "description": "As Huntress, complete the Event on Prime Meridian.",
+      "unlocks": [
+        "Skins.Huntress.Alt2"
+      ],
+      "category": "skins",
+      "dlc": "sots",
+      "lunarCoins": 5,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "HuntressCollectArtifact",
+      "achievement": "HuntressCollectArtifact",
+      "name": "Huntress: Tomb Raider",
+      "description": "As Huntress, obtain an Artifact from the Bulwark's Ambry in 25 minutes or less.",
+      "unlocks": [
+        "Skills.Huntress.LaserCyclone"
+      ],
+      "category": "skills",
+      "dlc": "hc",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "HuntressCollectCrowbars",
+      "achievement": "HuntressCollectCrowbars",
+      "name": "Huntress: One Shot, One Kill",
+      "description": "As Huntress, collect and carry 12 Crowbars at once.",
+      "unlocks": [
+        "Skills.Huntress.MiniBlink"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "HuntressMaintainFullHealthOnFrozenWall",
+      "achievement": "HuntressMaintainFullHealthOnFrozenWall",
+      "name": "Huntress: Piercing Wind",
+      "description": "As Huntress, start and finish either Rallypoint Delta or Scorched Acres without falling below 100% health.",
+      "unlocks": [
+        "Skills.Huntress.Snipe"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "HuntressPurge",
+      "achievement": "HuntressPurge",
+      "name": "Huntress: Purge",
+      "description": "As Huntress, reject the offering of the Collective.",
+      "unlocks": [
+        "Skins.Huntress.AltSkinVulture"
+      ],
+      "category": "skins",
+      "dlc": "ac",
+      "lunarCoins": 5,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "KillBossQuantityInRun",
+      "achievement": "KillBossQuantityInRun",
+      "name": "Blockade Breaker",
+      "description": "Kill 15 boss monsters in a single run.",
+      "unlocks": [
+        "Items.LunarSkillReplacements"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "KillBossQuick",
+      "achievement": "KillBossQuick",
+      "name": "Keyed Up",
+      "description": "Defeat the Teleporter boss under 15 seconds.",
+      "unlocks": [
+        "Items.TreasureCache"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 1,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "KillElementalLemurians",
+      "achievement": "KillElementalLemurians",
+      "name": "Death Do Us Part",
+      "description": "Discover the hidden chamber in the Abandoned Aqueduct.",
+      "unlocks": [
+        "Items.ElementalRings"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "KillEliteMonster",
+      "achievement": "KillEliteMonster",
+      "name": "Elite Slayer",
+      "description": "Defeat an Elite-type monster.",
+      "unlocks": [
+        "Items.Medkit"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 1,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "KillElitesMilestone",
+      "achievement": "KillElitesMilestone",
+      "name": "Cut Down",
+      "description": "Defeat 500 elite monsters.",
+      "unlocks": [
+        "Items.ExecuteLowHealthElite"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "KillGoldTitanInOneCycle",
+      "achievement": "KillGoldTitanInOneCycle",
+      "name": "Blackout",
+      "description": "Defeat the unique guardian of Gilded Coast without any beacons deactivating.",
+      "unlocks": [
+        "Items.Gateway"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "KillTotalEnemies",
+      "achievement": "KillTotalEnemies",
+      "name": "Slaughter",
+      "description": "Defeat 3000 enemies.",
+      "unlocks": [
+        "Items.Infusion"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "LoaderBigSlam",
+      "achievement": "LoaderBigSlam",
+      "name": "Loader: Earthshatter",
+      "description": "As Loader, land a Charged Gauntlet hit at 300mph or higher.",
+      "unlocks": [
+        "Skills.Loader.ZapFist"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "DefeatSuperRoboBallBoss",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "LoaderClearGameHexes",
+      "achievement": "LoaderClearGameHexes",
+      "name": "Loader: Against All Odds",
+      "description": "As Loader, complete a run while holding 10 Hexes.",
+      "unlocks": [
+        "Skins.Loader.AltSkinFungal"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": "DefeatSuperRoboBallBoss",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "LoaderClearGameMonsoon",
+      "achievement": "LoaderClearGameMonsoon",
+      "name": "Loader: Mastery",
+      "description": "As Loader, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.Loader.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "base",
+      "lunarCoins": 10,
+      "prerequisite": "DefeatSuperRoboBallBoss",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "LoaderClearMeridianEvent",
+      "achievement": "LoaderClearMeridianEvent",
+      "name": "Loader: Cleared Prime Meridian",
+      "description": "As Loader, complete the Event on Prime Meridian.",
+      "unlocks": [
+        "Skins.Loader.Alt2"
+      ],
+      "category": "skins",
+      "dlc": "sots",
+      "lunarCoins": 5,
+      "prerequisite": "DefeatSuperRoboBallBoss",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "LoaderDecompile",
+      "achievement": "LoaderDecompile",
+      "name": "Loader: Accept and Decompile",
+      "description": "As Loader, accept the offering of the Collective.",
+      "unlocks": [
+        "Skins.Loader.AltSkinSolus"
+      ],
+      "category": "skins",
+      "dlc": "ac",
+      "lunarCoins": 5,
+      "prerequisite": "DefeatSuperRoboBallBoss",
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "LoaderKillLoaders",
+      "achievement": "LoaderKillLoaders",
+      "name": "Loader: The Thunderdome",
+      "description": "As Loader, kill three other Loaders in the Bulwark's Ambry.",
+      "unlocks": [
+        "Skills.Loader.Thunderslam"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "DefeatSuperRoboBallBoss",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "LoaderSpeedRun",
+      "achievement": "LoaderSpeedRun",
+      "name": "Loader: Swing By",
+      "description": "As Loader, reach and proceed through the Celestial Portal in 25 minutes or less.",
+      "unlocks": [
+        "Skills.Loader.YankHook"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "DefeatSuperRoboBallBoss",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "LogCollector",
+      "achievement": "LogCollector",
+      "name": "Bookworm",
+      "description": "Collect 10 Monster or Environment Logs.",
+      "unlocks": [
+        "Items.Scanner"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "LoopOnce",
+      "achievement": "LoopOnce",
+      "name": "Deja Vu?",
+      "description": "Loop back to the first stage.",
+      "unlocks": [
+        "Items.BounceNearby"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "MageAirborneMultiKill",
+      "achievement": "MageAirborneMultiKill",
+      "name": "Artificer: Orbital Bombardment",
+      "description": "As Artificer, kill 15 enemies before touching the ground.",
+      "unlocks": [
+        "Skills.Mage.FlyUp"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "FreeMage",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "MageClearGameMonsoon",
+      "achievement": "MageClearGameMonsoon",
+      "name": "Artificer: Mastery",
+      "description": "As Artificer, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.Mage.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "base",
+      "lunarCoins": 10,
+      "prerequisite": "FreeMage",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "MageClearMeridianEvent",
+      "achievement": "MageClearMeridianEvent",
+      "name": "Artificer: Cleared Prime Meridian",
+      "description": "As Artificer, complete the Event on Prime Meridian.",
+      "unlocks": [
+        "Skins.Mage.Alt2"
+      ],
+      "category": "skins",
+      "dlc": "sots",
+      "lunarCoins": 5,
+      "prerequisite": "FreeMage",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "MageClearUltima",
+      "achievement": "MageClearUltima",
+      "name": "Artificer: Memento Mori",
+      "description": "As Artificer, defeat what lies beyond the door of Soulbound Threshold.",
+      "unlocks": [
+        "Skins.Mage.AltSkinHallow"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": "FreeMage",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "MageDecompile",
+      "achievement": "MageDecompile",
+      "name": "Artificer: Accept and Decompile",
+      "description": "As Artificer, accept the offering of the Collective.",
+      "unlocks": [
+        "Skins.Mage.AltSkinSolus"
+      ],
+      "category": "skins",
+      "dlc": "ac",
+      "lunarCoins": 5,
+      "prerequisite": "FreeMage",
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "MageFastBoss",
+      "achievement": "MageFastBoss",
+      "name": "Artificer: Chunked!",
+      "description": "As Artificer, fully defeat the teleporter boss in a one-second burst of damage.",
+      "unlocks": [
+        "Skills.Mage.IceBomb"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "FreeMage",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "MageMultiKill",
+      "achievement": "MageMultiKill",
+      "name": "Artificer: Massacre",
+      "description": "As Artificer, perform a multikill of 20 enemies.",
+      "unlocks": [
+        "Skills.Mage.LightningBolt"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "FreeMage",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "MagePillarSkip",
+      "achievement": "MagePillarSkip",
+      "name": "Artificer: One Giant Leap",
+      "description": "As Artificer, reach the final boss on the moon without activating a pillar.",
+      "unlocks": [
+        "Skills.Mage.TectonicBlast"
+      ],
+      "category": "skills",
+      "dlc": "hc",
+      "lunarCoins": 3,
+      "prerequisite": "FreeMage",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "MajorMultikill",
+      "achievement": "MajorMultikill",
+      "name": "Multikill!",
+      "description": "Kill 15 enemies simultaneously.",
+      "unlocks": [
+        "Items.BurnNearby"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "MaxHealingShrine",
+      "achievement": "MaxHealingShrine",
+      "name": "One with the Woods",
+      "description": "Fully upgrade a Shrine of the Woods.",
+      "unlocks": [
+        "Items.PassiveHealing"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 1,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "MercClearGameHexes",
+      "achievement": "MercClearGameHexes",
+      "name": "Mercenary: Against All Odds",
+      "description": "As Mercenary, complete a run while holding 10 Hexes.",
+      "unlocks": [
+        "Skins.Merc.AltSkinFungal"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": "CompleteUnknownEnding",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "MercClearGameMonsoon",
+      "achievement": "MercClearGameMonsoon",
+      "name": "Mercenary: Mastery",
+      "description": "As Mercenary, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.Merc.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "base",
+      "lunarCoins": 10,
+      "prerequisite": "CompleteUnknownEnding",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "MercClearMeridianEvent",
+      "achievement": "MercClearMeridianEvent",
+      "name": "Mercenary: Cleared Prime Meridian",
+      "description": "As Mercenary, complete the Event on Prime Meridian.",
+      "unlocks": [
+        "Skins.Merc.Alt2"
+      ],
+      "category": "skins",
+      "dlc": "sots",
+      "lunarCoins": 5,
+      "prerequisite": "CompleteUnknownEnding",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "MercCompleteTrialWithFullHealth",
+      "achievement": "MercCompleteTrialWithFullHealth",
+      "name": "Mercenary: Ethereal",
+      "description": "As Mercenary, complete a Prismatic Trial without falling below 100% health.",
+      "unlocks": [
+        "Skills.Merc.EvisProjectile"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "CompleteUnknownEnding",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "MercDontTouchGround",
+      "achievement": "MercDontTouchGround",
+      "name": "Mercenary: Demon of the Skies",
+      "description": "As Mercenary, don't touch the ground for 30 seconds.",
+      "unlocks": [
+        "Skills.Merc.Uppercut"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "CompleteUnknownEnding",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "MercPurge",
+      "achievement": "MercPurge",
+      "name": "Mercenary: Purge",
+      "description": "As Mercenary, reject the offering of the Collective.",
+      "unlocks": [
+        "Skins.Merc.AltSkinVulture"
+      ],
+      "category": "skins",
+      "dlc": "ac",
+      "lunarCoins": 5,
+      "prerequisite": "CompleteUnknownEnding",
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "MercXSkillsInYSeconds",
+      "achievement": "MercXSkillsInYSeconds",
+      "name": "Mercenary: Flash of Blades",
+      "description": "As Mercenary, use 20 abilities in 10 seconds.",
+      "unlocks": [
+        "Skills.Merc.FocusedAssault"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "CompleteUnknownEnding",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "MoveSpeed",
+      "achievement": "MoveSpeed",
+      "name": "Going Fast Recommended",
+      "description": "Reach +300% movespeed (includes sprinting).",
+      "unlocks": [
+        "Items.JumpBoost"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "MultiCombatShrine",
+      "achievement": "MultiCombatShrine",
+      "name": "Warmonger",
+      "description": "Complete 3 Combat Shrines in a single stage.",
+      "unlocks": [
+        "Items.EnergizedOnEquipmentUse"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "NeverBackDown",
+      "achievement": "NeverBackDown",
+      "name": "Never Back Down",
+      "description": "In 4 consecutive stages don’t leave the teleporter radius until it is fully charged.",
+      "unlocks": [
+        "Items.FocusConvergence"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "NukeSojourn",
+      "achievement": "NukeSojourn",
+      "name": "Seeker: Scorched Earth",
+      "description": "Deal 500,000% damage with one use of Sojourn's explosion.",
+      "unlocks": [
+        "Skills.Seeker.Reprieve"
+      ],
+      "category": "skills",
+      "dlc": "sots",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "ObtainArtifactBomb",
+      "achievement": "ObtainArtifactBomb",
+      "name": "Trial of Spite",
+      "description": "Complete the Trial of Spite.",
+      "unlocks": [
+        "Artifacts.Bomb"
+      ],
+      "category": "artifacts",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ObtainArtifactCommand",
+      "achievement": "ObtainArtifactCommand",
+      "name": "Trial of Command",
+      "description": "Complete the Trial of Command.",
+      "unlocks": [
+        "Artifacts.Command"
+      ],
+      "category": "artifacts",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ObtainArtifactDelusion",
+      "achievement": "ObtainArtifactDelusion",
+      "name": "Trial of Delusion",
+      "description": "Complete the Trial of Delusion.",
+      "unlocks": [
+        "Artifacts.Delusion"
+      ],
+      "category": "artifacts",
+      "dlc": "sots",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "ObtainArtifactDevotion",
+      "achievement": "ObtainArtifactDevotion",
+      "name": "Trial of Devotion",
+      "description": "Complete the Trial of Devotion.",
+      "unlocks": [
+        "Artifacts.Devotion"
+      ],
+      "category": "artifacts",
+      "dlc": "sots",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "ObtainArtifactEliteOnly",
+      "achievement": "ObtainArtifactEliteOnly",
+      "name": "Trial of Honor",
+      "description": "Complete the Trial of Honor.",
+      "unlocks": [
+        "Artifacts.EliteOnly"
+      ],
+      "category": "artifacts",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ObtainArtifactEnigma",
+      "achievement": "ObtainArtifactEnigma",
+      "name": "Trial of Enigma",
+      "description": "Complete the Trial of Enigma.",
+      "unlocks": [
+        "Artifacts.Enigma"
+      ],
+      "category": "artifacts",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ObtainArtifactFriendlyFire",
+      "achievement": "ObtainArtifactFriendlyFire",
+      "name": "Trial of Chaos",
+      "description": "Complete the Trial of Chaos.",
+      "unlocks": [
+        "Artifacts.FriendlyFire"
+      ],
+      "category": "artifacts",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ObtainArtifactGlass",
+      "achievement": "ObtainArtifactGlass",
+      "name": "Trial of Glass",
+      "description": "Complete the Trial of Glass.",
+      "unlocks": [
+        "Artifacts.Glass"
+      ],
+      "category": "artifacts",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ObtainArtifactMixEnemy",
+      "achievement": "ObtainArtifactMixEnemy",
+      "name": "Trial of Dissonance",
+      "description": "Complete the Trial of Dissonance.",
+      "unlocks": [
+        "Artifacts.MixEnemy"
+      ],
+      "category": "artifacts",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ObtainArtifactMonsterTeamGainsItems",
+      "achievement": "ObtainArtifactMonsterTeamGainsItems",
+      "name": "Trial of Evolution",
+      "description": "Complete the Trial of Evolution.",
+      "unlocks": [
+        "Artifacts.MonsterTeamGainsItems"
+      ],
+      "category": "artifacts",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ObtainArtifactPrestige",
+      "achievement": "ObtainArtifactPrestige",
+      "name": "Trial of Prestige",
+      "description": "Complete the Trial of Prestige.",
+      "unlocks": [
+        "Artifacts.Prestige"
+      ],
+      "category": "artifacts",
+      "dlc": "ac",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "ObtainArtifactRandomSurvivorOnRespawn",
+      "achievement": "ObtainArtifactRandomSurvivorOnRespawn",
+      "name": "Trial of Metamorphosis",
+      "description": "Complete the Trial of Metamorphosis.",
+      "unlocks": [
+        "Artifacts.RandomSurvivorOnRespawn"
+      ],
+      "category": "artifacts",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ObtainArtifactRebirth",
+      "achievement": "ObtainArtifactRebirth",
+      "name": "Experienced Rebirth",
+      "description": "Gain the power of another life by offering to the Shrine of Rebirth.",
+      "unlocks": [
+        "Artifacts.Rebirth"
+      ],
+      "category": "artifacts",
+      "dlc": "sots",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "ObtainArtifactSacrifice",
+      "achievement": "ObtainArtifactSacrifice",
+      "name": "Trial of Sacrifice",
+      "description": "Complete the Trial of Sacrifice.",
+      "unlocks": [
+        "Artifacts.Sacrifice"
+      ],
+      "category": "artifacts",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ObtainArtifactShadowClone",
+      "achievement": "ObtainArtifactShadowClone",
+      "name": "Trial of Vengeance",
+      "description": "Complete the Trial of Vengeance.",
+      "unlocks": [
+        "Artifacts.ShadowClone"
+      ],
+      "category": "artifacts",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ObtainArtifactSingleMonsterType",
+      "achievement": "ObtainArtifactSingleMonsterType",
+      "name": "Trial of Kin",
+      "description": "Complete the Trial of Kin.",
+      "unlocks": [
+        "Artifacts.SingleMonsterType"
+      ],
+      "category": "artifacts",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ObtainArtifactSwarms",
+      "achievement": "ObtainArtifactSwarms",
+      "name": "Trial of Swarms",
+      "description": "Complete the Trial of Swarms.",
+      "unlocks": [
+        "Artifacts.Swarms"
+      ],
+      "category": "artifacts",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ObtainArtifactTeamDeath",
+      "achievement": "ObtainArtifactTeamDeath",
+      "name": "Trial of Death",
+      "description": "Complete the Trial of Death.",
+      "unlocks": [
+        "Artifacts.TeamDeath"
+      ],
+      "category": "artifacts",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ObtainArtifactWeakAssKnees",
+      "achievement": "ObtainArtifactWeakAssKnees",
+      "name": "Trial of Frailty",
+      "description": "Complete the Trial of Frailty.",
+      "unlocks": [
+        "Artifacts.WeakAssKnees"
+      ],
+      "category": "artifacts",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ObtainArtifactWispOnDeath",
+      "achievement": "ObtainArtifactWispOnDeath",
+      "name": "Trial of Soul",
+      "description": "Complete the Trial of Soul.",
+      "unlocks": [
+        "Artifacts.WispOnDeath"
+      ],
+      "category": "artifacts",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "RailgunnerAirborneMultiKill",
+      "achievement": "RailgunnerAirborneMultiKill",
+      "name": "Railgunner: Trickshot",
+      "description": "As Railgunner, get 3 kills with a single Supercharge shot while airborne.",
+      "unlocks": [
+        "Skills.Railgunner.SpecialAlt1"
+      ],
+      "category": "skills",
+      "dlc": "sotv",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "RailgunnerClearGameHexes",
+      "achievement": "RailgunnerClearGameHexes",
+      "name": "Railgunner: Against All Odds",
+      "description": "As Railgunner, complete a run while holding 10 Hexes.",
+      "unlocks": [
+        "Skins.RailGunner.AltSkinFungal"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "RailgunnerClearGameMonsoon",
+      "achievement": "RailgunnerClearGameMonsoon",
+      "name": "Railgunner: Mastery",
+      "description": "As Railgunner, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.RailGunner.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "sotv",
+      "lunarCoins": 10,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "RailgunnerClearMeridianEvent",
+      "achievement": "RailgunnerClearMeridianEvent",
+      "name": "Railgunner: Cleared Prime Meridian",
+      "description": "As Railgunner, complete the Event on Prime Meridian.",
+      "unlocks": [
+        "Skins.RailGunner.Alt2"
+      ],
+      "category": "skins",
+      "dlc": "sotv",
+      "lunarCoins": 5,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "RailgunnerConsecutiveWeakPoints",
+      "achievement": "RailgunnerConsecutiveWeakPoints",
+      "name": "Railgunner: Marksman",
+      "description": "As Railgunner, fire 30 consecutive sniper shots without missing a Weak Point.",
+      "unlocks": [
+        "Skills.Railgunner.SecondaryAlt1"
+      ],
+      "category": "skills",
+      "dlc": "sotv",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "RailgunnerDealMassiveDamage",
+      "achievement": "RailgunnerDealMassiveDamage",
+      "name": "Railgunner: Annihilator",
+      "description": "As Railgunner, deal 1,000,000 damage in one shot.",
+      "unlocks": [
+        "Skills.Railgunner.UtilityAlt1"
+      ],
+      "category": "skills",
+      "dlc": "sotv",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "RepeatFirstTeleporter",
+      "achievement": "RepeatFirstTeleporter",
+      "name": "Verified",
+      "description": "Complete the first Teleporter event 5 times.",
+      "unlocks": [
+        "Characters.Toolbot"
+      ],
+      "category": "survivors",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "RepeatedlyDuplicateItems",
+      "achievement": "RepeatedlyDuplicateItems",
+      "name": "...Maybe One More.",
+      "description": "Duplicate the same item 7 times in a row with a 3D Printer.",
+      "unlocks": [
+        "Items.Firework"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 1,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "RescueTreebot",
+      "achievement": "RescueTreebot",
+      "name": "Power Plant",
+      "description": "Repair the broken robot with an Escape Pod's Fuel Array.",
+      "unlocks": [
+        "Characters.Treebot"
+      ],
+      "category": "survivors",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "RolyPolyHitFiveAirEnemies",
+      "achievement": "RolyPolyHitFiveAirEnemies",
+      "name": "CHEF: You've Always Been Crazy",
+      "description": "As CHEF hit five airborne enemies with one instance of Roll.",
+      "unlocks": [
+        "Skills.Chef.OilSpill"
+      ],
+      "category": "skills",
+      "dlc": "sots",
+      "lunarCoins": 3,
+      "prerequisite": "ActivateChef",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "SeekerAirMultiHit",
+      "achievement": "SeekerAirMultiHit",
+      "name": "Seeker: Airborne Souls",
+      "description": "As Seeker, hit three or more airborne enemies with a single use of the exploding third hit of Spirit Punch.",
+      "unlocks": [
+        "Skills.Seeker.SoulSearch"
+      ],
+      "category": "skills",
+      "dlc": "sots",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "SeekerClearChampRush",
+      "achievement": "SeekerClearChampRush",
+      "name": "Seeker: Dying to Meet You",
+      "description": "As Seeker, complete Soulbound Threshold before the 4th Teleporter event.",
+      "unlocks": [
+        "Skins.Seeker.AltSkinLynx"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "SeekerClearGameMonsoon",
+      "achievement": "SeekerClearGameMonsoon",
+      "name": "Seeker: Mastery",
+      "description": "As Seeker, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.Seeker.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "sots",
+      "lunarCoins": 10,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "SeekerPerfect20Meditation",
+      "achievement": "SeekerPerfect20Meditation",
+      "name": "Seeker: Clear Mind",
+      "description": "As Seeker, meditate 20 times consecutively without missing an input in a single run.",
+      "unlocks": [
+        "Skills.Seeker.PalmBlast"
+      ],
+      "category": "skills",
+      "dlc": "sots",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "StayAlive1",
+      "achievement": "StayAlive1",
+      "name": "The Lone Survivor",
+      "description": "Stay alive for 30 consecutive minutes.",
+      "unlocks": [
+        "Items.ExtraLife"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "SuicideHermitCrabs",
+      "achievement": "SuicideHermitCrabs",
+      "name": "The Demons And The Crabs",
+      "description": "Kill 20 Hermit Crabs by chasing them off the edge of the map.",
+      "unlocks": [
+        "Items.AutoCastEquipment"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ToolbotBeatArenaLater",
+      "achievement": "ToolbotBeatArenaLater",
+      "name": "MUL-T: Seventh Day",
+      "description": "As MUL-T, clear the Void Fields on Stage 7 or later.",
+      "unlocks": [
+        "Skills.Toolbot.SpecialAlt"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "RepeatFirstTeleporter",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ToolbotClearGameHexes",
+      "achievement": "ToolbotClearGameHexes",
+      "name": "MUL-T: Against All Odds",
+      "description": "As MUL-T, complete a run while holding 10 Hexes.",
+      "unlocks": [
+        "Skins.Toolbot.AltSkinFungal"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": "RepeatFirstTeleporter",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "ToolbotClearGameMonsoon",
+      "achievement": "ToolbotClearGameMonsoon",
+      "name": "MUL-T: Mastery",
+      "description": "As MUL-T, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.Toolbot.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "base",
+      "lunarCoins": 10,
+      "prerequisite": "RepeatFirstTeleporter",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ToolbotClearMeridianEvent",
+      "achievement": "ToolbotClearMeridianEvent",
+      "name": "MUL-T: Cleared Prime Meridian",
+      "description": "As MUL-T, complete the Event on Prime Meridian.",
+      "unlocks": [
+        "Skins.Toolbot.Alt2"
+      ],
+      "category": "skins",
+      "dlc": "sots",
+      "lunarCoins": 5,
+      "prerequisite": "RepeatFirstTeleporter",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "ToolbotGuardTeleporter",
+      "achievement": "ToolbotGuardTeleporter",
+      "name": "MUL-T: Pest Control",
+      "description": "As MUL-T, defeat two Beetle Queens without leaving the teleporter zone.",
+      "unlocks": [
+        "Skills.Toolbot.Grenade"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "RepeatFirstTeleporter",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ToolbotKillImpBossWithBfg",
+      "achievement": "ToolbotKillImpBossWithBfg",
+      "name": "MUL-T: Gotcha!",
+      "description": "As MUL-T, land the killing blow on an Imp Overlord with the Preon Accumulator.",
+      "unlocks": [
+        "Skills.Toolbot.Buzzsaw"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "RepeatFirstTeleporter",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "ToolbotPurge",
+      "achievement": "ToolbotPurge",
+      "name": "MUL-T: Purge",
+      "description": "As MUL-T, reject the offering of the Collective.",
+      "unlocks": [
+        "Skins.Toolbot.AltSkinVulture"
+      ],
+      "category": "skins",
+      "dlc": "ac",
+      "lunarCoins": 5,
+      "prerequisite": "RepeatFirstTeleporter",
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "TotalDronesRepaired",
+      "achievement": "TotalDronesRepaired",
+      "name": "Mechanic",
+      "description": "Repair 30 drones or turrets.",
+      "unlocks": [
+        "Items.DroneBackup"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "TotalMoneyCollected",
+      "achievement": "TotalMoneyCollected",
+      "name": "Funded!",
+      "description": "Collect $30,480 total gold.",
+      "unlocks": [
+        "Items.GoldGat"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "TreebotBigHeal",
+      "achievement": "TreebotBigHeal",
+      "name": "REX: Full of Life",
+      "description": "As REX, heal for 1000 health at once.",
+      "unlocks": [
+        "Skills.Treebot.SpecialAlt1"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "RescueTreebot",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "TreebotClearGameMonsoon",
+      "achievement": "TreebotClearGameMonsoon",
+      "name": "REX: Mastery",
+      "description": "As REX, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.Treebot.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "base",
+      "lunarCoins": 10,
+      "prerequisite": "RescueTreebot",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "TreebotClearGameWithLunars",
+      "achievement": "TreebotClearGameWithLunars",
+      "name": "REX: Invasive Growth",
+      "description": "As REX, beat the game with at least 5 different Lunar items.",
+      "unlocks": [
+        "Skills.Treebot.Proliferation"
+      ],
+      "category": "skills",
+      "dlc": "hc",
+      "lunarCoins": 3,
+      "prerequisite": "RescueTreebot",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "TreebotClearMeridianEvent",
+      "achievement": "TreebotClearMeridianEvent",
+      "name": "REX: Cleared Prime Meridian",
+      "description": "As REX, complete the Event on Prime Meridian.",
+      "unlocks": [
+        "Skins.Treebot.Alt2"
+      ],
+      "category": "skins",
+      "dlc": "sots",
+      "lunarCoins": 5,
+      "prerequisite": "RescueTreebot",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "TreebotClearUltima",
+      "achievement": "TreebotClearUltima",
+      "name": "REX: Memento Mori",
+      "description": "As REX, defeat what lies beyond the door of Soulbound Threshold.",
+      "unlocks": [
+        "Skins.Treebot.AltSkinHallow"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": "RescueTreebot",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "TreebotDecompile",
+      "achievement": "TreebotDecompile",
+      "name": "REX: Accept and Decompile",
+      "description": "As REX, accept the offering of the Collective.",
+      "unlocks": [
+        "Skins.Treebot.AltSkinSolus"
+      ],
+      "category": "skins",
+      "dlc": "ac",
+      "lunarCoins": 5,
+      "prerequisite": "RescueTreebot",
+      "displayNameSource": "game",
+      "languageFile": "DLC3.json"
+    },
+    {
+      "id": "TreebotDunkClayBoss",
+      "achievement": "TreebotDunkClayBoss",
+      "name": "REX: Dunked",
+      "description": "As REX, kill a Clay Dunestrider on Abandoned Aqueduct by throwing it into a pit.",
+      "unlocks": [
+        "Skills.Treebot.PlantSonicBoom"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "RescueTreebot",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "TreebotLowHealthTeleporter",
+      "achievement": "TreebotLowHealthTeleporter",
+      "name": "REX: Bushwhacked",
+      "description": "As REX, complete an entire teleporter event while under 50% health.",
+      "unlocks": [
+        "Skills.Treebot.Barrage"
+      ],
+      "category": "skills",
+      "dlc": "base",
+      "lunarCoins": 3,
+      "prerequisite": "RescueTreebot",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "UnlockFalseSon",
+      "achievement": "UnlockFalseSon",
+      "name": "Purified Freedom",
+      "description": "Purify the Heart of the False Son using the Halcyon Seed.",
+      "unlocks": [
+        "Characters.FalseSon"
+      ],
+      "category": "survivors",
+      "dlc": "sots",
+      "lunarCoins": 3,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    },
+    {
+      "id": "UseThreePortals",
+      "achievement": "UseThreePortals",
+      "name": "Cosmic Explorer",
+      "description": "Discover and enter three unique portals.",
+      "unlocks": [
+        "Items.Tonic"
+      ],
+      "category": "items",
+      "dlc": "base",
+      "lunarCoins": 2,
+      "prerequisite": null,
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "VoidSurvivorClearGameHexes",
+      "achievement": "VoidSurvivorClearGameHexes",
+      "name": "「V??oid Fiend』: Against All Odds",
+      "description": "As 「V??oid Fiend』, complete a run while holding 10 Hexes.",
+      "unlocks": [
+        "Skins.VoidSurvivor.AltSkinFungal"
+      ],
+      "category": "skins",
+      "dlc": "hc",
+      "lunarCoins": 5,
+      "prerequisite": "CompleteVoidEnding",
+      "displayNameSource": "game",
+      "languageFile": "DLC4.json"
+    },
+    {
+      "id": "VoidSurvivorClearGameMonsoon",
+      "achievement": "VoidSurvivorClearGameMonsoon",
+      "name": "「V??oid Fiend』: Mastery",
+      "description": "As 「V??oid Fiend』, beat the game or obliterate on Monsoon.",
+      "unlocks": [
+        "Skins.VoidSurvivor.Alt1"
+      ],
+      "category": "skins",
+      "dlc": "sotv",
+      "lunarCoins": 10,
+      "prerequisite": "CompleteVoidEnding",
+      "displayNameSource": "game",
+      "languageFile": "Achievements.json"
+    },
+    {
+      "id": "VoidSurvivorClearMeridianEvent",
+      "achievement": "VoidSurvivorClearMeridianEvent",
+      "name": "「V??oid Fiend』: Cleared Prime Meridian",
+      "description": "As 「V??oid Fiend』, complete the Event on Prime Meridian.",
+      "unlocks": [
+        "Skins.VoidSurvivor.Alt2"
+      ],
+      "category": "skins",
+      "dlc": "sotv",
+      "lunarCoins": 3,
+      "prerequisite": "CompleteVoidEnding",
+      "displayNameSource": "game",
+      "languageFile": "DLC2.json"
+    }
+  ]
+}

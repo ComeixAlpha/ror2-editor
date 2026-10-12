@@ -1,0 +1,126 @@
+.validation-panel {
+  margin: 0.75rem 0;
+  border: 2px solid #33404d;
+  border-radius: 4px;
+  background-color: #28333d;
+  overflow: hidden;
+/* Its own height, always: a taller sibling must scroll rather than squash this into a sliver. */
+  flex: 0 0 auto;
+
+  &.ok {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.6rem;
+    border-color: #3d5a3d;
+    color: #bfe3bf;
+    font-size: 0.85rem;
+  }
+
+  &.warn {
+    border-color: #6c5b33;
+  }
+
+  &.bad {
+    border-color: #7d3a3a;
+  }
+
+  .head {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.4rem 0.6rem;
+    appearance: none;
+    background: none;
+    border: 0;
+    color: #ffffff;
+    font: inherit;
+    font-size: 0.85rem;
+    text-align: left;
+    cursor: pointer;
+
+    &:focus {
+      outline: 0;
+    }
+
+    .caret {
+      margin-left: auto;
+      color: #9fb0c0;
+    }
+  }
+
+  .badge {
+    flex: 0 0 auto;
+    font-size: 0.8rem;
+    line-height: 1;
+    padding: 2px 5px;
+    border-radius: 3px;
+    color: #10161d;
+    background: #8a97a6;
+
+    &.ok {
+      background: #8fce8f;
+    }
+    &.warn {
+      background: #e0bd7d;
+    }
+    &.bad {
+      background: #e08a8a;
+    }
+  }
+
+  .summary {
+    color: #dfe7ee;
+  }
+
+  .issues {
+    margin: 0;
+    padding: 0.25rem 0.6rem 0.6rem;
+    list-style: none;
+    border-top: 1px solid #33404d;
+
+    & li {
+      display: flex;
+      gap: 0.45rem;
+      padding: 0.25rem 0;
+      font-size: 0.8rem;
+      line-height: 1.35;
+      color: #c8d4de;
+
+      &.error .mark {
+        color: #e08a8a;
+      }
+      &.warning .mark {
+        color: #e0bd7d;
+      }
+      &.info .mark {
+        color: #8a97a6;
+      }
+    }
+
+    .mark {
+      flex: 0 0 auto;
+      width: 1ch;
+      font-weight: 700;
+    }
+
+    .body {
+      min-width: 0;
+      word-break: break-word;
+    }
+
+    .where {
+      color: #9fb0c0;
+      font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+      font-size: 0.95em;
+    }
+
+    .hint {
+      display: block;
+      margin-top: 0.1rem;
+      color: #8a97a6;
+      font-style: italic;
+    }
+  }
+}

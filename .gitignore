@@ -12,6 +12,15 @@
 /build
 /dist
 
+# --- save files: never published ---
+# Real profiles, kept next to the editor while developing against them. The repository publishes the
+# editor, not anybody's save.
+/saves/
+
+# The profile the test suite is written against. Same reasoning; without it the cases in the files
+# that use it are skipped rather than failed (see tests/_fixture.mjs).
+/src/__fixtures__/*.xml
+
 # misc
 .DS_Store
 .env
@@ -24,10 +33,16 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-### Firebase ###
-.idea
-**/.firebaserc
+# --- dev-only: game data extraction pipeline ---
+# The extractor reads RoR2.dll + the game's language files to produce everything under
+# src/data/generated/. It is kept out of version control: it only runs on a machine that has
+# Risk of Rain 2 installed, so it is not part of the shipped web app. See tools/KNOWN-GAPS.md.
+/tools/
 
-### Firebase Patch ###
-.runtimeconfig.json
-.firebase/
+# Research notes, downloaded pages and third-party dumps used while writing the pipeline.
+/research/
+
+# Build intermediates (also covered by the /tools/ rule above)
+tools/**/bin/
+tools/**/obj/
+

@@ -1,0 +1,116 @@
+{
+ "generatedFrom": "the game's TMP Default Style Sheet (tools/extract-icons/read-text-styles.py)",
+ "count": 22,
+ "styles": {
+  "cArtifact": {
+   "color": "#8a5cc0",
+   "opening": "<color=#8a5cc0>",
+   "closing": "</color>"
+  },
+  "cDeath": {
+   "color": "#fe7c7c",
+   "opening": "<color=#fe7c7c>",
+   "closing": "</color>"
+  },
+  "cEvent": {
+   "color": "#8394b3",
+   "opening": "<color=#8394b3>",
+   "closing": "</color>"
+  },
+  "cHumanObjective": {
+   "color": "#ecfc80",
+   "opening": "<color=#ecfc80>",
+   "closing": "</color>"
+  },
+  "cIsCursed": {
+   "color": "#048501",
+   "opening": "<color=#048501>",
+   "closing": "</color>"
+  },
+  "cIsDamage": {
+   "color": "#e5c962",
+   "opening": "<color=#e5c962>",
+   "closing": "</color>"
+  },
+  "cIsHealing": {
+   "color": "#9ce562",
+   "opening": "<color=#9ce562>",
+   "closing": "</color>"
+  },
+  "cIsHealth": {
+   "color": "#e58262",
+   "opening": "<color=#e58262>",
+   "closing": "</color>"
+  },
+  "cIsLunar": {
+   "color": "#b8c4ff",
+   "opening": "<color=#b8c4ff>",
+   "closing": "</color>"
+  },
+  "cIsRental": {
+   "color": "#fbd88b",
+   "opening": "<color=#fbd88b>",
+   "closing": "</color>"
+  },
+  "cIsTemporary": {
+   "color": "#8bc7d5",
+   "opening": "<color=#8bc7d5>",
+   "closing": "</color>"
+  },
+  "cIsTierBoss": {
+   "color": "#ffeb04",
+   "opening": "<color=#ffeb04>",
+   "closing": "</color>"
+  },
+  "cIsUtility": {
+   "color": "#95cde5",
+   "opening": "<color=#95cde5>",
+   "closing": "</color>"
+  },
+  "cIsVoid": {
+   "color": "#ed7fcd",
+   "opening": "<color=#ed7fcd>",
+   "closing": "</color>"
+  },
+  "cKeyBinding": {
+   "color": "#ffff00",
+   "opening": "<color=#ffff00>",
+   "closing": "</color>"
+  },
+  "cLunarObjective": {
+   "color": "#b8c4ff",
+   "opening": "<color=#b8c4ff>",
+   "closing": "</color>"
+  },
+  "cMono": {
+   "color": "#8990a7",
+   "opening": "<color=#8990a7><mspace=1em>",
+   "closing": "</mspace></color>"
+  },
+  "cShrine": {
+   "color": "#efeb1a",
+   "opening": "<color=#efeb1a>",
+   "closing": "</color>"
+  },
+  "cStack": {
+   "color": "#8990a7",
+   "opening": "<color=#8990a7>",
+   "closing": "</color>"
+  },
+  "cSub": {
+   "color": "#ccd3e0",
+   "opening": "<color=#ccd3e0>",
+   "closing": "</color>"
+  },
+  "cUserSetting": {
+   "color": "#ffffd0",
+   "opening": "<color=#FFFFD0>",
+   "closing": "</color>"
+  },
+  "cWorldEvent": {
+   "color": "#ffc9f5",
+   "opening": "<color=#ffc9f5>",
+   "closing": "</color>"
+  }
+ }
+}

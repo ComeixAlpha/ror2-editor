@@ -27,26 +27,33 @@
       right: -8px;
       border: 3px solid #ffffff;
       animation: constrict 0.1s linear;
-
-      @keyframes constrict {
-        from {
-          top: -12px;
-          left: -20px;
-          bottom: -12px;
-          right: -20px;
-        }
-        to {
-          top: -8px;
-          left: -8px;
-          bottom: -8px;
-          right: -8px;
-        }
-      }
     }
   }
 
   &:active {
     background-color: #989c59;
     box-shadow: inset 0px 0px 3px 2px #dcde9a;
+  }
+}
+
+/*
+ * At the top level, not nested inside `&::before` where it used to live. Sass hoisted a nested
+ * `@keyframes` into the output for you; native CSS nesting only permits conditional group rules
+ * (`@media`, `@supports`, ...) inside a style rule, so a nested one is dropped by the browser and
+ * the animation silently stops working.
+ */
+@keyframes constrict {
+  from {
+    top: -12px;
+    left: -20px;
+    bottom: -12px;
+    right: -20px;
+  }
+
+  to {
+    top: -8px;
+    left: -8px;
+    bottom: -8px;
+    right: -8px;
   }
 }

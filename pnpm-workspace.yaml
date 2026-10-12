@@ -1,0 +1,12 @@
+# pnpm 12 reads its settings from this file rather than from .npmrc or package.json.
+# https://pnpm.io/settings
+#
+# Some dependencies ship a prebuilt native binary or generated artefact and need their install
+# scripts to run. pnpm blocks install scripts by default, so each one is allowed explicitly here.
+# Without this, `pnpm install` fails with ERR_PNPM_IGNORED_BUILDS and vite cannot find the esbuild
+# binary it needs, breaking `pnpm dev` and `pnpm build`.
+allowBuilds:
+  # Explicitly not built: it is a sass-only dependency, and sass is no longer a dependency. This
+  # entry goes away with the package on the next resolve.
+  "@parcel/watcher": false
+  esbuild: true

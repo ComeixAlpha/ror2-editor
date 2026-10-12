@@ -1,0 +1,481 @@
+/* The logbook tab reuses `.list-head` / `.list-body` from editor.css so its filter bar pins and */
+/* its body scrolls exactly like the challenge list. */
+.logbook-pane {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1 1 auto;
+  min-height: 0;
+
+  @media (min-width: 1100px) {
+    overflow: hidden;
+  }
+}
+
+/* Tight mosaic of square tiles. */
+.logbook-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
+  gap: 6px;
+}
+
+.logbook-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 3px;
+  padding: 0;
+  min-width: 0;
+  appearance: none;
+  font: inherit;
+  text-align: center;
+  background: none;
+  border: 0;
+  color: #c6ced6;
+  cursor: pointer;
+
+  &:focus {
+    outline: 0;
+  }
+
+  .art {
+    position: relative;
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    background-color: #1c2632;
+    border: 2px solid #33404d;
+    border-radius: 4px;
+    overflow: hidden;
+/* The not-seen -> seen change. Two non-linear curves: */
+/* * the colour settles on an ease-out, so the yellow arrives quickly and then slows; */
+/* * the ring and the scale overshoot past their target and spring back, which is what makes */
+/* the click feel like it landed. */
+/* `box-shadow` rather than `outline`: outline transitions are unreliable across browsers. */
+    transition:
+      background-color 200ms cubic-bezier(0.2, 0.9, 0.3, 1.15),
+      border-color 200ms cubic-bezier(0.2, 0.9, 0.3, 1.15),
+      box-shadow 300ms cubic-bezier(0.34, 1.56, 0.64, 1),
+      transform 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+    & img {
+/* Absolutely positioned so the image is pinned to the tile's box. As a grid item it kept its */
+/* own `min-height: auto`, and a tall source texture would then push past the square frame */
+/* instead of being letterboxed inside it. */
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+/* `contain`, not `cover`: the extracted art keeps its source aspect ratio, so covering the */
+/* square tile would crop it. Letterboxing keeps the whole icon visible. */
+      object-fit: contain;
+/* The colour returning to full saturation lags the frame slightly, so the yellow reads as */
+/* arriving first. */
+      transition:
+        filter 260ms cubic-bezier(0.2, 0.9, 0.3, 1) 40ms,
+        opacity 260ms cubic-bezier(0.2, 0.9, 0.3, 1) 40ms;
+    }
+
+    .glyph {
+      font-size: 1.4rem;
+      color: #6f7d8c;
+    }
+
+/* The game's "not seen yet" marker: a small dot in the corner. Always in the DOM so the CSS can */
+/* animate it away; a conditional render would remove it before any transition could run. */
+    .new-dot {
+      position: absolute;
+      top: 2px;
+      right: 4px;
+      font-size: 0.6rem;
+      line-height: 1;
+      color: #e2e15e;
+      text-shadow: 0 0 3px #000000;
+      opacity: 1;
+      transform: scale(1);
+      transition:
+        opacity 180ms cubic-bezier(0.2, 0.9, 0.3, 1),
+        transform 320ms cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+  }
+
+/* Not seen. */
+/*  */
+/* The game draws these as a black tile, but an editor cannot: you have to be able to tell WHAT */
+/* an entry is before deciding to mark it seen. So the art stays legible and the "off" state is */
+/* carried by desaturation, a darker tile and the corner dot instead of by crushing the image. */
+/* (An earlier `brightness(0.28)` here made every icon invisible on a profile with nothing seen */
+/* yet, which is the normal state for a profile someone is trying to fix.) */
+  &.unseen .art {
+    background-color: #0d1319;
+    border-color: #24303d;
+/* Two shadows, both fully transparent. The count has to match the `seen` rule exactly or the */
+/* browser cannot interpolate the list and snaps instead of animating. */
+    box-shadow:
+      inset 0 0 0 1px rgba(226, 225, 94, 0),
+      0 0 0 0 rgba(226, 225, 94, 0);
+    transform: scale(1);
+
+    & img {
+      filter: grayscale(0.9) brightness(0.85);
+      opacity: 0.85;
+    }
+  }
+
+/* Seen: the same yellow language as a granted challenge. */
+  &.seen .art {
+    background-color: #6c5b33;
+    border-color: #6c5b33;
+/* Same two-shadow shape as `unseen`, so this interpolates. Must equal the 100% stop of */
+/* `grant-flash`, which keeps holding that value after the animation ends. */
+    box-shadow:
+      inset 0 0 0 2px #e2e15e,
+      0 0 14px 2px rgba(226, 225, 94, 0.45);
+
+    .new-dot {
+      opacity: 0;
+      transform: scale(0.3);
+    }
+
+    & img {
+      filter: none;
+      opacity: 1;
+    }
+  }
+
+  &:hover .art {
+    border-color: #4a5f78;
+  }
+
+  &.seen:hover .art {
+    border-color: #6c5b33;
+  }
+
+/* The flourish, played once when this tile is marked seen. */
+/*  */
+/* A plain transition proved too quiet to notice on a 90px tile, so the moment gets its own */
+/* keyframe: the ring flashes thick and bright, the tile swells, then both settle onto exactly the */
+/* `seen` styles above -- which is why removing the class afterwards is seamless. */
+/*  */
+/* Driven by a class rather than by `:has()` or a transition because only a change of class can */
+/* start an animation without also replaying it for every already-seen tile on mount. */
+/* The flourish, played once when this tile is marked seen. Shared with the stage cards and the */
+/* challenge list -- see `@keyframes grant-flash` in styles.css. */
+  &.just-seen .art {
+    animation: grant-flash 620ms cubic-bezier(0.2, 0.9, 0.3, 1) both;
+  }
+}
+
+/* ---------------------------------------------------------------- the hover card */
+/*  */
+/* Replaces the caption that used to sit under every tile, and chases the pointer. Two elements: the */
+/* outer one is positioned `fixed` at the viewport origin with the placement on `transform`, so */
+/* following the mouse composites instead of relayouting; the inner one carries the scale animation. */
+/* They cannot be the same element, because a running animation overrides an inline `transform`. */
+/*  */
+/* Rendered into `document.body`, because the list body scrolls and would otherwise clip the card. */
+.logbook-tip {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 40;
+/* Never swallows the pointer: the card must not keep itself open or block the tile beneath it. */
+  pointer-events: none;
+  will-change: transform;
+}
+
+.tip-card {
+/* Translucent so the grid stays readable through the card. Matches the end value of `tip-in`. */
+  opacity: 0.9;
+  padding: 12px 14px 11px;
+  background: #141b23;
+  border: 1px solid #33404d;
+  border-radius: 7px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.65);
+  color: #c6ced6;
+  font-size: 0.86rem;
+  line-height: 1.35;
+  text-align: left;
+/* Grows out of the corner nearest the pointer. */
+  transform-origin: bottom left;
+  animation: tip-in 170ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+
+  &.closing {
+    animation: tip-out 130ms cubic-bezier(0.4, 0, 0.7, 0.2) both;
+  }
+
+  .tip-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .tip-name {
+    min-width: 0;
+    color: #eef3f6;
+    font-size: 1.08rem;
+    font-weight: 600;
+    line-height: 1.25;
+  }
+
+  .tip-state {
+    margin-left: auto;
+    flex: 0 0 auto;
+    padding: 2px 9px;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 600;
+
+    &.seen {
+      color: #10161d;
+      background: #e2e15e;
+    }
+
+    &.unseen {
+      color: #aab6c1;
+      background: #2a3746;
+    }
+  }
+
+  /*
+   * The pickup's functional description, with the game's own colouring applied to each run by
+   * `RichText`. `pre-wrap` because the text uses real newlines for its paragraphs.
+   */
+  .tip-desc {
+    margin: 9px 0 0;
+    padding-top: 8px;
+    border-top: 1px solid #223040;
+    color: #dfe6ea;
+    font-size: 0.82rem;
+    line-height: 1.45;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+
+  .tip-facts {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 3px 12px;
+    margin: 9px 0 0;
+
+    & dt {
+      color: #7d8b99;
+      white-space: nowrap;
+    }
+
+    & dd {
+      margin: 0;
+      color: #dfe6ea;
+      word-break: break-word;
+    }
+  }
+
+  .tip-token {
+    margin-top: 9px;
+    padding-top: 7px;
+    border-top: 1px solid #223040;
+    font-family: ui-monospace, sfmono-regular, menlo, monospace;
+    font-size: 0.7rem;
+    line-height: 1.35;
+    color: #6f7d8c;
+    word-break: break-all;
+  }
+}
+
+/* The card is born out of the pointer and shrinks back into it. */
+/*  */
+/* The resting opacity is 70%, so the keyframes have to name that value too: `both` fill means the */
+/* final keyframe keeps winning over the `opacity` on `.tip-card` after the animation ends. */
+@keyframes tip-in {
+  from {
+    opacity: 0;
+    transform: scale(0.86);
+  }
+
+  to {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+}
+
+@keyframes tip-out {
+  from {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+}
+
+/* ---------------------------------------------------------------- stage cards */
+/* Stage previews are landscapes (480x288 for the base game, 512x256 for the expansions). In the */
+/* square tile they were letterboxed down to a stamp, so opening this category gives each stage its */
+/* own full-width card whose height is whatever the picture makes. */
+.stage-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.stage-card {
+  position: relative;
+  display: block;
+/* Full width of the list, and a gap around it so it reads as its own row rather than as part of */
+/* the tile grid above or below it. */
+  width: 100%;
+  margin: 10px 0;
+  padding: 0;
+/* The peak scale of `grant-flash`, kept small: a card spanning the full width would cover its */
+/* neighbours if it swelled as far as a 90px tile does. Everything else about the flourish is */
+/* shared. */
+  --grant-pop: 1.02;
+  appearance: none;
+  font: inherit;
+  text-align: left;
+  background-color: #1c2632;
+  border: 2px solid #33404d;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+/* Same non-linear treatment as the square tiles: the colour eases out, the ring overshoots and */
+/* springs back. */
+  transition:
+    border-color 200ms cubic-bezier(0.2, 0.9, 0.3, 1.15),
+    box-shadow 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  &:focus {
+    outline: 0;
+  }
+
+  & img {
+/* The only thing that sets the card's height. `width: 100%` plus `height: auto` keeps the */
+/* source aspect ratio, so the 5:3 preview is shown whole at full width. */
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: filter 260ms cubic-bezier(0.2, 0.9, 0.3, 1) 40ms;
+  }
+
+  .glyph {
+    display: grid;
+    place-items: center;
+/* Stand-in for the rare stage with no preview texture; matches the 5:3 card shape. */
+    aspect-ratio: 5 / 3;
+    font-size: 2rem;
+    color: #6f7d8c;
+  }
+
+/* The name sits on a scrim over the bottom of the picture, so the card's height stays purely */
+/* the image's. */
+  .label {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 14px;
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.88),
+      rgba(0, 0, 0, 0.55) 55%,
+      rgba(0, 0, 0, 0)
+    );
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+
+    .new-dot {
+      font-size: 0.7rem;
+      line-height: 1;
+      color: #e2e15e;
+      opacity: 1;
+      transform: scale(1);
+      transition:
+        opacity 180ms cubic-bezier(0.2, 0.9, 0.3, 1),
+        transform 320ms cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .name {
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .state {
+      margin-left: auto;
+      flex: 0 0 auto;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 999px;
+    }
+  }
+
+/* Not seen: the same black-tile language as the grid, without crushing the picture. */
+  &.unseen {
+    border-color: #24303d;
+/* Two transparent shadows, matching the `seen` rule's shape so the list can interpolate. */
+    box-shadow:
+      inset 0 0 0 1px rgba(226, 225, 94, 0),
+      0 0 0 0 rgba(226, 225, 94, 0);
+
+    & img {
+      filter: grayscale(0.9) brightness(0.85);
+    }
+
+    .state {
+      color: #10161d;
+      background: #e2e15e;
+    }
+  }
+
+/* Seen: the yellow language shared with granted challenges. */
+  &.seen {
+    border-color: #6c5b33;
+/* Must equal the 100% stop of `grant-flash`, which keeps holding that value after it ends. */
+    box-shadow:
+      inset 0 0 0 2px #e2e15e,
+      0 0 14px 2px rgba(226, 225, 94, 0.45);
+
+    .new-dot {
+      opacity: 0;
+      transform: scale(0.3);
+    }
+
+    & img {
+      filter: none;
+    }
+
+    .state {
+      color: #e3e9eb;
+      background: rgba(108, 91, 51, 0.85);
+    }
+  }
+
+  &.just-seen {
+    animation: grant-flash 620ms cubic-bezier(0.2, 0.9, 0.3, 1) both;
+  }
+
+  .state {
+/* The badge swaps its colours along with the frame. */
+    transition:
+      color 200ms cubic-bezier(0.2, 0.9, 0.3, 1.15),
+      background-color 200ms cubic-bezier(0.2, 0.9, 0.3, 1.15);
+  }
+
+  &:hover {
+    border-color: #4a5f78;
+  }
+
+  &.seen:hover {
+    border-color: #e2e15e;
+  }
+}

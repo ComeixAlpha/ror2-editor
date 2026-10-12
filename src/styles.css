@@ -1,0 +1,261 @@
+@font-face {
+  font-family: "Bombard";
+  src:
+    url("./fonts/bombard.woff2") format("woff2"),
+    url("./fonts/bombard.woff") format("woff"),
+    url("./fonts/bombard.ttf") format("truetype");
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Bombard", Arial, sans-serif;
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+#root {
+  height: 100%;
+}
+
+a,
+.link {
+  outline: none;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  overflow: hidden;
+  color: #627b94;
+
+  &:hover {
+    color: #627b94;
+    text-decoration: underline;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+button {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+/**
+ * The one input style used everywhere: the profile fields, the metadata fields and the challenge
+ * search box all share this, so they cannot drift apart.
+ */
+.form-control {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 8px 12px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #10161d;
+  background-color: #f2f5f7;
+  border: 1px solid #4a5f78;
+  border-radius: 3px;
+  box-sizing: border-box;
+
+  &::placeholder {
+    color: #6b7c8c;
+    font-weight: 400;
+  }
+
+  &:focus {
+    outline: 2px solid #bde151;
+    outline-offset: -1px;
+  }
+}
+
+/** A filesystem path shown inline in prose; long paths must be able to break. */
+.path {
+  color: #e3e9eb;
+  overflow-wrap: anywhere;
+}
+
+/** The pre-import screen: a single centred column. */
+.import-screen {
+  max-width: 640px;
+  margin: 0 auto;
+  /*
+   * The horizontal padding is not cosmetic. The import button spans the full width, and its hover
+   * effect is a `::before` ring drawn outside it, so with no room the ring is cut off at both
+   * edges.
+   */
+  padding: 1rem 12px;
+  /*
+   * `clip`, not the `auto` that `overflow-y` below would otherwise force on this axis. The ring
+   * starts its snap-in animation 20px out, which is wider than the padding, so an `auto` axis would
+   * briefly have scrollable overflow and flash a horizontal scrollbar on every hover. `clip` trims
+   * it silently and, unlike `hidden`, does not leave the box programmatically scrollable.
+   */
+  overflow-x: clip;
+  text-align: center;
+
+  & p {
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: #c6ced6;
+  }
+
+  @media (min-width: 1100px) {
+    /*
+     * `.container` is a fixed-height flex column here, so this takes the leftover height and centres
+     * its contents in it rather than hugging the top of the page.
+     *
+     * `safe center` rather than plain `center`: with a centred flex column, content taller than the
+     * box overflows past the top and cannot be scrolled to. `safe` falls back to start alignment in
+     * that case. A browser that does not know the keyword drops the declaration entirely, leaving
+     * the content start-aligned and reachable -- a safe way to fail either way.
+     */
+    display: flex;
+    flex-direction: column;
+    justify-content: safe center;
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+  }
+}
+
+/* The sample-save link, and the message shown when a file fails to parse. */
+.sample-row {
+  text-align: center;
+}
+
+.import-error {
+  color: #ff9a9a;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  margin: 16px auto;
+  padding: 0 16px;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1400px;
+  }
+
+/* The editor is a two-region layout, so let it use wide screens instead of capping at 1140px. */
+  @media (min-width: 1600px) {
+    max-width: 1720px;
+  }
+
+/* The editor owns two independent scroll panes (`.editor-side`, `.list-body`). This element */
+/* fills its grid row and lets the editor take whatever height is left, so no third, page-level */
+/* scrollbar appears on top of them. */
+  @media (min-width: 1100px) {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    overflow: hidden;
+  }
+}
+
+/*
+ * "This entry is yours now" -- the one flourish, shared by the logbook grid, the logbook's stage
+ * cards and the challenge list.
+ *
+ * It lives here rather than beside each component because the three had drifted: same duration and
+ * easing, but the challenge version peaked at a 1.5% swell where the logbook's peaks at 16%, which
+ * is small enough to read as "no animation at all". One definition means they cannot separate
+ * again.
+ *
+ * `--grant-pop` is the only per-component value, and it is the peak scale. A 90px tile can swell
+ * 16% without touching anything; a card spanning the full width would cover its neighbours at that
+ * size, so those ask for less. Duration, easing, ring and glow are identical everywhere.
+ *
+ * The 60% and 100% stops match the resting `.seen` / `.selected` style exactly. That matters
+ * because the animation uses `both` fill: it keeps holding the final keyframe after it ends, so
+ * anything other than the resting value would snap when the class is dropped.
+ */
+@keyframes grant-flash {
+  0% {
+    box-shadow:
+      inset 0 0 0 1px rgba(226, 225, 94, 0),
+      0 0 0 0 rgba(226, 225, 94, 0);
+    transform: scale(1);
+  }
+
+  30% {
+    box-shadow:
+      inset 0 0 0 4px #f2f18a,
+      0 0 26px 7px rgba(226, 225, 94, 0.6);
+    transform: scale(var(--grant-pop, 1.16));
+  }
+
+  60% {
+    box-shadow:
+      inset 0 0 0 2px #e2e15e,
+      0 0 14px 2px rgba(226, 225, 94, 0.45);
+    transform: scale(1.02);
+  }
+
+  100% {
+    box-shadow:
+      inset 0 0 0 2px #e2e15e,
+      0 0 14px 2px rgba(226, 225, 94, 0.45);
+    transform: scale(1);
+  }
+}
