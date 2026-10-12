@@ -2,7 +2,7 @@
 
 A web app that allows you to fully customize your Risk of Rain 2 savefile.
 
-**Use it online: <https://comeixalpha.github.io/ror2-editor/>** — hosted as part of
+**Use it online: <https://comeixalpha.github.io/ror2-editor/index.html>** — hosted as part of
 [comeixalpha.github.io](https://comeixalpha.github.io/), or build it from source below.
 
 ### This is a fork
@@ -61,9 +61,11 @@ To serve it from a sub-path, pass a base:
 pnpm build --base=/ror2-editor/
 ```
 
-The [ComeixAlpha Pages site](https://github.com/ComeixAlpha/comeixalpha.github.io) mounts the editor
-at `/ror2-editor/` that way: its workflow checks this repository out, builds it with that flag, and
-drops the result into its own `public/` directory.
+The [ComeixAlpha Pages site](https://github.com/ComeixAlpha/comeixalpha.github.io) serves the editor
+that way: its workflow checks this repository out, builds it with that flag, and drops the result into
+its own `public/` directory. The entry point is the explicit
+`/ror2-editor/index.html` rather than the bare directory — see the note in that repository's
+`src/lib/shared.ts` for why.
 
 Vite rewrites the paths it generates, but not the ones this app builds by hand — the icon and
 logbook image URLs. Those go through `import.meta.env.BASE_URL` (see `src/lib/public-url.ts`) so
